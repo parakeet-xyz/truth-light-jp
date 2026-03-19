@@ -1,12 +1,11 @@
 export default defineEventHandler((event) => {
   const config = useRuntimeConfig(event)
-  const enabled = config.NUXT_PUBLIC_MAINTENANCE_MODE === 'true'
-  
+  const enabled = String(config.public.maintenanceMode) === 'true'
+
   if (!enabled) return
 
   const path = getRequestURL(event).pathname
 
-  // robots と最小限の静的ファイルは通す
   if (
     path === '/robots.txt' ||
     path.startsWith('/_nuxt/') ||
