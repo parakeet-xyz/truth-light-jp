@@ -1,20 +1,30 @@
 export default defineEventHandler((event) => {
   const config = useRuntimeConfig(event)
-  const enabled = String(config.public.maintenanceMode) === 'true'
-
-  if (!enabled) {
-    return
-  }
-
   const path = getRequestURL(event).pathname
+  const rawValue = config.public.maintenanceMode
+  const enabled = rawValue === true || rawValue === 'true'
+
+  console.log('--- maintenance middleware ---')
+  console.log('path =', path)
+  console.log('maintenanceMode raw =', rawValue)
+  console.log('maintenanceMode type =', typeof rawValue)
+  console.log('enabled =', enabled)
 
   if (
     path === '/robots.txt' ||
     path.startsWith('/_nuxt/') ||
     path === '/favicon.ico'
   ) {
+    console.log('skip static/robots path')
     return
   }
+
+  if (!enabled) {
+    console.log('maintenance disabled -> pass through')
+    return
+  }
+
+  console.log('maintenance enabled -> return 503')
 
   event.node.res.statusCode = 503
   event.node.res.statusMessage = 'Service Unavailable'
@@ -27,11 +37,6 @@ export default defineEventHandler((event) => {
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width,initial-scale=1">
   <title>メンテナンス中</title>
-  <style>
-    body { font-family: sans-serif; display:grid; place-items:center; min-height:100vh; margin:0; padding:24px; text-align:center; }
-    h1 { font-size:28px; margin-bottom:12px; }
-    p { color:#555; }
-  </style>
 </head>
 <body>
   <main>
