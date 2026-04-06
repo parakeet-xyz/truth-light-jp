@@ -108,7 +108,7 @@ function buildFuses(list: Row[]) {
   const base = {
     includeScore: false,
     shouldSort: true,
-    threshold: 0.35,
+    threshold: 0.2,
     ignoreLocation: true,
     minMatchCharLength: 2
   } satisfies Fuse.IFuseOptions<Row>

@@ -3,7 +3,7 @@
     <LayoutHeader variant="substances" class="shrink-0" />
 
     <!-- ここがキモ：高さ固定しない、スクロールを許可 -->
-    <main class="flex-1 overflow-y-auto">
+    <main class="flex-1 overflow-y-auto mt-4 z-10">
       <slot />
     </main>
 

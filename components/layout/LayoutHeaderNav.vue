@@ -1,15 +1,17 @@
 <template>
-  <nav v-if="variant === `substances`"
-  class="hidden md:inline md:absolute md:left-1/2 md:-translate-x-1/2 md:top-1/2 md:-translate-y-1/2 gap-4 text-sm my-auto"
+  <nav
+    class="hidden text-sm my-auto
+    md:inline-block h-full"
   >
     <!-- メインメニュー -->
-    <ul class="flex flex-row list-none">
-      <li v-for="n in navItems" :key="n.key" class="pr-4 flex items-center relative group">
+    <ul class="flex flex-row items-center gap-4 h-full list-none">
+      <li v-for="n in navItems" :key="n.key" class="flex flex-row items-center relative group h-full">
+
         <!-- 単体リンク -->
         <NuxtLink
           v-if="n.type === 'link'"
           :to="n.item.to"
-          class="py-2 hover:text-[#FF9B51]"
+          class="flex items-center h-full hover:text-[#FF9B51]"
         >
           {{ n.item.title }}
         </NuxtLink>
@@ -18,63 +20,7 @@
         <template v-else>
           <button
             type="button"
-            class="list-none cursor-pointer select-none py-2 hover:text-[#FF9B51]"
-          >
-            <span>{{ n.title }}</span>
-            <span class="text-xs ml-1">▼</span>
-          </button>
-
-          <div
-            class="
-              absolute left-1/2 -translate-x-1/2 top-full pt-2 z-50
-            "
-          >
-            <div
-              class="
-                min-w-56 rounded-md border border-white/10 bg-slate-900/90 shadow-lg backdrop-blur-xl
-                overflow-hidden opacity-0 scale-95 translate-y-1 pointer-events-none
-                transition-all duration-200 ease-out
-                group-hover:opacity-100 group-hover:scale-100 group-hover:translate-y-0
-                group-hover:pointer-events-auto
-              "
-            >
-              <div class="flex flex-col p-2">
-                <NuxtLink
-                  v-for="c in n.children"
-                  :key="c.key"
-                  :to="c.item.to"
-                  class="rounded-md px-3 py-2 text-sm hover:bg-white/5 hover:text-[#FF9B51]"
-                >
-                  {{ c.item.title }}
-                </NuxtLink>
-              </div>
-            </div>
-          </div>
-        </template>
-      </li>
-    </ul>
-  </nav>
-
-  <nav v-else
-  class="hidden md:inline md:absolute md:left-1/2 md:-translate-x-1/2 md:top-1/2 md:-translate-y-1/2 gap-4 text-sm my-auto"
-  >
-    <!-- メインメニュー -->
-    <ul class="flex flex-row list-none">
-      <li v-for="n in navItems" :key="n.key" class="pr-4 flex items-center relative group">
-        <!-- 単体リンク -->
-        <NuxtLink
-          v-if="n.type === 'link'"
-          :to="n.item.to"
-          class="py-2 hover:text-[#FF9B51]"
-        >
-          {{ n.item.title }}
-        </NuxtLink>
-
-        <!-- ドロップダウン -->
-        <template v-else>
-          <button
-            type="button"
-            class="list-none cursor-pointer select-none py-2 hover:text-[#FF9B51]"
+            class="h-full list-none cursor-pointer select-none hover:text-[#FF9B51] hover:bg-[#BFC9D1]/20"
           >
             <span>{{ n.title }}</span>
           </button>
@@ -86,7 +32,7 @@
           >
             <div
               class="
-                min-w-56 rounded-md border border-[#25343F]/30 bg-[#25343F]/10 shadow-lg backdrop-blur-xl
+                min-w-56 rounded-md border border-[#25343F]/30 bg-[#BFC9D1] shadow-lg backdrop-blur-xl
                 overflow-hidden hidden translate-y-1 pointer-events-none
                 transition-all duration-200 ease-out
                 group-hover:block group-hover:translate-y-0

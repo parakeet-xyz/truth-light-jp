@@ -1,5 +1,5 @@
 <template>
-  <div class="min-h-screen">
+  <div class="">
     <div class="container mx-auto max-w-screen-xl px-4 py-8">
       <!-- Header -->
       <header class="mb-6">

@@ -28,7 +28,7 @@ export default defineAppConfig({
       border: false,
 
       nav: {
-        database: { type: "link", title: 'NPSデータベース(α版)', to: '/substances' },
+        database: { type: "link", title: '規制物質DB', to: '/substances' },
         basics: {
           type: "menu",
           title: "ドラッグ基礎編",

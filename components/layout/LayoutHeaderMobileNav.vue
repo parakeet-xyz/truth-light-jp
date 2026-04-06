@@ -1,13 +1,13 @@
 <template>
     <!-- md未満: メニューボタン -->
-    <button id="mobileButton" type="button" class="inline md:hidden menu-button h-[34px] w-[34px]" aria-controls="mobileMenu"
-        aria-expanded="false" aria-label="モバイルメニューを開く"
+    <button id="mobileButton" type="button" class="inline md:hidden menu-button h-[34px] w-[34px]"
+		aria-controls="mobileMenu" aria-expanded="false" aria-label="モバイルメニューを開く"
 		@click="isMobileMenuOpen = !isMobileMenuOpen"
 	>
         <img src="/icon/menu_open_01_black.png" alt="" class="w-[34px] h-[34px]" />
     </button>
 
-    <nav id="mobileMenu" class="fixed inset-y-0 left-0 h-screen z-50 w-[85vw] max-w-sm bg-[#EAEFEF] text-[#25343F] border-r border-[#BFC9D1]/80
+    <nav id="mobileMenu" class="text-sm fixed inset-y-0 left-0 h-screen z-50 w-[85vw] max-w-sm bg-[#EAEFEF] text-[#25343F] border-r border-[#BFC9D1]/80
 		p-4
 		transition-transform duration-300 ease-in-out
 		md:hidden"
@@ -16,7 +16,7 @@
 	>
         <div class="flex flex-col">
             <div class="flex flex-row items-center justify-between">
-                <p class="text-lg custom-font-bold">メニュー</p>
+                <p class="custom-font-bold">メニュー</p>
 
                 <button id="mobileCloseButton" type="button"
                     class="rounded-lg border border-white/10 px-3 py-2 hover:bg-white/10"

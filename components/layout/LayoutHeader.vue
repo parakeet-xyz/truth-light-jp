@@ -2,11 +2,11 @@
   <!-- Substancesページ用ヘッダー -->
   <header 
    v-if="variant === `substances`"
-   class="top-0">
-    <div class="relative mx-auto px-10 py-4 flex flex-row items-center justify-between">
+   class="top-0 z-50">
+    <div class="relative h-16 mx-auto px-10 flex flex-row items-center justify-between">
       <div class="md:hidden w-[34px] h-[34px]"><LayoutHeaderMobileNav /></div>
       <div><LayoutHeaderLogo :subtitle="subtitle" :variant="variant" /></div>
-      <div><LayoutHeaderNav :variant="variant" /></div>
+      <div class="h-full hidden md:inline-block"><LayoutHeaderNav :variant="variant" /></div>
       <div class=""><LayoutHeaderSocialLink /></div>
     </div>
 
@@ -19,12 +19,14 @@
   </header>
 
   <!-- その他ヘッダー -->
-  <header v-else>
-    <div class="relative mx-auto px-6 py-4 flex flex-row max-w-6xl items-center justify-between">
+  <header v-else
+    class="z-50"
+  >
+    <div class="relative h-16 mx-auto px-6 flex flex-row max-w-6xl items-center justify-between">
 
       <div class="md:hidden"><LayoutHeaderMobileNav /></div>
       <div><LayoutHeaderLogo :subtitle="subtitle" /></div>
-      <div class="hidden md:inline"><LayoutHeaderNav :variant="variant" /></div>
+      <div class="h-full hidden md:inline"><LayoutHeaderNav :variant="variant" /></div>
       <div><LayoutHeaderSocialLink /></div>
       
     </div>
@@ -58,9 +60,7 @@ const headerClass = computed(() => {
     ? "h-20 border-b-4"
     : props.variant === "substances"
       ? "h-14 border-b"
-      :props.variant === "legal"
-        ? "h-20 border-b-4"
-        : "h-20 border-b-4"
+      : "h-20 border-b-4"
   return [base, variableClass].join(" ")
 })
 
@@ -68,9 +68,7 @@ const subtitle = computed(() => {
   if (props.variant === "default") {
     return ""
   } else if (props.variant === "substances") {
-    return "NPSデータベース(α版)"
-  } else if (props.variant === "legal") {
-    return ""
+    return "規制物質データベース"
   } else {
     return ""
   }
