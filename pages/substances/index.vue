@@ -1,12 +1,12 @@
 <script setup lang="ts">
-import ContentSubstancesTable from '~/components/content/SubstancesTable.client.vue'
+import ContentSubstancesTable from '~/components/content/ContentSubstancesTable.client.vue'
 
 definePageMeta({ layout: "substances" })
 
 useSeoMeta({
   title: `規制物質データベース`,
-  description: `現在日本で覚醒剤取締法・麻薬及び向精神薬取締法・薬機法における指定薬物のデータベース`,
-  ogDescription: `現在日本で覚醒剤取締法・麻薬及び向精神薬取締法・薬機法における指定薬物のデータベース`,
+  description: `現在日本で覚醒剤取締法・麻薬及び向精神薬取締法・薬機法における指定薬物で規制されている物質のデータベース`,
+  ogDescription: `現在日本で覚醒剤取締法・麻薬及び向精神薬取締法・薬機法における指定薬物の規制されている物質のデータベース`,
 })
 
 </script>

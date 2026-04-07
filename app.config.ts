@@ -3,7 +3,7 @@ export default defineAppConfig({
     site: {
       name: 'Truth Light',
       topPageName: 'Truth Light | 薬物依存症のハームリダクションと回復支援サイト',
-      topPageDescription: 'Truth Lightは「日本版Erowid」を目指し、薬物とその依存症に対する正しい情報と回復の道を提供します。',
+      topPageDescription: 'Truth Lightは「日本版Erowid」を目指し、薬物に対する正しい情報と依存症からの回復の道を提供します。',
       ogImage: '/og-default.png'
     },
     theme: {
@@ -56,8 +56,8 @@ export default defineAppConfig({
     categories: {
       stimulants: "中枢神経刺激薬", 
       psychedelics: 'サイケデリックス',
-      dissociatives: "解離薬",
-      deliriants: "せん妄誘発薬剤",
+      dissociatives: "解離性麻酔薬",
+      deliriants: "せん妄誘発薬薬",
       depressant: '鎮静薬',
       opioid: "オピオイド",
       cannabinoids: "カンナビノイド"
@@ -74,12 +74,35 @@ export default defineAppConfig({
     },
     footer: {
       credits: 'Copyright © 2025-2026 Truth Light. All rights reserved.',
-      links: [{
-        title: 'Truth Light JP',
-        icon: './icon/X/x-logo-black.png',
-        to: 'https://x.com/TruthLightJP',
-        target: '_blank',
-      }],
+      links: [
+        {
+          title: 'X @TruthLightJP',
+          to: 'https://x.com/TruthLightJP',
+          target: '_blank',
+        },
+        {
+          title: 'サイトマップ',
+          to: 'https://www.truth-light.jp/sitemap.xml',
+          target: '_blank'
+        }
+      ],
+      resources: [
+        {
+          title: 'PubChem',
+          to: 'https://pubchem.ncbi.nlm.nih.gov/',
+          target: '_blank'
+        },
+        {
+          title: 'DrugBank',
+          to: 'https://go.drugbank.com/',
+          target: '_blank'
+        },
+        {
+          title: 'ChEBI',
+          to: 'https://www.ebi.ac.uk/chebi/',
+          target: '_blank'
+        }
+      ]
     },
     search: {
       enable: true,

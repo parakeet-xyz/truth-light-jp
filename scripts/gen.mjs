@@ -1,7 +1,10 @@
 // scripts/gen.mjs
 // last modified: 2025.12.31
-// scripts/gen.mjs
-// scripts/gen.mjs
+// 
+// ℹ️ 役割
+// data/substances/配下の複数のサブスタンスのJSONファイルを
+// public/data/all_substances.jsonにまとめる
+
 import fs from "node:fs"
 import path from "node:path"
 

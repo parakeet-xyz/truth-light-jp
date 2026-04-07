@@ -27,15 +27,15 @@
 
           <div
             class="
-              absolute left-1/2 -translate-x-1/2 top-full pt-2 z-50
+              absolute left-1/2 -translate-x-1/2 top-full z-50
             "
           >
             <div
               class="
-                min-w-56 rounded-md border border-[#25343F]/30 bg-[#BFC9D1] shadow-lg backdrop-blur-xl
-                overflow-hidden hidden translate-y-1 pointer-events-none
+                min-w-56 rounded-md border border-[#BFC9D1] bg-[#dce3e8] shadow-lg backdrop-blur-xl
+                overflow-hidden hidden pointer-events-none
                 transition-all duration-200 ease-out
-                group-hover:block group-hover:translate-y-0
+                group-hover:block
                 group-hover:pointer-events-auto
               "
             >

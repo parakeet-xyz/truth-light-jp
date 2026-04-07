@@ -1,0 +1,40 @@
+{
+  "id": "tenocyclidine",
+  "common_name": "Tenocyclidine",
+  "systematic_name": "1-[1-(2-thienyl)cyclohexyl]piperidine",
+  "aliases": [
+    "テノシクリジン",
+    "一―〔一―(二―チエニル)シクロヘキシル〕ピペリジン(別名テノシクリジン)及びその塩類"
+  ],
+  "identifiers": {
+    "pubchem_cid": "62751",
+    "inchi_key": "JUZZEWSCNBCFRL-UHFFFAOYSA-N",
+    "smiles": "c1csc(C2(N3CCCCC3)CCCCC2)c1"
+  },
+  "categories": ["解離性麻酔薬", "中枢神経刺激薬", "依存性"],
+  "legal": {
+    "jp": {
+      "law_number": "",
+      "law_category": "麻薬",
+      "official_name": "一―〔一―(二―チエニル)シクロヘキシル〕ピペリジン(別名テノシクリジン)及びその塩類",
+      "effective_date": "",
+      "source_link": "https://laws.e-gov.go.jp/law/402CO0000000238/"
+    }
+  },
+  "summary": "テノシクリジンは、シクロヘキサンの1位にピペリジン-1-イル基およびチオフェン-2-イル基が結合した構造を有する第三級アミノ化合物である。解離性麻酔薬であり、幻覚作用および中枢刺激作用を有する。作用はフェンサイクリジン（PCP、チエニル基がフェニル基に置き換わった類縁体）に類似するが、より高い効力を示す。中枢神経刺激薬、幻覚薬、NMDA受容体拮抗薬、および神経保護作用を有する化合物としての役割を持つ。ピペリジン類、チオフェン類、および第三級アミノ化合物の一員である。",
+  "history": "",
+  "effects": {
+    "effects_positive": [],
+    "effects_negative": []
+  },
+  "external_resources": {
+    "experiences": {
+      "label": "",
+      "url": ""
+    },
+    "dosage_duration": {
+      "label": "",
+      "url": ""
+    }
+  }
+}

@@ -253,7 +253,7 @@
 
 <script setup lang="ts">
 import { title } from 'node:process';
-import ContentKetcherFrame from '~/components/content/KetcherFrame.vue'
+import ContentKetcherFrame from '~/components/content/ContentKetcherFrame.vue'
 
 definePageMeta({
   layout: "substances",

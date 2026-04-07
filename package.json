@@ -19,6 +19,7 @@
     "fuse.js": "^7.1.0",
     "list.js": "^2.3.1",
     "nuxt": "^3.20.2",
+    "openai": "^6.33.0",
     "vue": "^3.5.25",
     "vue-router": "^4.6.4"
   },
@@ -26,12 +27,16 @@
     "@nuxtjs/tailwindcss": "6.14.0",
     "@types/node": "^25.5.0",
     "tailwindcss": "3.4.19",
-    "tsx": "^4.21.0"
+    "tsx": "^4.21.0",
+    "typescript": "^6.0.2",
+    "vue-tsc": "^3.2.6"
   },
   "pnpm": {
     "onlyBuiltDependencies": [
+      "@parcel/watcher",
       "better-sqlite3",
-      "sqlite3"
+      "esbuild",
+      "sharp"
     ]
   }
 }
