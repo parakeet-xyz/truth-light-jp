@@ -5,9 +5,9 @@
   "scripts": {
     "gen": "node scripts/gen.mjs",
     "gen:ids": "node scripts/gen_substance_ids.mjs",
-    "dev": "pnpm run gen && pnpm run gen:ids && nuxt dev",
-    "build": "pnpm run gen && pnpm run gen:ids && nuxt build",
-    "generate": "pnpm run gen && pnpm run gen:ids && nuxt generate",
+    "dev": "npm run gen && npm run gen:ids && nuxt dev",
+    "build": "npm run gen && npm run gen:ids && nuxt build",
+    "generate": "npm run gen && npm run gen:ids && nuxt generate",
     "preview": "nuxt preview",
     "postinstall": "nuxt prepare"
   },
@@ -30,13 +30,5 @@
     "tsx": "^4.21.0",
     "typescript": "^6.0.2",
     "vue-tsc": "^3.2.6"
-  },
-  "pnpm": {
-    "onlyBuiltDependencies": [
-      "@parcel/watcher",
-      "better-sqlite3",
-      "esbuild",
-      "sharp"
-    ]
   }
 }
