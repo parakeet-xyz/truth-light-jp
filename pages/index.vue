@@ -2,9 +2,13 @@
   <main>
     <!-- AI検索 -->
     <section class="mx-auto max-w-6xl px-6 pb-10 pt-16">
-      <div class="pb-10">
-        <h1 class="pb-10 text-3xl md:text-5xl custom-font-bold tracking-tight text-center">日本版Erowidを目指して。</h1>
-        <p class="w-[60%] mx-auto text-lg md:text-xl text-[#25343F]/70 tracking-tight text-center text-balance leading-50">Truth Lightはあらゆる精神活性物質の作用・副作用・危険性<br>そして薬物依存症からの回復の方法まで正しい情報を提供します。</p>
+      <div class="mb-16">
+        <h1 class="mb-8 text-3xl md:text-5xl custom-font-bold tracking-tight text-center">
+          日本版Erowidを目指して。
+        </h1>
+        <h2 class="w-[60%] mx-auto text-lg md:text-xl text-[#25343F]/70 tracking-tight leading-12 text-center text-balance leading-50">
+          Truth Lightはあらゆる精神活性物質の作用・副作用・危険性<br>そして薬物依存症からの回復の方法まで正しい情報を提供します。
+        </h2>
       </div>
       <section class="">
         <div class="flex flex-col items-center mb-12 text-xl text-center">
@@ -14,7 +18,9 @@
               薬物の規制情報<br />ハームリダクション<br />依存症の回復方法など何でも聞いてくださいね🧡
             </span>
           </div>
-          <h2>規制情報、ハームリダクション、薬物依存症からの回復について夢可愛AIに聞く</h2>
+          <p>
+            規制情報、ハームリダクション、薬物依存症からの回復について夢可愛AIに聞く
+          </p>
         </div>
         <div class="flex gap-4 justify-center pb-10">
           <button

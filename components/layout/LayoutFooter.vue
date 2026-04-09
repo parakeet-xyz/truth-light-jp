@@ -52,8 +52,6 @@
 </template>
 
 <script setup lang="ts">
-import { title } from 'node:process';
-
 const props = defineProps<{
   variant?: "default" | "substances",
 }>()

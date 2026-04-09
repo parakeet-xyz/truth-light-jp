@@ -62,8 +62,8 @@ export default defineEventHandler((event) => {
 </head>
 <body>
   <main>
-    <h1>ただいまメンテナンス中です</h1>
-    <p>ご不便をおかけして申し訳ありません。しばらくしてから再度アクセスしてください。</p>
+    <h1>2026/04/09時点では生きてます。</h1>
+    <h2>鋭意制作中です。キリスト×ドラッグ=Truth Light</h2>
   </main>
 </body>
 </html>`
