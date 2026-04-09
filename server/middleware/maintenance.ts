@@ -67,8 +67,8 @@ export default defineEventHandler((event) => {
 </head>
 <body>
   <main>
-    <h1>2026/04/09：生きてます。</h1>
-    <h2>Webサイト鋭意制作中です。キリスト×ドラッグ×リカバリ=Truth Light</h2>
+    <h1>Webサイト鋭意制作中です。<br />キリスト×ドラッグ×リカバリ=Truth Light</h1>
+    <h2>2026.04.10: 生きてます！</h2>
   </main>
 </body>
 </html>`
