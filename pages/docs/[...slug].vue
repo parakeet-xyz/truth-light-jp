@@ -10,6 +10,7 @@
         <p></p>
       </div>
     </div>
+    
     <div
       class="prose
       mx-auto max-w-6xl md:flex md:flex-row-reverse"

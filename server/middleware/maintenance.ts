@@ -43,8 +43,8 @@ export default defineEventHandler((event) => {
       margin: 0;
       padding: 24px;
       text-align: center;
-      background: #fff;
-      color: #111;
+      background: #EAEFEF;
+      color: #25343F;
     }
     main {
       max-width: 560px;
@@ -52,18 +52,23 @@ export default defineEventHandler((event) => {
     h1 {
       font-size: 28px;
       margin: 0 0 12px;
+
+    }
+    h2 {
+      font-size: 22px;
+      color: #25343F/80;
     }
     p {
       margin: 0;
-      color: #555;
+      color: 25343F/80;
       line-height: 1.7;
     }
   </style>
 </head>
 <body>
   <main>
-    <h1>2026/04/09時点では生きてます。</h1>
-    <h2>鋭意制作中です。キリスト×ドラッグ=Truth Light</h2>
+    <h1>2026/04/09：生きてます。</h1>
+    <h2>Webサイト鋭意制作中です。キリスト×ドラッグ×リカバリ=Truth Light</h2>
   </main>
 </body>
 </html>`

@@ -39,8 +39,8 @@ export default defineAppConfig({
         recovery: { type: "link", title: '依存症からの回復', to: '/docs/recovery' },
         info: {
           type: "menu",
-          title: "当サイトについて",
-          about: { type: "link", title: 'インフォメーション', to: '/docs/info/mission'},
+          title: "イエス・キリスト",
+          about: { type: "link", title: '依存症とキリスト教の関係', to: '/docs/info/mission'},
           disclaimer: { type: "link", title: '免責事項', to: '/docs/info/disclaimer'}
         }
       },
