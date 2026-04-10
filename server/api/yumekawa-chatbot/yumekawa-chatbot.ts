@@ -7,8 +7,6 @@ import type {
 } from "~/server/utils/interfaces";
 import { yumekawaChatbotConfig } from "~/server/utils/yumekawa-chatbot.config";
 
-const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
-
 function toInputMessage(message: { role: "user" | "assistant"; content: string }) {
   return {
     role: message.role,
@@ -31,6 +29,14 @@ export default defineEventHandler(async (event): Promise<YumekawaChatResponse> =
     });
   }
 
+  const apiKey = process.env.OPENAI_API_KEY;
+  if (!apiKey) {
+    throw createError({
+      statusCode: 500,
+      statusMessage: "OPENAI_API_KEY is not configured",
+    });
+  }
+
   const history = Array.isArray(body.history)
     ? body.history
         .filter(
@@ -46,6 +52,8 @@ export default defineEventHandler(async (event): Promise<YumekawaChatResponse> =
     ...history.map(toInputMessage),
     toInputMessage({ role: "user", content: body.message.trim() }),
   ];
+
+  const client = new OpenAI({ apiKey });
 
   const response = await client.responses.create({
     ...yumekawaChatbotConfig,
