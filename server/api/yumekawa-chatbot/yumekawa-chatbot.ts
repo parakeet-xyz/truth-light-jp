@@ -1,10 +1,68 @@
-import { yumekawaChatbotConfig } from "~/server/utils/yumekawa-chatbot.config"
-import OpenAI from "openai"
+import { createError, readBody } from "h3";
+import OpenAI from "openai";
 
-const client = new OpenAI()
-const responce = client.responses.create({
-  model: "gpt-5.4-nano",
-  instructions: "語尾に「にゃ」をつけてほしい",
-  input: "タコの足の数は？"
-})
+import type {
+  YumekawaChatRequest,
+  YumekawaChatResponse,
+} from "~/server/utils/interfaces";
+import { yumekawaChatbotConfig } from "~/server/utils/yumekawa-chatbot.config";
 
+const client = new OpenAI({ apiKey: process.env.OPENAI_API_KEY });
+
+function toInputMessage(message: { role: "user" | "assistant"; content: string }) {
+  return {
+    role: message.role,
+    content: [
+      {
+        type: "input_text" as const,
+        text: message.content,
+      },
+    ],
+  };
+}
+
+export default defineEventHandler(async (event): Promise<YumekawaChatResponse> => {
+  const body = await readBody<YumekawaChatRequest>(event);
+
+  if (!body?.message || typeof body.message !== "string") {
+    throw createError({
+      statusCode: 400,
+      statusMessage: "message is required",
+    });
+  }
+
+  const history = Array.isArray(body.history)
+    ? body.history
+        .filter(
+          (msg): msg is { role: "user" | "assistant"; content: string } =>
+            (msg.role === "user" || msg.role === "assistant") &&
+            typeof msg.content === "string" &&
+            msg.content.trim().length > 0,
+        )
+        .slice(-10)
+    : [];
+
+  const input = [
+    ...history.map(toInputMessage),
+    toInputMessage({ role: "user", content: body.message.trim() }),
+  ];
+
+  const response = await client.responses.create({
+    ...yumekawaChatbotConfig,
+    input,
+  } as any);
+
+  const reply = response.output_text?.trim();
+
+  if (!reply) {
+    throw createError({
+      statusCode: 502,
+      statusMessage: "Empty response from model",
+    });
+  }
+
+  return {
+    reply,
+    model: yumekawaChatbotConfig.model,
+  };
+});
