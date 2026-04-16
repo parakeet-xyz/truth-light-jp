@@ -1,8 +1,9 @@
 <template>
-  <div class="bg-[#EAEFEF] text-[#25343F] custom-font-normal">
+  <div class="relative bg-[#EAEFEF] text-[#25343F] custom-font-normal">
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>
+    <ContentFloatingChatbot />
   </div>
 </template>
 

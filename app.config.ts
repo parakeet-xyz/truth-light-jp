@@ -2,7 +2,7 @@ export default defineAppConfig({
   truthlight: {
     site: {
       name: 'Truth Light',
-      topPageName: 'Truth Light | Jusus × Drugs × Recovery',
+      topPageName: 'Truth Light | キリスト × ドラッグ × 回復',
       topPageDescription: 'Truth Lightは「日本版Erowid」を目指し、薬物に対する正しい情報と依存症からの回復の道を提供します。',
       ogImage: '/og-default.png'
     },

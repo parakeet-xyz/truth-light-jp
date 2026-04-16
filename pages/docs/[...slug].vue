@@ -3,7 +3,7 @@
     id="__nuxtContent"
   >
     <div class="mb-12 w-[100%] h-[250px] bg-[#25343F] bg-[url('/bg/docs-basics-bg-01.png')] bg-[length:100%_auto] bg-center bg-no-repeat">
-      <div class="flex flex-col item-center justify-center mx-auto max-w-6xl h-[100%]">
+      <div class="flex flex-col items-center justify-center mx-auto max-w-6xl h-[100%]">
         <h1 class="custom-font-bold text-4xl tracking-wider text-[#EAEFEF] text-center">
           {{ page?.title ?? '' }}
         </h1>

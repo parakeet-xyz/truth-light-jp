@@ -22,34 +22,13 @@
             規制情報、ハームリダクション、薬物依存症からの回復について夢可愛AIに聞く
           </p>
         </div>
-        <div class="flex gap-4 justify-center pb-10">
-          <button
-            v-for="t in tabs"
-            :key="t.key"
-            type="button"
-            class="inline-flex p-1 text-lg rounded-lg border hover:text-[#EAEFEF] hover:bg-[#FF9B51] hover:border-[#FF9B51]"
-            :class="activeTab === t.key
-              ? 'text-[#EAEFEF] bg-[#FF9B51] border-[#FF9B51]'
-              : 'text-[#25343F] bg-[#BFC9D1]/40 border-[#BFC9D1]/60'
-            "
-            @click="activeTab = t.key"
-          >
-            {{t.label}}
-          </button>
-        </div>
-        <div
-          v-if="activeTab === 'text'"
-        >
-          <input type="text" id="aiTextSearch" name="aiTextSearch" placeholder="ex. MDPVって規制されてる？"
-            class="w-full h-12 px-4 text-lg border-2 rounded-xl placeholder:text-lg"
+        <div class="flex flex-row gap-4">
+          <input type="text" id="aiTextSearch" name="aiTextSearch" placeholder="e.g.薬物依存症からの回復について教えて"
+            class="flex w-4/5 h-12 px-4 text-lg border-2 rounded-xl placeholder:text-lg"
           />
-        </div>
-        <div
-          v-else
-        >
-            <ClientOnly>
-              <ContentKetcherFrame />
-            </ClientOnly>          
+          <button type="button"
+            class="flex-1 h-12 text-lg text-[#EAEFEF] rounded-xl bg-[#FF9B51]"
+          >夢可愛AIに聞く</button>
         </div>
       </section>
     </section>
