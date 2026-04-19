@@ -1,4 +1,13 @@
 <script setup lang="ts">
+type Emits = {
+  closeForm: []
+}
+
+const emit = defineEmits<Emits>()
+const handleClickCloseButton = (): void => {
+  emit('closeForm')
+}
+
 </script>
 
 <template>
@@ -6,7 +15,10 @@
   <!-- ヘッダー -->
   <div class="flex items-center justify-between bg-[#FF9B51] px-4 py-2 text-white">
     <span class="text-base custom-font-bold">夢可愛AIに聞く</span>
-    <button type="button" class="hover:opacity-80"><img src="/ui/close-white.png" alt="チャットを閉じる" class="w-4 h-4" /></button>
+    <button type="button" class="hover:opacity-80"
+      @click="handleClickCloseButton"
+    >
+      <img src="/ui/close-white.png" alt="チャットを閉じる" class="w-4 h-4" /></button>
   </div>
 
   <!-- メッセージエリア -->

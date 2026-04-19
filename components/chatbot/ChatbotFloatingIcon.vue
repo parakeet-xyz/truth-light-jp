@@ -22,6 +22,13 @@ const handleClickIcon = (): void => {
     isIconHidden.value = true
   }, 200)
 }
+const onCloseForm = (): void => {
+  isIconHidden.value = false
+
+  timeCounterID = setTimeout(() => {
+    isClick.value = false
+  }, 200)
+}
 </script>
 
 <template>
@@ -61,6 +68,8 @@ const handleClickIcon = (): void => {
   class="fixed right-4 bottom-4 z-40
     transition-transform duration-200 ease-in-out"
   :class="isIconHidden ? 'block -translate-y-0' : 'hidden translate-y-full'">
-  <ChatbotMinimalForm />
+  <ChatbotMinimalForm
+    @closeForm="onCloseForm"
+  />
 </div>
 </template>
