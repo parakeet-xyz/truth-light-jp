@@ -3,7 +3,7 @@
     <NuxtLayout>
       <NuxtPage />
     </NuxtLayout>
-    <ContentFloatingChatbot />
+    <ChatbotFloatingIcon />
   </div>
 </template>
 

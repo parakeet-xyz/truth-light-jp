@@ -19,6 +19,17 @@ export default {
         sans: ['Avenir', 'Helvetica', 'Arial', 'ヒラギノ角ゴシック　Pro', 'Hiragino Kaku Gothic Pro', 'メイリオ', 'Meiryo', '游ゴシック体', 'Yu Gothic', 'YuGothic', 'sans-serif'],
         mono: ['Source Han Code JP', '源ノ角ゴシック Code JP', 'Source Han Code', '源ノ角ゴシック Code', 'ui-monospace', 'SFMono-Regular', 'Menlo', 'Monaco', 'Consolas', 'Liberation Mono', 'Courier New', 'monospace'],
       },
+      keyframes: {
+        radar: {
+          '0%, 100%': { transform: 'scale(1)' },
+          '40%': { transform: 'scale(1.05)' },
+          '50%': { transform: 'scale(1.08)' },
+          '60%': { transform: 'scale(1.05)' },
+        },
+      },
+      animation: {
+        radar: 'radar 2.4s ease-in-out infinite',
+      },
     },
   },
 
