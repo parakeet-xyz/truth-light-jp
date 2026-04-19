@@ -1,6 +1,9 @@
 <script setup lang="ts">
 const isHover = ref(false)
 const isClick = ref(false)
+const isIconHidden = ref(false)
+
+let timeCounterID: ReturnType<typeof setTimeout> | null = null
 
 const handleMouseEnter = (): void => {
   isHover.value = true
@@ -8,8 +11,16 @@ const handleMouseEnter = (): void => {
 const handleMouseLeave = (): void => {
   isHover.value = false
 }
-const handleClick = (): void => {
-  isClick.value = !isClick.value
+const handleClickIcon = (): void => {
+  isClick.value = true
+
+  if (timeCounterID) {
+    clearTimeout(timeCounterID)
+  }
+
+  timeCounterID = setTimeout(() => {
+    isIconHidden.value = true
+  }, 200)
 }
 </script>
 
@@ -36,7 +47,7 @@ const handleClick = (): void => {
       transition-transform duration-200 ease-in-out hover:scale-110 cursor-pointer"
     @mouseenter="handleMouseEnter"
     @mouseleave="handleMouseLeave"
-    @click="handleClick"
+    @click="handleClickIcon"
   >
     <img
       src="/yumekawa-ai/yumekawa-ai-128px.png"
@@ -46,7 +57,10 @@ const handleClick = (): void => {
   </span>
 </div>
 
-<div>
+<div
+  class="fixed right-4 bottom-4 z-40
+    transition-transform duration-200 ease-in-out"
+  :class="isIconHidden ? 'block -translate-y-0' : 'hidden translate-y-full'">
   <ChatbotMinimalForm />
 </div>
 </template>

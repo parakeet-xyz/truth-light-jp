@@ -2,7 +2,7 @@
 </script>
 
 <template>
-<div class="fixed right-4 bottom-4 z-50 w-[400px] max-w-[calc(100vw-2rem)] overflow-hidden rounded-2xl border border-[#cdd7e0] bg-white/80 shadow-2xl">
+<div class="w-[400px] max-w-[calc(100vw-2rem)] overflow-hidden rounded-xl border border-[#cdd7e0] bg-white/80 shadow-2xl">
   <!-- ヘッダー -->
   <div class="flex items-center justify-between bg-[#FF9B51] px-4 py-2 text-white">
     <span class="text-base custom-font-bold">夢可愛AIに聞く</span>
@@ -25,7 +25,7 @@
         />
       </div>
 
-      <div class="max-w-[300px] rounded-2xl bg-white px-4 py-4 shadow-sm">
+      <div class="max-w-[300px] rounded-xl bg-white px-4 py-4 shadow-sm">
         <p class="mb-2 custom-font-bold text-gray-400">夢可愛AI</p>
         <p class="text-gray-800">
           はじめまして！夢可愛AIです！<br />
@@ -44,7 +44,7 @@
         />
       </div>
 
-      <div class="max-w-[300px] rounded-2xl bg-white px-4 py-4 shadow-sm
+      <div class="max-w-[300px] rounded-xl bg-white px-4 py-4 shadow-sm
         text-sm"
       >
         <p class="mb-2 custom-font-bold text-gray-400">夢可愛AI</p>
@@ -53,16 +53,16 @@
         </p>
 
         <div class="space-y-2">
-          <button type="button" class="w-full rounded-xl bg-gray-100 p-2 text-left custom-font-bold text-gray-600">
+          <button type="button" class="w-full rounded-lg bg-gray-100 p-2 text-left custom-font-bold text-gray-600">
             薬物依存症回復プログラム「12ステップ」について
           </button>
-          <button type="button" class="w-full rounded-xl bg-gray-100 p-2 text-left custom-font-bold text-gray-600">
+          <button type="button" class="w-full rounded-lg bg-gray-100 p-2 text-left custom-font-bold text-gray-600">
             依存症とキリスト教の関係について
           </button>
-          <button type="button" class="w-full rounded-xl bg-gray-100 p-2 text-left custom-font-bold text-gray-600">
+          <button type="button" class="w-full rounded-lg bg-gray-100 p-2 text-left custom-font-bold text-gray-600">
             薬物の規制状況について
           </button>
-          <button type="button" class="w-full rounded-xl bg-gray-100 p-2 text-left custom-font-bold text-gray-600">
+          <button type="button" class="w-full rounded-lg bg-gray-100 p-2 text-left custom-font-bold text-gray-600">
             🐘✒️の危険性について
           </button>
         </div>
@@ -77,13 +77,13 @@
     <div class="flex items-end gap-3">
       <textarea
         rows="3"
-        placeholder="ご質問いただくとAIが自動で回答を生成します。"
+        placeholder="夢可愛AIに何でも質問"
         class="min-h-[80px] flex-1 resize-none rounded-md p-1 text-sm text-gray-600 placeholder:text-gray-300 focus:outline-none"
       ></textarea>
 
       <button
         type="button"
-        class="rounded-xl bg-[#FF9B51] p-2 text-sm custom-font-bold text-white hover:bg-[#ffaf74]"
+        class="rounded-lg bg-[#FF9B51] p-2 text-sm custom-font-bold text-white hover:bg-[#ffaf74]"
       >
         送信
       </button>
