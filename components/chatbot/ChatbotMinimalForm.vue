@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import type { YumekawaChatRequest, YumekawaChatMessage, YumekawaChatResponse } from '~/utils/interfaces';
 type Emits = {
   closeForm: []
 }
@@ -6,6 +7,32 @@ type Emits = {
 const emit = defineEmits<Emits>()
 const handleClickCloseButton = (): void => {
   emit('closeForm')
+}
+
+const prompt = ref('')
+const history = ref<YumekawaChatMessage[]>([])
+const submitPrompt = async (text: string): Promise<void> => {
+  if (!text.trim()) return
+
+  history.value.push({
+    role: 'user',
+    content: text
+  })
+
+  const req: YumekawaChatRequest = {
+    message: text,
+    history: history.value ? history.value : []
+  }
+
+  const res = await $fetch('/api/chatbot/yumekawa-chatbot',{method: 'POST', body: req}) as YumekawaChatResponse
+
+  history.value.push({
+    role: 'assistant',
+    content: res.reply
+  })
+  console.log(res.reply)
+
+  prompt.value = ''
 }
 
 </script>
@@ -91,11 +118,13 @@ const handleClickCloseButton = (): void => {
         rows="3"
         placeholder="夢可愛AIに何でも質問"
         class="min-h-[80px] flex-1 resize-none rounded-md p-1 text-sm text-gray-600 placeholder:text-gray-300 focus:outline-none"
+        v-model="prompt"
       ></textarea>
 
       <button
         type="button"
         class="rounded-lg bg-[#FF9B51] p-2 text-sm custom-font-bold text-white hover:bg-[#ffaf74]"
+        @click="submitPrompt(prompt)"
       >
         送信
       </button>

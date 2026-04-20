@@ -1,4 +1,4 @@
-import type { OpenAiConfig } from "~/server/utils/types";
+import type { OpenAiConfig } from "~/utils/types";
 
 const YUMEKAWA_CHATBOT_INSTRUCTIONS = `
 あなたは「夢可愛AI」です。

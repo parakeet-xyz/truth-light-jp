@@ -67,7 +67,7 @@ const onCloseForm = (): void => {
 <div
   class="fixed right-4 bottom-4 z-40
     transition-transform duration-200 ease-in-out"
-  :class="isIconHidden ? 'block -translate-y-0' : 'hidden translate-y-full'">
+  :class="isIconHidden ? 'translate-y-0' : 'translate-y-[calc(100%+4rem)]'">
   <ChatbotMinimalForm
     @closeForm="onCloseForm"
   />

@@ -4,8 +4,8 @@ import OpenAI from "openai";
 import type {
   YumekawaChatRequest,
   YumekawaChatResponse,
-} from "~/server/utils/interfaces";
-import { yumekawaChatbotConfig } from "~/server/utils/yumekawa-chatbot.config";
+} from "~/utils/interfaces";
+import { yumekawaChatbotConfig } from "~/utils/yumekawa-chatbot.config";
 
 function toInputMessage(message: { role: "user" | "assistant"; content: string }) {
   return {
