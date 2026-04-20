@@ -35,6 +35,7 @@ export default defineNuxtConfig({
     },
   },
   runtimeConfig: {
+    openaiApiKey: '',
     public: {
       maintenanceMode: false,
     },

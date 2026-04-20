@@ -28,8 +28,8 @@ export default defineEventHandler(async (event): Promise<YumekawaChatResponse> =
       statusMessage: "message is required",
     });
   }
-
-  const apiKey = process.env.OPENAI_API_KEY;
+  const config = useRuntimeConfig(event)
+  const apiKey = config.openaiApiKey
   if (!apiKey) {
     throw createError({
       statusCode: 500,
