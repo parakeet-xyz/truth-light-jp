@@ -4,6 +4,7 @@ import OpenAI from "openai";
 import type {
   YumekawaChatRequest,
   YumekawaChatResponse,
+  YumekawaChatMessage,
 } from "~/utils/interfaces";
 import { yumekawaChatbotConfig } from "~/utils/yumekawa-chatbot.config";
 
@@ -40,7 +41,8 @@ export default defineEventHandler(async (event): Promise<YumekawaChatResponse> =
   const history = Array.isArray(body.history)
     ? body.history
         .filter(
-          (msg): msg is { role: "user" | "assistant"; content: string } =>
+          (msg): msg is YumekawaChatMessage =>
+            typeof msg.id === "number" &&
             (msg.role === "user" || msg.role === "assistant") &&
             typeof msg.content === "string" &&
             msg.content.trim().length > 0,
