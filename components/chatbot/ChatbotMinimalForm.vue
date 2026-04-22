@@ -1,8 +1,10 @@
 <script setup lang="ts">
 import type { YumekawaChatRequest, YumekawaChatMessage, YumekawaChatResponse } from '~/utils/interfaces';
+
 type Emits = {
   closeForm: []
 }
+
 
 const emit = defineEmits<Emits>()
 const handleClickCloseButton = (): void => {
@@ -10,27 +12,48 @@ const handleClickCloseButton = (): void => {
 }
 
 const prompt = ref('')
-const history = ref<YumekawaChatMessage[]>([])
+const msgs = ref<YumekawaChatMessage[]>([])
+let counter: number = 0
+
+msgs.value[counter] = {
+  id: counter,
+  role: 'assistant',
+  content: 'はじめまして！夢可愛AIです！<br />最初に夢可愛AI利用規約をご確認くださいね。',
+}
+
+counter++
+
+msgs.value[counter] = {
+  id: counter,
+  role: 'assistant',
+  content: '<p class="mb-2 text-gray-800">何について知りたいですか？</p><div class="space-y-2"><button type="button" class="w-full rounded-lg bg-gray-100 p-2 text-left custom-font-bold text-gray-600">薬物依存症回復プログラム「12ステップ」について</button><button type="button" class="w-full rounded-lg bg-gray-100 p-2 text-left custom-font-bold text-gray-600">依存症とキリスト教の関係について</button><button type="button" class="w-full rounded-lg bg-gray-100 p-2 text-left custom-font-bold text-gray-600">薬物の規制状況について</button><button type="button" class="w-full rounded-lg bg-gray-100 p-2 text-left custom-font-bold text-gray-600">🐘✒️の危険性について</button></div>',
+}
+
+counter++
+
 const submitPrompt = async (text: string): Promise<void> => {
   if (!text.trim()) return
 
-  history.value.push({
+  msgs.value.push({
+    id: counter,
     role: 'user',
     content: text
   })
 
   const req: YumekawaChatRequest = {
     message: text,
-    history: history.value ? history.value : []
+    history: msgs.value ? msgs.value : []
   }
 
   const res = await $fetch('/api/chatbot/yumekawa-chatbot',{method: 'POST', body: req}) as YumekawaChatResponse
 
-  history.value.push({
+  counter++
+
+  msgs.value.push({
+    id: counter,
     role: 'assistant',
     content: res.reply
   })
-  console.log(res.reply)
 
   prompt.value = ''
 }
@@ -50,64 +73,16 @@ const submitPrompt = async (text: string): Promise<void> => {
 
   <!-- メッセージエリア -->
   <div
-    class="h-[500px] overflow-y-auto bg-[#EAEFEF]/90 px-4 py-5
+    class="h-[500px] overflow-y-auto bg-[#EAEFEF]/90 px-4 py-4
       text-sm leading-tight"
   >
 
-    <!-- AIメッセージ1 -->
-    <div class="flex items-end mb-6 gap-2">
-      <div class="h-12 w-12 shrink-0 overflow-hidden rounded-full">
-        <img
-          src="/yumekawa-ai/yumekawa-ai-128px.png"
-          alt="アイコン"
-          class="h-full w-full object-cover"
-        />
-      </div>
-
-      <div class="max-w-[300px] rounded-xl bg-white px-4 py-4 shadow-sm">
-        <p class="mb-2 custom-font-bold text-gray-400">夢可愛AI</p>
-        <p class="text-gray-800">
-          はじめまして！夢可愛AIです！<br />
-          最初に夢可愛AI利用規約をご確認くださいね。
-        </p>
-      </div>
-    </div>
-
-    <!-- AIメッセージ2 -->
-    <div class="flex items-end mb-6 gap-2">
-      <div class="h-12 w-12 shrink-0 overflow-hidden rounded-full">
-        <img
-          src="/yumekawa-ai/yumekawa-ai-128px.png"
-          alt="アイコン"
-          class="h-full w-full object-cover"
-        />
-      </div>
-
-      <div class="max-w-[300px] rounded-xl bg-white px-4 py-4 shadow-sm
-        text-sm"
-      >
-        <p class="mb-2 custom-font-bold text-gray-400">夢可愛AI</p>
-        <p class="mb-2 text-gray-800">
-          何について知りたいですか？
-        </p>
-
-        <div class="space-y-2">
-          <button type="button" class="w-full rounded-lg bg-gray-100 p-2 text-left custom-font-bold text-gray-600">
-            薬物依存症回復プログラム「12ステップ」について
-          </button>
-          <button type="button" class="w-full rounded-lg bg-gray-100 p-2 text-left custom-font-bold text-gray-600">
-            依存症とキリスト教の関係について
-          </button>
-          <button type="button" class="w-full rounded-lg bg-gray-100 p-2 text-left custom-font-bold text-gray-600">
-            薬物の規制状況について
-          </button>
-          <button type="button" class="w-full rounded-lg bg-gray-100 p-2 text-left custom-font-bold text-gray-600">
-            🐘✒️の危険性について
-          </button>
-        </div>
-
-      </div>
-    </div>
+    <ChatbotBubble 
+      v-for="msg in msgs"
+      :key="msg.id"
+      :role="msg.role"
+      :content="msg.content"
+    />
 
   </div>
 

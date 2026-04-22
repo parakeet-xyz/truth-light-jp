@@ -20,9 +20,20 @@
         <template v-else>
           <button
             type="button"
-            class="h-full list-none cursor-pointer select-none hover:text-[#FF9B51] hover:bg-[#BFC9D1]/20"
+            class="group inline-flex items-center gap-1 w-auto h-full list-none cursor-pointer select-none hover:text-[#FF9B51] hover:bg-[#BFC9D1]/20"
           >
             <span>{{ n.title }}</span>
+
+            <span class="relative inline-block w-4 h-4 shrink-0">
+              <img
+                src="/ui/angle-small-down.png"
+                class="absolute inset-0 w-4 h-4 opacity-100 group-hover:opacity-0 transition-opacity duration-200"
+              />
+              <img
+                src="/ui/angle-small-up.png"
+                class="absolute inset-0 w-4 h-4 opacity-0 group-hover:opacity-100 transition-opacity duration-200"
+              />
+            </span>
           </button>
 
           <div

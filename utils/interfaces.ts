@@ -1,4 +1,5 @@
 export interface YumekawaChatMessage {
+  id: number;
   role: "user" | "assistant";
   content: string;
 }
