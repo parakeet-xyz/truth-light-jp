@@ -11,18 +11,13 @@ import { yumekawaChatbotConfig } from "~/utils/yumekawa-chatbot.config";
 function toInputMessage(message: { role: "user" | "assistant"; content: string }) {
   return {
     role: message.role,
-    content: [
-      {
-        type: "input_text" as const,
-        text: message.content,
-      },
-    ],
+    content: message.content,
   };
 }
 
 export default defineEventHandler(async (event): Promise<YumekawaChatResponse> => {
   const body = await readBody<YumekawaChatRequest>(event);
-  
+
 
   if (!body?.message || typeof body.message !== "string") {
     throw createError({
