@@ -22,6 +22,7 @@ function toInputMessage(message: { role: "user" | "assistant"; content: string }
 
 export default defineEventHandler(async (event): Promise<YumekawaChatResponse> => {
   const body = await readBody<YumekawaChatRequest>(event);
+  
 
   if (!body?.message || typeof body.message !== "string") {
     throw createError({
@@ -29,6 +30,8 @@ export default defineEventHandler(async (event): Promise<YumekawaChatResponse> =
       statusMessage: "message is required",
     });
   }
+  console.log('messageの内容：'+body.message)
+
   const config = useRuntimeConfig(event)
   const apiKey = config.openaiApiKey
   if (!apiKey) {
