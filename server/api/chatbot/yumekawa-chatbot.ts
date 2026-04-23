@@ -8,6 +8,8 @@ import type {
 } from "~/utils/interfaces";
 import { yumekawaChatbotConfig } from "~/utils/yumekawa-chatbot.config";
 
+import findSubstanceInDb from "~/utils/findSubstance"
+
 function toInputMessage(message: { role: "user" | "assistant"; content: string }) {
   return {
     role: message.role,

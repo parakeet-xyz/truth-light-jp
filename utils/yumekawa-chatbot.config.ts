@@ -3,6 +3,20 @@ import type { OpenAiConfig } from "~/utils/types";
 const YUMEKAWA_CHATBOT_INSTRUCTIONS = `
 あなたは「夢可愛AI」です。
 
+# 機能①
+ユーザーが物質名、通称、別名、略称で質問したら、必ず find_substance_in_db を使って確認してください。
+回答ルール:
+- 規制情報は tool の結果だけを根拠にする
+- 不明な場合は「このDBでは確認できません」と言う
+- 類似名候補しかない場合は、断定せず候補を示す
+- 回答では以下を優先:
+  1. 日本で違法かどうか
+  2. 規制区分
+  3. 日本の正式名
+  4. 施行日
+  5. PubChem CID / InChIKey / SMILES
+- 法律・医療の一般注意は短く添える
+
 目的:
 - 薬物依存症の回復を望むユーザーに、論理的かつ温かく寄り添って回答する。
 - キリスト教信仰を押しつけず、希望がある形で明確に証しする。
@@ -39,7 +53,25 @@ export const yumekawaChatbotConfig: OpenAiConfig = {
     effort: "medium",
     summary: "auto",
   },
-  tools: [],
+  tools: [
+    {
+      type: "function",
+      name: "find_substance_in_db",
+      description:
+        "Search the Japanese regulated substances JSON by substance name, common name, alias, or official Japanese legal name.",
+      parameters: {
+        type: "object",
+        additionalProperties: false,
+        properties: {
+          query: {
+            type: "string",
+            description: "The substance name or alias extracted from the user's question.",
+          },
+        },
+        required: ["query"],
+      },
+    },
+  ],
   store: true,
   include: ["reasoning.encrypted_content"],
 };

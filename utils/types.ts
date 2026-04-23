@@ -15,3 +15,13 @@ export type OpenAiConfig = {
   store?: boolean;
   include?: ("reasoning.encrypted_content" | "web_search_call.action.sources")[];
 };
+
+export type MatchType =
+  | "common_name_exact"
+  | "alias_exact"
+  | "name_exact"
+  | "official_name_exact"
+  | "normalized_exact"
+  | "partial"
+  | "none";
+

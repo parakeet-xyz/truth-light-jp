@@ -28,18 +28,18 @@ export default defineAppConfig({
       border: false,
 
       nav: {
-        database: { type: "link", title: '規制物質DB', to: '/substances' },
+        database: { type: "link", title: '💽 規制物質DB', to: '/substances' },
         basics: {
           type: "menu",
-          title: "ドラッグ基礎編",
+          title: "💊 ドラッグ基礎編",
           meth: { type: "link", title: "🧊 メタンフェタミン", to: '/docs/basics/methamphetamine' },
           cocaine: { type: "link", title: '🚴 コカイン',to: '/docs/basics/cocaine' },
           mdma: { type: "link", title: '❌️ エクスタシー', to: '/docs/basic' },
         },
-        recovery: { type: "link", title: '依存症からの回復', to: '/docs/recovery' },
+        recovery: { type: "link", title: '❤️‍🩹 依存症からの回復', to: '/docs/recovery' },
         info: {
           type: "menu",
-          title: "イエス・キリスト",
+          title: "✝️ イエス・キリスト",
           about: { type: "link", title: '依存症とキリスト教の関係', to: '/docs/info/mission'},
           disclaimer: { type: "link", title: '免責事項', to: '/docs/info/disclaimer'}
         }
