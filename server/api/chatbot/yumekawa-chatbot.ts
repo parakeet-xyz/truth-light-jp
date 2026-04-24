@@ -8,13 +8,30 @@ import type {
 } from "~/utils/interfaces";
 import { yumekawaChatbotConfig } from "~/utils/yumekawa-chatbot.config";
 
-import findSubstanceInDb from "~/utils/findSubstance"
+import { findSubstanceInDb } from "~/utils/findSubstance"
 
 function toInputMessage(message: { role: "user" | "assistant"; content: string }) {
   return {
     role: message.role,
     content: message.content,
   };
+}
+
+function isFunctionCall(
+  item: unknown,
+): item is { type: "function_call"; name: string; arguments: string; call_id: string } {
+  return (
+    typeof item === "object" &&
+    item !== null &&
+    "type" in item &&
+    (item as { type?: unknown }).type === "function_call" &&
+    "name" in item &&
+    typeof (item as { name?: unknown }).name === "string" &&
+    "arguments" in item &&
+    typeof (item as { arguments?: unknown }).arguments === "string" &&
+    "call_id" in item &&
+    typeof (item as { call_id?: unknown }).call_id === "string"
+  );
 }
 
 export default defineEventHandler(async (event): Promise<YumekawaChatResponse> => {
@@ -47,7 +64,7 @@ export default defineEventHandler(async (event): Promise<YumekawaChatResponse> =
             typeof msg.content === "string" &&
             msg.content.trim().length > 0,
         )
-        .slice(-10)
+        .slice(-11, -1)
     : [];
 
   const input = [
@@ -57,22 +74,51 @@ export default defineEventHandler(async (event): Promise<YumekawaChatResponse> =
 
   const client = new OpenAI({ apiKey });
 
-  const response = await client.responses.create({
+  const initialResponse = await client.responses.create({
     ...yumekawaChatbotConfig,
     input,
   } as any);
 
-  const reply = response.output_text?.trim();
+  console.log(`initialResponseの内容：${initialResponse}`)
 
-  if (!reply) {
-    throw createError({
-      statusCode: 502,
-      statusMessage: "Empty response from model",
+  const toolCall = initialResponse.output.find(
+    (item) => isFunctionCall(item) && item.name === "find_substance_in_db",
+  );
+
+  if (toolCall) {
+    const args = JSON.parse(toolCall.arguments) as { query?: string }
+    const toolResult = await findSubstanceInDb(args ?? "")
+
+    const finalResponse = await client.responses.create({
+      model: "gpt-5.4",
+      previous_response_id: initialResponse.id,
+      input: [
+        {
+          type: "function_call_output",
+          call_id: toolCall.call_id,
+          output: JSON.stringify(toolResult),
+        },
+      ],
     });
-  }
 
-  return {
-    reply,
-    model: yumekawaChatbotConfig.model,
-  };
-});
+    return {
+      reply: finalResponse.output_text,
+      model: yumekawaChatbotConfig.model
+    }
+  } else {
+      const reply = initialResponse.output_text?.trim();
+
+      if (!reply) {
+        throw createError({
+          statusCode: 502,
+          statusMessage: "Empty response from model",
+        });
+      }
+
+      return {
+        reply,
+        model: yumekawaChatbotConfig.model,
+      };
+    }
+  }
+);
