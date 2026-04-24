@@ -16,7 +16,7 @@ function normalizeText(input: string): string {
 async function loadSubstances(): Promise<SubstanceRecord[]> {
   if (substanceCache) return substanceCache;
 
-  const filePath = path.resolve(process.cwd(), "~/public/data/all_substances.json");
+  const filePath = path.resolve(process.cwd(), "public/data/all_substances.json");
   const raw = await fs.readFile(filePath, "utf-8");
   const parsed = JSON.parse(raw) as SubstanceRecord[];
 
