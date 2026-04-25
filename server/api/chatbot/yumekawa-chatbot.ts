@@ -79,7 +79,7 @@ export default defineEventHandler(async (event): Promise<YumekawaChatResponse> =
     input,
   } as any);
 
-  console.log(`initialResponseの内容：${initialResponse}`)
+  console.log('initialResponseの内容：', initialResponse);
 
   const toolCall = initialResponse.output
     .filter(isFunctionCall)
