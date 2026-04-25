@@ -1,9 +1,18 @@
 <script setup lang="ts">
 import MarkdownIt from "markdown-it"
+
 const props = defineProps<{
   role: "user" | "assistant";
   content: string;
 }>()
+
+const md = new MarkdownIt({
+  html: false,
+  breaks: true,
+  linkify: true,
+})
+
+const renderedHtml = computed(() => md.render(props.content ?? ""))
 </script>
 
 <template>
@@ -23,7 +32,7 @@ const props = defineProps<{
     <div class="max-w-[85%] rounded-xl bg-white px-4 py-4 shadow-sm">
       <p class="mb-2 custom-font-bold text-gray-400">夢可愛AI</p>
       <div
-        v-html="props.content"
+        v-html="renderedHtml"
         class="text-gray-800">
       </div>
     </div>
