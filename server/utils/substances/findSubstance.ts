@@ -55,6 +55,8 @@ export async function findSubstanceInDb(
   const substances = await loadSubstances();
   const normalizedQuery = normalizeText(query);
 
+  console.log('queryの内容：', query)
+
   if (!normalizedQuery) {
     return {
       matched: false,
