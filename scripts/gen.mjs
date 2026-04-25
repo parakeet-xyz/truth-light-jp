@@ -1,19 +1,25 @@
 // scripts/gen.mjs
-// last modified: 2025.12.31
+// last modified: 2026.04.24
 // 
 // ℹ️ 役割
 // data/substances/配下の複数のサブスタンスのJSONファイルを
-// public/data/all_substances.jsonにまとめる
+// public/data/all_substances.jsonと
+// assets/substances/all_substances.jsonに出力する
 
 import fs from "node:fs"
 import path from "node:path"
 
 const root = process.cwd()
 const srcDir = path.join(root, "data/substances")
-const outDir = path.join(root, "public/data")
-const outFile = path.join(outDir, "all_substances.json")
 
-fs.mkdirSync(outDir, { recursive: true })
+const outPublicDir = path.join(root, "public/data")
+const outPublicFile = path.join(outPublicDir, "all_substances.json")
+
+const outServerDir = path.join(root, "server/assets/substances")
+const outServerFile = path.join(outServerDir, "all_substances.json")
+
+fs.mkdirSync(outPublicDir, { recursive: true })
+fs.mkdirSync(outServerDir, { recursive: true })
 
 const files = fs.readdirSync(srcDir).filter((f) => f.endsWith(".json"))
 
@@ -34,7 +40,6 @@ for (const file of files) {
     console.error(`   File : ${filePath}`)
     console.error(`   Error: ${err.message}`)
 
-    // 先頭数行を表示（デバッグ用）
     if (rawText) {
       console.error("   Preview:")
       console.error(
@@ -46,10 +51,8 @@ for (const file of files) {
       )
     }
 
-    process.exit(1) // ← 問題があったら即止める
+    process.exit(1)
   }
-
-  // ===== ここから下は元の処理 =====
 
   const id = raw.id ?? fileId
 
@@ -113,5 +116,10 @@ for (const file of files) {
   })
 }
 
-fs.writeFileSync(outFile, JSON.stringify(list, null, 2), "utf-8")
-console.log(`✅ [gen] wrote ${list.length} substances -> ${outFile}`)
+const outputJson = JSON.stringify(list, null, 2)
+
+fs.writeFileSync(outPublicFile, outputJson, "utf-8")
+fs.writeFileSync(outServerFile, outputJson, "utf-8")
+
+console.log(`✅ [gen] wrote ${list.length} substances -> ${outPublicFile}`)
+console.log(`✅ [gen] wrote ${list.length} substances -> ${outServerFile}`)

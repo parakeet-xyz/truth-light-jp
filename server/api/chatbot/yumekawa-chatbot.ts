@@ -8,7 +8,7 @@ import type {
 } from "~/utils/interfaces";
 import { yumekawaChatbotConfig } from "~/utils/yumekawa-chatbot.config";
 
-import { findSubstanceInDb } from "~/utils/findSubstance"
+import { findSubstanceInDb } from "~/server/utils/substances/findSubstance"
 
 function toInputMessage(message: { role: "user" | "assistant"; content: string }) {
   return {
@@ -81,16 +81,16 @@ export default defineEventHandler(async (event): Promise<YumekawaChatResponse> =
 
   console.log(`initialResponseの内容：${initialResponse}`)
 
-  const toolCall = initialResponse.output.find(
-    (item) => isFunctionCall(item) && item.name === "find_substance_in_db",
-  );
+  const toolCall = initialResponse.output
+    .filter(isFunctionCall)
+    .find((item) => item.name === "find_substance_in_db");
 
   if (toolCall) {
     const args = JSON.parse(toolCall.arguments) as { query?: string }
-    const toolResult = await findSubstanceInDb(args ?? "")
+    const toolResult = await findSubstanceInDb(args.query ?? "")
 
     const finalResponse = await client.responses.create({
-      model: "gpt-5.4",
+      model: "gpt-5.4-mini",
       previous_response_id: initialResponse.id,
       input: [
         {
@@ -101,24 +101,32 @@ export default defineEventHandler(async (event): Promise<YumekawaChatResponse> =
       ],
     });
 
+    const reply = finalResponse.output_text?.trim();
+
+    if (!reply) {
+      throw createError({
+        statusCode: 502,
+        statusMessage: "Empty response from model after tool call",
+      });
+    }
+
     return {
-      reply: finalResponse.output_text,
-      model: yumekawaChatbotConfig.model
-    }
+      reply,
+      model: yumekawaChatbotConfig.model,
+    };
   } else {
-      const reply = initialResponse.output_text?.trim();
+    const reply = initialResponse.output_text?.trim();
 
-      if (!reply) {
-        throw createError({
-          statusCode: 502,
-          statusMessage: "Empty response from model",
-        });
-      }
-
-      return {
-        reply,
-        model: yumekawaChatbotConfig.model,
-      };
+    if (!reply) {
+      throw createError({
+        statusCode: 502,
+        statusMessage: "Empty response from model",
+      });
     }
+
+    return {
+      reply,
+      model: yumekawaChatbotConfig.model,
+    };
   }
-);
+});

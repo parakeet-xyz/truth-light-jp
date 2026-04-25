@@ -41,7 +41,7 @@ export interface SubstanceSearchResult {
   matched: boolean;
   query: string;
   match_type: MatchType;
-  substance: SubstanceRecord | null;
+  substance: SubstanceRecord | null | undefined;
   candidates?: Array<{
     id: string;
     name: string;

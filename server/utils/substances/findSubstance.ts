@@ -1,5 +1,4 @@
-import fs from "node:fs/promises";
-import path from "node:path";
+import { useStorage } from "#imports";
 import type { SubstanceRecord, SubstanceSearchResult } from "~/utils/interfaces";
 
 let substanceCache: SubstanceRecord[] | null = null;
@@ -13,15 +12,36 @@ function normalizeText(input: string): string {
     .trim();
 }
 
+function isNonEmptyString(value: unknown): value is string {
+  return typeof value === "string" && value.length > 0;
+}
+
+function getSearchFields(s: SubstanceRecord): string[] {
+  return [
+    s.name,
+    s.common_name,
+    s.systematic_name,
+    s.legal?.jp?.official_name,
+    ...(s.aliases ?? []),
+  ].filter(isNonEmptyString);
+}
+
 async function loadSubstances(): Promise<SubstanceRecord[]> {
-  if (substanceCache) return substanceCache;
+  if (substanceCache) {
+    return substanceCache;
+  }
 
-  const filePath = path.resolve(process.cwd(), "public/data/all_substances.json");
-  const raw = await fs.readFile(filePath, "utf-8");
-  const parsed = JSON.parse(raw) as SubstanceRecord[];
+  const storage = useStorage("assets:server");
+  const data = await storage.getItem("substances/all_substances.json");
 
-  substanceCache = parsed;
-  return parsed;
+  if (!Array.isArray(data)) {
+    throw new Error(
+      "server/assets/substances/all_substances.json の読み込みに失敗しました"
+    );
+  }
+
+  substanceCache = data as SubstanceRecord[];
+  return substanceCache;
 }
 
 function safeIncludes(haystack: string | undefined, needle: string): boolean {
@@ -29,7 +49,9 @@ function safeIncludes(haystack: string | undefined, needle: string): boolean {
   return normalizeText(haystack).includes(needle);
 }
 
-export async function findSubstanceInDb(query: string): Promise<SubstanceSearchResult> {
+export async function findSubstanceInDb(
+  query: string
+): Promise<SubstanceSearchResult> {
   const substances = await loadSubstances();
   const normalizedQuery = normalizeText(query);
 
@@ -44,39 +66,58 @@ export async function findSubstanceInDb(query: string): Promise<SubstanceSearchR
 
   for (const s of substances) {
     if (normalizeText(s.common_name ?? "") === normalizedQuery) {
-      return { matched: true, query, match_type: "common_name_exact", substance: s };
+      return {
+        matched: true,
+        query,
+        match_type: "common_name_exact",
+        substance: s,
+      };
     }
   }
 
   for (const s of substances) {
     if ((s.aliases ?? []).some((a) => normalizeText(a) === normalizedQuery)) {
-      return { matched: true, query, match_type: "alias_exact", substance: s };
+      return {
+        matched: true,
+        query,
+        match_type: "alias_exact",
+        substance: s,
+      };
     }
   }
 
   for (const s of substances) {
     if (normalizeText(s.name ?? "") === normalizedQuery) {
-      return { matched: true, query, match_type: "name_exact", substance: s };
+      return {
+        matched: true,
+        query,
+        match_type: "name_exact",
+        substance: s,
+      };
     }
   }
 
   for (const s of substances) {
     if (normalizeText(s.legal?.jp?.official_name ?? "") === normalizedQuery) {
-      return { matched: true, query, match_type: "official_name_exact", substance: s };
+      return {
+        matched: true,
+        query,
+        match_type: "official_name_exact",
+        substance: s,
+      };
     }
   }
 
   for (const s of substances) {
-    const fields = [
-      s.name,
-      s.common_name,
-      s.systematic_name,
-      s.legal?.jp?.official_name,
-      ...(s.aliases ?? []),
-    ].filter(Boolean) as string[];
+    const fields = getSearchFields(s);
 
     if (fields.some((f) => normalizeText(f) === normalizedQuery)) {
-      return { matched: true, query, match_type: "normalized_exact", substance: s };
+      return {
+        matched: true,
+        query,
+        match_type: "normalized_exact",
+        substance: s,
+      };
     }
   }
 
@@ -92,6 +133,7 @@ export async function findSubstanceInDb(query: string): Promise<SubstanceSearchR
 
   if (partialCandidates.length > 0) {
     const top = partialCandidates[0];
+
     return {
       matched: true,
       query,
