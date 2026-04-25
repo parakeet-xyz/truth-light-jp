@@ -1,4 +1,5 @@
 <script setup lang="ts">
+import MarkdownIt from "markdown-it"
 const props = defineProps<{
   role: "user" | "assistant";
   content: string;
