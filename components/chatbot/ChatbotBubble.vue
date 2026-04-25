@@ -1,10 +1,15 @@
 <script setup lang="ts">
 import MarkdownIt from "markdown-it"
 
+type MessageFormat = "html" | "markdown" | "plain"
+
 const props = defineProps<{
+  key: number,
   role: "user" | "assistant";
   content: string;
 }>()
+
+console.log('keyの値：' + props.key)
 
 const md = new MarkdownIt({
   html: false,
@@ -12,7 +17,6 @@ const md = new MarkdownIt({
   linkify: true,
 })
 
-const renderedHtml = computed(() => md.render(props.content ?? ""))
 </script>
 
 <template>
@@ -32,7 +36,7 @@ const renderedHtml = computed(() => md.render(props.content ?? ""))
     <div class="max-w-[85%] rounded-xl bg-white px-4 py-4 shadow-sm">
       <p class="mb-2 custom-font-bold text-gray-400">夢可愛AI</p>
       <div
-        v-html="renderedHtml"
+        v-html="props.content"
         class="text-gray-800">
       </div>
     </div>
