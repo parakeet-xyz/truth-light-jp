@@ -12,9 +12,9 @@
     "一―(四―フルオロフェニル)プロパン―二―アミン及びその塩類"
   ],
   "identifiers": {
-    "pubchem_cid": "DGXWNDGLEOIEGT-UHFFFAOYSA-N",
-    "inchi_key": "",
-    "smiles": ""
+    "pubchem_cid": "9986",
+    "inchi_key": "DGXWNDGLEOIEGT-UHFFFAOYSA-N",
+    "smiles": "CC(CC1=CC=C(C=C1)F)N"
   },
   "categories": ["中枢神経刺激薬"],
   "legal": {

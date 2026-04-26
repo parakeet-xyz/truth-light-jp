@@ -1,16 +1,18 @@
 {
-  "id": "1-_diethylamino_ethyl-2-_4-methoxybenzyl_-5-nitrobenzimidazole",
-  "common_name": "一―(ジエチルアミノ)エチル―二―(四―メトキシベンジル)―五―ニトロベンズイミダゾール及びその塩類",
-  "systematic_name": "1-(diethylamino)ethyl-2-(4-methoxybenzyl)-5-nitrobenzimidazole",
+  "last_modified": "2026-04-26",
+  "id": "metonitazene",
+  "common_name": "Metonitazene",
+  "systematic_name": "N,N-diethyl-2-[2-[(4-methoxyphenyl)methyl]-5-nitrobenzimidazol-1-yl]ethanamine",
   "aliases": [
+    "メトニタゼン",
     "一―(ジエチルアミノ)エチル―二―(四―メトキシベンジル)―五―ニトロベンズイミダゾール及びその塩類"
   ],
   "identifiers": {
-    "pubchem_cid": "",
-    "inchi_key": "",
-    "smiles": ""
+    "pubchem_cid": "53316366",
+    "inchi_key": "HNGZTLMRQTVPBH-UHFFFAOYSA-N",
+    "smiles": "CCN(CC)CCN1C2=C(C=C(C=C2)[N+](=O)[O-])N=C1CC3=CC=C(C=C3)OC"
   },
-  "categories": [],
+  "categories": ["オピオイド"],
   "legal": {
     "jp": {
       "law_number": "",

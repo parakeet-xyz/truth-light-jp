@@ -1,16 +1,19 @@
 {
-  "id": "1-_ethylamino_ethyl-2-_4-isopropoxybenzyl_-5-nitrobenzimidazole",
-  "common_name": "一―(エチルアミノ)エチル―二―(四―イソプロポキシベンジル)―五―ニトロベンズイミダゾール及びその塩類",
-  "systematic_name": "1-(ethylamino)ethyl-2-(4-isopropoxybenzyl)-5-nitrobenzimidazole",
+  "last_modified": "2026-04-26",
+  "id": "n-desethyl-isotonitazene",
+  "common_name": "N-Desethyl-isotonitazene",
+  "systematic_name": "N-ethyl-2-[5-nitro-2-[(4-propan-2-yloxyphenyl)methyl]benzimidazol-1-yl]ethanamine",
   "aliases": [
+    "N-Desethylisotonitazene",
+    "N-デスエチルイソトニタゼン",
     "一―(エチルアミノ)エチル―二―(四―イソプロポキシベンジル)―五―ニトロベンズイミダゾール及びその塩類"
   ],
   "identifiers": {
-    "pubchem_cid": "",
-    "inchi_key": "",
-    "smiles": ""
+    "pubchem_cid": "162623899",
+    "inchi_key": "HHBRZWRJZICFRP-UHFFFAOYSA-N",
+    "smiles": "CCNCCN1C2=C(C=C(C=C2)[N+](=O)[O-])N=C1CC3=CC=C(C=C3)OC(C)C"
   },
-  "categories": [],
+  "categories": ["オピオイド"],
   "legal": {
     "jp": {
       "law_number": "",
