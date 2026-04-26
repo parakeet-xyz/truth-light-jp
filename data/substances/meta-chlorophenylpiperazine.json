@@ -1,16 +1,19 @@
 {
-  "id": "1-_3-chlorophenyl_piperazine",
-  "common_name": "一―(三―クロロフェニル)ピペラジン及びその塩類",
+  "last_modified": "2026-04-26",
+  "id": "meta-chlorophenylpiperazine",
+  "common_name": "meta-Chlorophenylpiperazine",
   "systematic_name": "1-(3-chlorophenyl)piperazine",
   "aliases": [
+    "mCPP",
+
     "一―(三―クロロフェニル)ピペラジン及びその塩類"
   ],
   "identifiers": {
-    "pubchem_cid": "",
-    "inchi_key": "",
-    "smiles": ""
+    "pubchem_cid": "1355",
+    "inchi_key": "VHFVKMTVMIZMIK-UHFFFAOYSA-N",
+    "smiles": "C1CN(CCN1)C2=CC(=CC=C2)Cl"
   },
-  "categories": [],
+  "categories": ["中枢神経刺激薬", "サイケデリックス"],
   "legal": {
     "jp": {
       "law_number": "",

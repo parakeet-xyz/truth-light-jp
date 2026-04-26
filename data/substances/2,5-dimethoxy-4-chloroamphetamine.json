@@ -1,16 +1,19 @@
 {
-  "id": "1-_4-chloro-2_5-dimethoxyphenyl_propane-2-amine",
-  "common_name": "一―(四―クロロ―二・五―ジメトキシフェニル)プロパン―二―アミン及びその塩類",
-  "systematic_name": "1-(4-chloro-2,5-dimethoxyphenyl)propane-2-amine",
+  "last_modified": "2026-04-26",
+  "id": "2,5-dimethoxy-4-chloroamphetamine",
+  "common_name": "2,5-Dimethoxy-4-chloroamphetamine",
+  "systematic_name": "1-(4-chloro-2,5-dimethoxyphenyl)propan-2-amine",
   "aliases": [
+    "DOC",
+    "4-chloro-2,5-dimethoxyamphetamine",
     "一―(四―クロロ―二・五―ジメトキシフェニル)プロパン―二―アミン及びその塩類"
   ],
   "identifiers": {
-    "pubchem_cid": "",
-    "inchi_key": "",
-    "smiles": ""
+    "pubchem_cid": "542036",
+    "inchi_key": "ACRITBNCBMTINK-UHFFFAOYSA-N",
+    "smiles": "CC(CC1=CC(=C(C=C1OC)Cl)OC)N"
   },
-  "categories": [],
+  "categories": ["中枢神経刺激薬", "サイケデリックス"],
   "legal": {
     "jp": {
       "law_number": "",

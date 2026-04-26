@@ -1,16 +1,22 @@
 {
-  "id": "1-_4-fluorophenyl_propane-2-amine",
-  "common_name": "一―(四―フルオロフェニル)プロパン―二―アミン及びその塩類",
+  "id": "4-fluoroamphetamine",
+  "common_name": "4-Fluoroamphetamine",
   "systematic_name": "1-(4-fluorophenyl)propane-2-amine",
   "aliases": [
+    "4-FA",
+    "para-Fluoroamphetamine",
+    "p-Fluoroamphetamine",
+    "pFA",
+    "パラ-フルオロアンフェタミン",
+    "4-フルオロアンフェタミン",
     "一―(四―フルオロフェニル)プロパン―二―アミン及びその塩類"
   ],
   "identifiers": {
-    "pubchem_cid": "",
+    "pubchem_cid": "DGXWNDGLEOIEGT-UHFFFAOYSA-N",
     "inchi_key": "",
     "smiles": ""
   },
-  "categories": [],
+  "categories": ["中枢神経刺激薬"],
   "legal": {
     "jp": {
       "law_number": "",

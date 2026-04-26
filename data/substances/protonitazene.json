@@ -1,16 +1,16 @@
 {
-  "id": "1-_2-diethylamino_ethyl-5-nitro-2-_4-propoxybenzyl_benzimidazole",
-  "common_name": "一―(二―ジエチルアミノ)エチル―五―ニトロ―二―(四―プロポキシベンジル)ベンズイミダゾール及びその塩類",
-  "systematic_name": "1-(2-diethylamino)ethyl-5-nitro-2-(4-propoxybenzyl)benzimidazole",
+  "id": "protonitazene",
+  "common_name": "Protonitazene",
+  "systematic_name": "N,N-diethyl-2-[5-nitro-2-[(4-propoxyphenyl)methyl]benzimidazol-1-yl]ethanamine",
   "aliases": [
     "一―(二―ジエチルアミノ)エチル―五―ニトロ―二―(四―プロポキシベンジル)ベンズイミダゾール及びその塩類"
   ],
   "identifiers": {
-    "pubchem_cid": "",
-    "inchi_key": "",
-    "smiles": ""
+    "pubchem_cid": "156589001",
+    "inchi_key": "SJHUJFHOXYDSJY-UHFFFAOYSA-N",
+    "smiles": "CCCOC1=CC=C(C=C1)CC2=NC3=C(N2CCN(CC)CC)C=CC(=C3)[N+](=O)[O-]"
   },
-  "categories": [],
+  "categories": ["オピオイド"],
   "legal": {
     "jp": {
       "law_number": "",

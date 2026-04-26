@@ -1,16 +1,18 @@
 {
-  "id": "1-_3-trifluoromethylphenyl_piperazine",
-  "common_name": "一―(三―トリフルオロメチルフェニル)ピペラジン及びその塩類",
-  "systematic_name": "1-(3-trifluoromethylphenyl)piperazine",
+  "id": "meta-trifluoromethylphenylpiperazine",
+  "common_name": "meta-Trifluoromethylphenylpiperazine",
+  "systematic_name": "1-[3-(trifluoromethyl)phenyl]piperazine",
   "aliases": [
+    "TFMPP",
+    "mTFMPP",
     "一―(三―トリフルオロメチルフェニル)ピペラジン及びその塩類"
   ],
   "identifiers": {
-    "pubchem_cid": "",
-    "inchi_key": "",
-    "smiles": ""
+    "pubchem_cid": "4296",
+    "inchi_key": "KKIMDKMETPPURN-UHFFFAOYSA-N",
+    "smiles": "C1CN(CCN1)C2=CC=CC(=C2)C(F)(F)F"
   },
-  "categories": [],
+  "categories": ["中枢神経刺激薬", "サイケデリックス"],
   "legal": {
     "jp": {
       "law_number": "",

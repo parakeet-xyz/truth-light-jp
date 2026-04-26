@@ -1,16 +1,23 @@
 {
-  "id": "1-_2-diethylamino_ethyl-2-_4-ethoxybenzyl_benzimidazole",
-  "common_name": "一―(二―ジエチルアミノ)エチル―二―(四―エトキシベンジル)ベンズイミダゾール及びその塩類",
-  "systematic_name": "1-(2-diethylamino)ethyl-2-(4-ethoxybenzyl)benzimidazole",
+  "last_modified": "2026-04-26",
+  "id": "etodesnitazene",
+  "common_name": "Etodesnitazene",
+  "systematic_name": "2-[2-[(4-Ethoxyphenyl)methyl]benzimidazol-1-yl]-N,N-diethylethanamine",
   "aliases": [
+    "desnitroetonitazene",
+    "etazen",
+    "etazene",
+    "エトデスニタゼン",
+    "デスニトロニタゼン",
+    "エタゼン",
     "一―(二―ジエチルアミノ)エチル―二―(四―エトキシベンジル)ベンズイミダゾール及びその塩類"
   ],
   "identifiers": {
-    "pubchem_cid": "",
-    "inchi_key": "",
-    "smiles": ""
+    "pubchem_cid": "149797386",
+    "inchi_key": "BMLPNUNXHUGDOI-UHFFFAOYSA-N",
+    "smiles": "CCN(CC)CCN1C2=CC=CC=C2N=C1CC3=CC=C(C=C3)OCC"
   },
-  "categories": [],
+  "categories": ["オピオイド"],
   "legal": {
     "jp": {
       "law_number": "",
