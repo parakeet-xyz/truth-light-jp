@@ -19,6 +19,7 @@ msgs.value[counter] = {
   id: counter,
   role: 'assistant',
   content: 'はじめまして！夢可愛AIです！<br />最初に夢可愛AI利用規約をご確認くださいね。',
+  format: "html",
 }
 
 counter++
@@ -27,6 +28,7 @@ msgs.value[counter] = {
   id: counter,
   role: 'assistant',
   content: '<p class="mb-2 text-gray-800">何について知りたいですか？</p><div class="space-y-2"><button type="button" class="w-full rounded-lg bg-gray-100 p-2 text-left custom-font-bold text-gray-600">薬物依存症回復プログラム「12ステップ」について</button><button type="button" class="w-full rounded-lg bg-gray-100 p-2 text-left custom-font-bold text-gray-600">依存症とキリスト教の関係について</button><button type="button" class="w-full rounded-lg bg-gray-100 p-2 text-left custom-font-bold text-gray-600">薬物の規制状況について</button><button type="button" class="w-full rounded-lg bg-gray-100 p-2 text-left custom-font-bold text-gray-600">🐘✒️の危険性について</button></div>',
+  format: "html",
 }
 
 counter++
@@ -37,7 +39,8 @@ const submitPrompt = async (text: string): Promise<void> => {
   msgs.value.push({
     id: counter,
     role: 'user',
-    content: text
+    content: text,
+    format: "plain",
   })
 
   const req: YumekawaChatRequest = {
@@ -52,7 +55,8 @@ const submitPrompt = async (text: string): Promise<void> => {
   msgs.value.push({
     id: counter,
     role: 'assistant',
-    content: res.reply
+    content: res.reply,
+    format: "markdown",
   })
 
   prompt.value = ''
@@ -83,6 +87,7 @@ const submitPrompt = async (text: string): Promise<void> => {
       :id="msg.id"
       :role="msg.role"
       :content="msg.content"
+      
     />
 
   </div>

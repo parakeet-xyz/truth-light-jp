@@ -1,7 +1,10 @@
+type MessageFormat = "html" | "markdown" | "plain";
+
 export interface YumekawaChatMessage {
   id: number;
   role: "user" | "assistant";
   content: string;
+  format?: MessageFormat;
 }
 
 export interface YumekawaChatRequest {

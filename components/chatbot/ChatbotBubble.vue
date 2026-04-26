@@ -1,13 +1,8 @@
 <script setup lang="ts">
 import MarkdownIt from "markdown-it"
+import type { YumekawaChatMessage } from "~/utils/interfaces"
 
-type MessageFormat = "html" | "markdown" | "plain"
-
-const props = defineProps<{
-  id: number,
-  role: "user" | "assistant";
-  content: string;
-}>()
+const props = defineProps<YumekawaChatMessage>()
 
 console.log('keyの値：' + props.id)
 
