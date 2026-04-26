@@ -80,6 +80,7 @@ const submitPrompt = async (text: string): Promise<void> => {
     <ChatbotBubble 
       v-for="msg in msgs"
       :key="msg.id"
+      :id="msg.id"
       :role="msg.role"
       :content="msg.content"
     />

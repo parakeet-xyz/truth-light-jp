@@ -4,12 +4,12 @@ import MarkdownIt from "markdown-it"
 type MessageFormat = "html" | "markdown" | "plain"
 
 const props = defineProps<{
-  key: number,
+  id: number,
   role: "user" | "assistant";
   content: string;
 }>()
 
-console.log('keyの値：' + props.key)
+console.log('keyの値：' + props.id)
 
 const md = new MarkdownIt({
   html: false,
