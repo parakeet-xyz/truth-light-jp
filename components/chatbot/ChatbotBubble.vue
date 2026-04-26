@@ -1,5 +1,6 @@
 <script setup lang="ts">
 import MarkdownIt from "markdown-it"
+import { truncate } from "node:fs";
 import type { YumekawaChatMessage } from "~/utils/interfaces"
 
 const props = defineProps<YumekawaChatMessage>()
@@ -28,6 +29,14 @@ const renderedHtml = computed(() => {
   return ""
 })
 
+const isMarkdown = computed(() => {
+  if (props.format === "markdown") {
+    return true
+  } else {
+    return false
+  }
+})
+
 </script>
 
 <template>
@@ -48,7 +57,9 @@ const renderedHtml = computed(() => {
       <p class="mb-2 custom-font-bold text-gray-400">夢可愛AI</p>
       <div
         v-html="renderedHtml"
-        class="text-gray-800">
+        class="text-gray-800"
+        :class="isMarkdown ? 'chat-markdown' : ''"  
+      >
       </div>
     </div>
   </div>
@@ -72,3 +83,38 @@ const renderedHtml = computed(() => {
 
 
 </template>
+
+<style lang="css" scoped>
+.chat-markdown :deep(p) {
+  margin-bottom: 0.25rem;
+}
+
+.chat-markdown :deep(p:first-child) {
+  margin-top: 0;
+}
+
+.chat-markdown :deep(p:last-child) {
+  margin-bottom: 0;
+}
+
+.chat-markdown :deep(ul),
+.chat-markdown :deep(ol) {
+  padding-left: 1.25rem;
+  margin: 0.5rem 0;
+}
+
+.chat-markdown :deep(li) {
+  margin: 0.25rem 0;
+}
+
+.chat-markdown :deep(code) {
+  padding: 0.15rem 0.35rem;
+  border-radius: 0.375rem;
+  background: rgba(191, 201, 209, 0.28);
+  font-size: 0.875em;
+}
+
+.chat-markdown :deep(strong) {
+  font-weight: 700;
+}
+</style>
