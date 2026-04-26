@@ -43,7 +43,7 @@ const isMarkdown = computed(() => {
   <!-- AIメッセージ -->
   <div
     v-if="role === 'assistant'"
-    class="flex items-start mb-6 gap-2"
+    class="flex flex-row items-start mb-6 gap-2"
   >
     <div class="h-10 w-10 shrink-0 overflow-hidden rounded-full">
       <img
@@ -53,19 +53,28 @@ const isMarkdown = computed(() => {
       />
     </div>
 
-    <ChatbotSubstanceCard
-      v-if="props.substanceCard"
-      v-bind="props.substanceCard"
-    />
 
-    <div class="max-w-[85%] rounded-xl bg-white px-4 py-4 shadow-sm">
-      <p class="mb-2 custom-font-bold text-gray-400">夢可愛AI</p>
-      <div
-        v-html="renderedHtml"
-        class="text-gray-800"
-        :class="isMarkdown ? 'chat-markdown' : ''"  
-      >
+    <div
+      :class="props.substanceCard ? 'flex flex-col' : ''"
+    >
+      <!-- サブスタンスカード -->
+      <div class="max-w-[85%] rounded-xl bg-white px-4 py-4 shadow-sm">
+        <ChatbotSubstanceCard
+          v-if="props.substanceCard"
+          v-bind="props.substanceCard"
+        />
       </div>
+
+      <div class="max-w-[85%] rounded-xl bg-white px-4 py-4 shadow-sm">
+        <p class="mb-2 custom-font-bold text-gray-400">夢可愛AI</p>
+        <div
+          v-html="renderedHtml"
+          class="text-gray-800"
+          :class="isMarkdown ? 'chat-markdown' : ''"  
+        >
+        </div>
+      </div>
+
     </div>
   </div>
 
