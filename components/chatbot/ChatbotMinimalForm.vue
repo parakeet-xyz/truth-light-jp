@@ -87,7 +87,7 @@ const submitPrompt = async (text: string): Promise<void> => {
       :id="msg.id"
       :role="msg.role"
       :content="msg.content"
-      
+      :format="msg.format"
     />
 
   </div>

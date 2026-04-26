@@ -12,6 +12,22 @@ const md = new MarkdownIt({
   linkify: true,
 })
 
+const renderedHtml = computed(() => {
+  if (props.format === "markdown") {
+    return md.render(props.content ?? "")
+  }
+
+  if (props.format === "html") {
+    return props.content ?? ""
+  }
+
+  if (props.format === "plain") {
+    return props.content ?? ""
+  }
+
+  return ""
+})
+
 </script>
 
 <template>
@@ -31,7 +47,7 @@ const md = new MarkdownIt({
     <div class="max-w-[85%] rounded-xl bg-white px-4 py-4 shadow-sm">
       <p class="mb-2 custom-font-bold text-gray-400">夢可愛AI</p>
       <div
-        v-html="props.content"
+        v-html="renderedHtml"
         class="text-gray-800">
       </div>
     </div>
@@ -43,7 +59,7 @@ const md = new MarkdownIt({
   >
 
     <div class="w-full rounded-l-lg rounded-tr-lg bg-[#FF9B51] px-4 py-4 shadow-sm">
-      {{ props.content }}
+      {{ renderedHtml }}
     </div>
     <div>
       <img
