@@ -40,7 +40,7 @@ const isMarkdown = computed(() => {
 </script>
 
 <template>
-  <!-- AIメッセージ1 -->
+  <!-- AIメッセージ -->
   <div
     v-if="role === 'assistant'"
     class="flex items-start mb-6 gap-2"
@@ -53,6 +53,11 @@ const isMarkdown = computed(() => {
       />
     </div>
 
+    <ChatbotSubstanceCard
+      v-if="props.substanceCard"
+      v-bind="props.substanceCard"
+    />
+
     <div class="max-w-[85%] rounded-xl bg-white px-4 py-4 shadow-sm">
       <p class="mb-2 custom-font-bold text-gray-400">夢可愛AI</p>
       <div
@@ -64,6 +69,7 @@ const isMarkdown = computed(() => {
     </div>
   </div>
 
+  <!-- Userメッセージ -->
   <div
     v-else
     class="relative flex items-end justify-end mb-6"
@@ -86,7 +92,7 @@ const isMarkdown = computed(() => {
 
 <style lang="css" scoped>
 .chat-markdown :deep(p) {
-  margin-bottom: 0.25rem;
+  margin-bottom: 0.5rem;
 }
 
 .chat-markdown :deep(p:first-child) {

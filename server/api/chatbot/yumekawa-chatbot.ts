@@ -34,6 +34,28 @@ function isFunctionCall(
   );
 }
 
+function buildSubstanceCard(toolResult: Awaited<ReturnType<typeof findSubstanceInDb>>) {
+  const s = toolResult.substance
+
+  if (!toolResult.matched || !s) {
+    return null
+  }
+
+  return {
+    title: s.name ?? s.common_name ?? "物質情報",
+    commonName: s.common_name ?? "",
+    systematicName: s.systematic_name ?? "",
+    lawCategory: s.legal?.jp?.law_category ?? "",
+    officialName: s.legal?.jp?.official_name ?? "",
+    effectiveDate: s.legal?.jp?.effective_date ?? "",
+    sourceLink: s.legal?.jp?.source_link ?? "",
+    pubchemCid: s.identifiers?.pubchem_cid ?? "",
+    inchiKey: s.identifiers?.inchi_key ?? "",
+    smiles: s.identifiers?.smiles ?? "",
+    matchType: toolResult.match_type,
+  }
+}
+
 export default defineEventHandler(async (event): Promise<YumekawaChatResponse> => {
   const body = await readBody<YumekawaChatRequest>(event);
 
@@ -113,6 +135,7 @@ export default defineEventHandler(async (event): Promise<YumekawaChatResponse> =
     return {
       reply,
       model: yumekawaChatbotConfig.model,
+      substanceCard: buildSubstanceCard(toolResult),
     };
   } else {
     const reply = initialResponse.output_text?.trim();

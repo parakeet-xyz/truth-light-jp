@@ -20,6 +20,7 @@ msgs.value[counter] = {
   role: 'assistant',
   content: 'はじめまして！夢可愛AIです！<br />最初に夢可愛AI利用規約をご確認くださいね。',
   format: "html",
+  substanceCard: null,
 }
 
 counter++
@@ -29,6 +30,7 @@ msgs.value[counter] = {
   role: 'assistant',
   content: '<p class="mb-2 text-gray-800">何について知りたいですか？</p><div class="space-y-2"><button type="button" class="w-full rounded-lg bg-gray-100 p-2 text-left custom-font-bold text-gray-600">薬物依存症回復プログラム「12ステップ」について</button><button type="button" class="w-full rounded-lg bg-gray-100 p-2 text-left custom-font-bold text-gray-600">依存症とキリスト教の関係について</button><button type="button" class="w-full rounded-lg bg-gray-100 p-2 text-left custom-font-bold text-gray-600">薬物の規制状況について</button><button type="button" class="w-full rounded-lg bg-gray-100 p-2 text-left custom-font-bold text-gray-600">🐘✒️の危険性について</button></div>',
   format: "html",
+  substanceCard: null,
 }
 
 counter++
@@ -41,6 +43,7 @@ const submitPrompt = async (text: string): Promise<void> => {
     role: 'user',
     content: text,
     format: "plain",
+    substanceCard: null,
   })
 
   const req: YumekawaChatRequest = {
@@ -57,6 +60,7 @@ const submitPrompt = async (text: string): Promise<void> => {
     role: 'assistant',
     content: res.reply,
     format: "markdown",
+    substanceCard: res.substanceCard ?? null
   })
 
   prompt.value = ''
@@ -88,6 +92,7 @@ const submitPrompt = async (text: string): Promise<void> => {
       :role="msg.role"
       :content="msg.content"
       :format="msg.format"
+      :substance-card="msg.substanceCard"
     />
 
   </div>

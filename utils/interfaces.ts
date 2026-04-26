@@ -5,6 +5,7 @@ export interface YumekawaChatMessage {
   role: "user" | "assistant";
   content: string;
   format?: MessageFormat;
+  substanceCard?: SubstanceCardData | null;
 }
 
 export interface YumekawaChatRequest {
@@ -15,6 +16,7 @@ export interface YumekawaChatRequest {
 export interface YumekawaChatResponse {
   reply: string;
   model: string;
+  substanceCard?: SubstanceCardData | null;
 }
 
 export interface SubstanceRecord {
@@ -51,4 +53,18 @@ export interface SubstanceSearchResult {
     common_name?: string;
     aliases?: string[];
   }>;
+}
+
+export interface SubstanceCardData {
+  title: string
+  commonName?: string
+  systematicName?: string
+  lawCategory?: string
+  officialName?: string
+  effectiveDate?: string
+  sourceLink?: string
+  pubchemCid?: string
+  inchiKey?: string
+  smiles?: string
+  matchType?: string
 }
