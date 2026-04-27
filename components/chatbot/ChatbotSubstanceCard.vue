@@ -21,7 +21,7 @@ const props = defineProps<SubstanceCardData>()
     </div>
 
     <div v-if="props.officialName">
-      <p class="custom-font-bold text-gray-500">正式名</p>
+      <p class="custom-font-bold text-gray-500">公式名</p>
       <p class="break-words">{{ props.officialName }}</p>
     </div>
 
@@ -31,7 +31,7 @@ const props = defineProps<SubstanceCardData>()
     </div>
 
     <div v-if="props.systematicName">
-      <p class="custom-font-bold text-gray-500">Systematic name</p>
+      <p class="custom-font-bold text-gray-500">系統名</p>
       <p class="break-words">{{ props.systematicName }}</p>
     </div>
 
@@ -56,7 +56,7 @@ const props = defineProps<SubstanceCardData>()
         target="_blank"
         rel="noopener noreferrer"
         class="inline-block text-sm custom-font-bold
-text-[#FF9B51] underline"
+        text-[#FF9B51] underline"
       >
         法令ソースを見る
       </a>

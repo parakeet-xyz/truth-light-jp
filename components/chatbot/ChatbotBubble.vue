@@ -61,7 +61,7 @@ const isMarkdown = computed(() => {
       <!-- サブスタンスカード -->
       <div
         v-if="props.substanceCard"
-        class="rounded-xl bg-white px-4 py-4 shadow-sm"
+        class="rounded-xl bg-white mb-4 px-4 py-4 shadow-sm"
       >
         <ChatbotSubstanceCard
           v-bind="props.substanceCard"
