@@ -69,10 +69,15 @@ const submitPrompt = async (text: string): Promise<void> => {
 </script>
 
 <template>
-<div class="w-[400px] max-w-[calc(100vw-2rem)] overflow-hidden rounded-xl border border-[#cdd7e0] bg-white/80 shadow-2xl">
+<div
+  class="flex flex-col w-[420px] max-w-[calc(100vw-2rem)] h-[calc(100vh-2rem)] overflow-hidden
+  rounded-xl border border-[#cdd7e0] bg-white/80 shadow-2xl"
+>
   <!-- ヘッダー -->
-  <div class="flex items-center justify-between bg-[#FF9B51] px-4 py-2 text-white">
-    <span class="text-base custom-font-bold">夢可愛AIに聞く</span>
+  <div class="flex items-center justify-between shrink-0
+    bg-[#FF9B51] px-4 py-2 text-white"
+  >
+    <span class="text-base custom-font-bold">夢可愛AIに質問</span>
     <button type="button" class="hover:opacity-80"
       @click="handleClickCloseButton"
     >
@@ -81,8 +86,8 @@ const submitPrompt = async (text: string): Promise<void> => {
 
   <!-- メッセージエリア -->
   <div
-    class="h-[500px] overflow-y-auto bg-[#EAEFEF]/90 px-4 py-4
-      text-sm leading-tight"
+    class="flex-1 overflow-y-auto bg-[#EAEFEF]/80 px-4 py-4
+      text-xs leading-tight"
   >
 
     <ChatbotBubble 
@@ -98,18 +103,18 @@ const submitPrompt = async (text: string): Promise<void> => {
   </div>
 
   <!-- 入力エリア -->
-  <div class="border-t border-[#FF9B51] bg-white/80 p-2">
+  <div class="shrink-0 min-h-24 border-t border-[#FF9B51] bg-white/80 p-2">
     <div class="flex items-end gap-3">
       <textarea
         rows="3"
         placeholder="夢可愛AIに何でも質問"
-        class="min-h-[80px] flex-1 resize-none rounded-md p-1 text-sm text-gray-600 placeholder:text-gray-300 focus:outline-none"
+        class="min-h-[80px] flex-1 resize-none rounded-md p-1 text-xs text-gray-600 placeholder:text-gray-300 focus:outline-none"
         v-model="prompt"
       ></textarea>
 
       <button
         type="button"
-        class="rounded-lg bg-[#FF9B51] p-2 text-sm custom-font-bold text-white hover:bg-[#ffaf74]"
+        class="rounded-lg bg-[#FF9B51] p-2 text-base custom-font-bold text-white hover:bg-[#ffaf74]"
         @click="submitPrompt(prompt)"
       >
         送信

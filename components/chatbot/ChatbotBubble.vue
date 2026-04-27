@@ -40,7 +40,7 @@ const isMarkdown = computed(() => {
 </script>
 
 <template>
-  <!-- AIメッセージ -->
+  <!-- Assistantメッセージ -->
   <div
     v-if="role === 'assistant'"
     class="flex flex-row items-start mb-6 gap-2"
