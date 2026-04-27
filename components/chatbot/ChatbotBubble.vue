@@ -59,9 +59,11 @@ const isMarkdown = computed(() => {
       :class="props.substanceCard ? 'flex flex-col' : ''"
     >
       <!-- サブスタンスカード -->
-      <div class="rounded-xl bg-white px-4 py-4 shadow-sm">
+      <div
+        v-if="props.substanceCard"
+        class="rounded-xl bg-white px-4 py-4 shadow-sm"
+      >
         <ChatbotSubstanceCard
-          v-if="props.substanceCard"
           v-bind="props.substanceCard"
         />
       </div>
