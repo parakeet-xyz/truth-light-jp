@@ -45,7 +45,7 @@ const isMarkdown = computed(() => {
     v-if="role === 'assistant'"
     class="flex flex-row items-start mb-6 gap-2"
   >
-    <div class="h-10 w-10 shrink-0 overflow-hidden rounded-full">
+    <div class="shrink-0 h-10 w-10 overflow-hidden rounded-full">
       <img
         src="/yumekawa-ai/yumekawa-ai-128px.png"
         alt="アイコン"
@@ -55,17 +55,18 @@ const isMarkdown = computed(() => {
 
 
     <div
+      class="flex-1"
       :class="props.substanceCard ? 'flex flex-col' : ''"
     >
       <!-- サブスタンスカード -->
-      <div class="max-w-[85%] rounded-xl bg-white px-4 py-4 shadow-sm">
+      <div class="rounded-xl bg-white px-4 py-4 shadow-sm">
         <ChatbotSubstanceCard
           v-if="props.substanceCard"
           v-bind="props.substanceCard"
         />
       </div>
 
-      <div class="max-w-[85%] rounded-xl bg-white px-4 py-4 shadow-sm">
+      <div class="rounded-xl bg-white px-4 py-4 shadow-sm">
         <p class="mb-2 custom-font-bold text-gray-400">夢可愛AI</p>
         <div
           v-html="renderedHtml"
