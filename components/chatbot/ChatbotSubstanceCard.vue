@@ -8,13 +8,13 @@ const props = defineProps<SubstanceCardData>()
 <template>
   <div class="mb-3">
     <p class="text-xs custom-font-bold text-gray-400">規制物質DB</p>
-    <h3 class="text-lg custom-font-bold leading-snug">{{ props.title }}</h3>
+    <h3 class="text-base custom-font-bold leading-snug">{{ props.title }}</h3>
     <p v-if="props.commonName && props.commonName !== props.title" class="mt-1 text-sm text-gray-600">
       {{ props.commonName }}
     </p>
   </div>
 
-  <div class="grid grid-cols-1 gap-3 text-sm">
+  <div class="grid grid-cols-1 gap-3">
     <div v-if="props.lawCategory">
       <p class="custom-font-bold text-gray-500">規制区分</p>
       <p>{{ props.lawCategory }}</p>
