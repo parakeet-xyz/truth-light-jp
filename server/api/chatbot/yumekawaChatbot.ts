@@ -6,7 +6,7 @@ import type {
   YumekawaChatResponse,
   YumekawaChatMessage,
 } from "~/utils/interfaces";
-import { yumekawaChatbotConfig } from "~/utils/yumekawa-chatbot.config";
+import { yumekawaChatbotConfig } from "~/utils/yumekawaChatbot.config";
 
 import { findSubstanceInDb } from "~/server/utils/substances/findSubstance"
 

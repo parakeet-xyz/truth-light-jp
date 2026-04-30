@@ -31,7 +31,7 @@ export default defineAppConfig({
         database: { type: "link", title: '💽 規制物質DB', to: '/substances' },
         basics: {
           type: "menu",
-          title: "💊 ドラッグ基礎編",
+          title: "🔰 ハームリダクション",
           meth: { type: "link", title: "🧊 メタンフェタミン", to: '/docs/basics/methamphetamine' },
           cocaine: { type: "link", title: '🚴 コカイン',to: '/docs/basics/cocaine' },
           mdma: { type: "link", title: '❌️ エクスタシー', to: '/docs/basic' },

@@ -51,7 +51,7 @@ const submitPrompt = async (text: string): Promise<void> => {
     history: msgs.value ? msgs.value : []
   }
 
-  const res = await $fetch('/api/chatbot/yumekawa-chatbot',{method: 'POST', body: req}) as YumekawaChatResponse
+  const res = await $fetch('/api/chatbot/yumekawaChatbot',{method: 'POST', body: req}) as YumekawaChatResponse
 
   counter++
 
