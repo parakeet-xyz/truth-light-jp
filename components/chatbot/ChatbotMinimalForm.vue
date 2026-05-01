@@ -11,6 +11,8 @@ const handleClickCloseButton = (): void => {
   emit('closeForm')
 }
 
+const isLoading = ref(false)
+const errMsg = ref("")
 const prompt = ref('')
 const msgs = ref<YumekawaChatMessage[]>([])
 let counter: number = 0
@@ -36,7 +38,10 @@ msgs.value[counter] = {
 counter++
 
 const submitPrompt = async (text: string): Promise<void> => {
-  if (!text.trim()) return
+  if (!text.trim() || isLoading.value) return
+
+  prompt.value = ''
+  errMsg.value = ''
 
   msgs.value.push({
     id: counter,
@@ -46,24 +51,42 @@ const submitPrompt = async (text: string): Promise<void> => {
     substanceCard: null,
   })
 
+  isLoading.value = true
+
   const req: YumekawaChatRequest = {
     message: text,
     history: msgs.value ? msgs.value : []
   }
+  let res: YumekawaChatResponse
 
-  const res = await $fetch('/api/chatbot/yumekawaChatbot',{method: 'POST', body: req}) as YumekawaChatResponse
+  try {
+    res = await $fetch('/api/chatbot/yumekawaChatbot',{method: 'POST', body: req}) as YumekawaChatResponse
 
-  counter++
+    msgs.value.push({
+      id: counter,
+      role: 'assistant',
+      content: res.reply,
+      format: "markdown",
+      substanceCard: res.substanceCard ?? null
+    })
+    
+    counter++
 
-  msgs.value.push({
-    id: counter,
-    role: 'assistant',
-    content: res.reply,
-    format: "markdown",
-    substanceCard: res.substanceCard ?? null
-  })
+  } catch (err) {
+    console.log(err)
 
-  prompt.value = ''
+    msgs.value.push({
+      id: counter,
+      role: 'assistant',
+      content: `ごめんなさい、返答の取得に失敗しました。少し時間をおいてお試しください…`,
+      format: "plain",
+      substanceCard: null
+    }) 
+
+    counter++
+  } finally {
+    isLoading.value = false
+  }
 }
 
 </script>
@@ -99,6 +122,26 @@ const submitPrompt = async (text: string): Promise<void> => {
       :format="msg.format"
       :substance-card="msg.substanceCard"
     />
+
+    <!-- ローディング表示 -->
+    <div
+      v-if="isLoading === true"
+      class="flex flex-row items-start mb-6 gap-2"
+    >
+      <div class="shrink-0 h-10 w-10 overflow-hidden rounded-full">
+        <img
+          src="/yumekawa-ai/yumekawa-ai-128px.png"
+          alt="アイコン"
+          class="h-full w-full object-cover"
+        />
+      </div>
+
+
+      <div class="flex-1 px-4 py-4 ">
+        <img src="/ui/loading-90.gif" />
+      </div>
+    </div>
+
 
   </div>
 
