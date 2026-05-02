@@ -137,8 +137,8 @@ const submitPrompt = async (text: string): Promise<void> => {
       </div>
 
 
-      <div class="flex-1 px-4 py-4 h-10 w-10">
-        <img src="/ui/loading-90.gif" />
+      <div class="flex-initial px-4 py-4 h-10 w-10">
+        <img src="/ui/loading-90.gif" class="h-10 w-10" />
       </div>
     </div>
 
