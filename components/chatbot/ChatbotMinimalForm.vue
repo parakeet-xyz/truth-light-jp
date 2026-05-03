@@ -93,7 +93,7 @@ const submitPrompt = async (text: string): Promise<void> => {
 
 <template>
 <div
-  class="flex flex-col w-[420px] max-w-[calc(100vw-2rem)] h-[calc(100vh-2rem)] overflow-hidden
+  class="flex flex-col w-[420px] max-w-[calc(100vw-2rem)] h-[calc(100dvh-2rem)] overflow-hidden
   rounded-xl border border-[#cdd7e0] bg-white/80 shadow-2xl"
 >
   <!-- ヘッダー -->
