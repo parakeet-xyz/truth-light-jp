@@ -40,7 +40,7 @@ const onCloseForm = (): void => {
   <span
     class="flex h-[64px] w-[300px] items-center pl-2 text-xs leading-tight
       bg-[url('/yumekawa-ai/fukidashi-h128px.png')] bg-contain bg-center bg-no-repeat
-      drop-shadow-lg transition-opacity duration-20 ease-in-out"
+      drop-shadow-lg transition-opacity duration-200 ease-in-out"
     :class="isHover ? 'opacity-100' : 'opacity-0'"
   >
     <span class="inline-block">
@@ -49,19 +49,21 @@ const onCloseForm = (): void => {
     </span>
   </span>
 
-  <span
-    class="inline-flex
+  <button
+    type="button"
+    aria-label="夢可愛AIに質問する"
+    class="inline-flex touch-manipulation
       transition-transform duration-200 ease-in-out hover:scale-110 cursor-pointer"
-    @mouseenter="handleMouseEnter"
-    @mouseleave="handleMouseLeave"
+    @pointerenter="handleMouseEnter"
+    @pointerleave="handleMouseLeave"
     @click="handleClickIcon"
   >
     <img
       src="/yumekawa-ai/yumekawa-ai-128px.png"
-      alt="夢可愛AIに質問する"
-      class="h-[64px] animate-radar drop-shadow-lg select-none"
+      alt=""
+      class="h-[64px] animate-radar drop-shadow-lg select-none pointer-events-none"
     />
-  </span>
+  </button>
 </div>
 
 <div

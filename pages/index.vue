@@ -10,8 +10,6 @@
           Truth Lightはあらゆる精神活性物質の作用・副作用・危険性<br>そして薬物依存症からの回復の方法まで正しい情報を提供します。
         </h2>
       </div>
-      <section class="">
-      </section>
     </section>
 
   </main>

@@ -34,7 +34,9 @@ export default defineAppConfig({
           title: "🔰 ハームリダクション",
           meth: { type: "link", title: "🧊 メタンフェタミン", to: '/docs/basics/methamphetamine' },
           cocaine: { type: "link", title: '🚴 コカイン',to: '/docs/basics/cocaine' },
-          mdma: { type: "link", title: '❌️ エクスタシー', to: '/docs/basic' },
+          mdma: { type: "link", title: '❌️ エクスタシー', to: '/docs/basics/ecstasy' },
+          marijuana: { type: "link", title: '🥦 マリファナ', to: '/docs/basics/marijuana' },
+          ketamine: { type: 'link', title: '🐘 ケタミン/PCP', to: 'docs/basics/ketamine-pcp' },
         },
         recovery: { type: "link", title: '❤️‍🩹 依存症からの回復', to: '/docs/recovery' },
         info: {
