@@ -1,11 +1,12 @@
 <script setup lang="ts">
 import MarkdownIt from "markdown-it"
-import { truncate } from "node:fs";
 import type { YumekawaChatMessage } from "~/utils/interfaces"
 
 const props = defineProps<YumekawaChatMessage>()
 
-console.log('keyの値：' + props.id)
+const emit = defineEmits<{
+  selectOption: [value: string]
+}>()
 
 const md = new MarkdownIt({
   html: false,
@@ -22,21 +23,16 @@ const renderedHtml = computed(() => {
     return props.content ?? ""
   }
 
-  if (props.format === "plain") {
-    return props.content ?? ""
-  }
-
   return ""
 })
 
-const isMarkdown = computed(() => {
-  if (props.format === "markdown") {
-    return true
-  } else {
-    return false
-  }
-})
+const isMarkdown = computed(() => props.format === "markdown")
 
+const isOptions = computed(() => props.format === "options")
+
+const handleClickOption = (value: string): void => {
+  emit("selectOption", value)
+}
 </script>
 
 <template>
@@ -52,7 +48,6 @@ const isMarkdown = computed(() => {
         class="h-full w-full object-cover"
       />
     </div>
-
 
     <div
       class="flex-1"
@@ -70,14 +65,42 @@ const isMarkdown = computed(() => {
 
       <div class="rounded-xl bg-white px-4 py-4 shadow-sm">
         <p class="mb-2 custom-font-bold text-gray-400">夢可愛AI</p>
+
+        <!-- options形式 -->
+        <div v-if="isOptions">
+          <p class="mb-2 text-gray-800">
+            {{ props.content }}
+          </p>
+
+          <div class="space-y-2">
+            <button
+              v-for="option in props.options"
+              :key="option.value"
+              type="button"
+              class="w-full rounded-lg bg-gray-100 p-2 text-left custom-font-bold text-gray-600 hover:bg-gray-200"
+              @click="handleClickOption(option.value)"
+            >
+              {{ option.label }}
+            </button>
+          </div>
+        </div>
+
+        <!-- markdown / html形式 -->
         <div
+          v-else-if="props.format === 'markdown' || props.format === 'html'"
           v-html="renderedHtml"
           class="text-gray-800"
-          :class="isMarkdown ? 'chat-markdown' : ''"  
+          :class="isMarkdown ? 'chat-markdown' : ''"
+        />
+
+        <!-- plain形式 -->
+        <div
+          v-else
+          class="text-gray-800 whitespace-pre-wrap"
         >
+          {{ props.content }}
         </div>
       </div>
-
     </div>
   </div>
 
@@ -86,10 +109,10 @@ const isMarkdown = computed(() => {
     v-else
     class="relative flex items-end justify-end mb-6"
   >
-
-    <div class="w-full rounded-l-lg rounded-tr-lg bg-[#FF9B51] px-4 py-4 shadow-sm">
-      {{ renderedHtml }}
+    <div class="w-full rounded-l-lg rounded-tr-lg bg-[#FF9B51] px-4 py-4 shadow-sm text-white whitespace-pre-wrap">
+      {{ props.content }}
     </div>
+
     <div>
       <img
         src="/ui/fukidashi-orange.png"
@@ -98,8 +121,6 @@ const isMarkdown = computed(() => {
       />
     </div>
   </div>
-
-
 </template>
 
 <style lang="css" scoped>

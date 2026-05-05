@@ -20,7 +20,7 @@ let counter: number = 0
 msgs.value[counter] = {
   id: counter,
   role: 'assistant',
-  content: 'はじめまして！夢可愛AIです！<br />最初に夢可愛AI利用規約をご確認くださいね。',
+  content: 'はじめまして！夢可愛AIです！<br />最初に<a href="https://www.truth-light.jp/docs/info/ai-disclaimer">夢可愛AI利用規約</a>をご確認くださいね。',
   format: "html",
   substanceCard: null,
 }
@@ -30,15 +30,34 @@ counter++
 msgs.value[counter] = {
   id: counter,
   role: 'assistant',
-  content: '<p class="mb-2 text-gray-800">何について知りたいですか？</p><div class="space-y-2"><button type="button" class="w-full rounded-lg bg-gray-100 p-2 text-left custom-font-bold text-gray-600">薬物依存症回復プログラム「12ステップ」について</button><button type="button" class="w-full rounded-lg bg-gray-100 p-2 text-left custom-font-bold text-gray-600">依存症とキリスト教の関係について</button><button type="button" class="w-full rounded-lg bg-gray-100 p-2 text-left custom-font-bold text-gray-600">薬物の規制状況について</button><button type="button" class="w-full rounded-lg bg-gray-100 p-2 text-left custom-font-bold text-gray-600">🐘✒️の危険性について</button></div>',
-  format: "html",
+  content: '何について知りたいですか？',
+  format: "options",
+  options: [
+    {
+      label: '薬物依存症回復プログラム「12ステップ」について',
+      value: '薬物依存症回復プログラム「12ステップ」について',
+    },
+    {
+      label: '依存症とキリスト教の関係について',
+      value: '依存症とキリスト教の関係について',
+    },
+    {
+      label: "薬物の規制状況について",
+      value: "薬物の規制状況について",
+    },
+    {
+      label: "🐘✒️の危険性について",
+      value: "🐘✒️の危険性について",
+    },
+  ],
   substanceCard: null,
 }
 
 counter++
 
 const submitPrompt = async (text: string): Promise<void> => {
-  if (!text.trim() || isLoading.value) return
+  const trimmedText = text.trim()
+  if (!trimmedText || isLoading.value) return
 
   prompt.value = ''
   errMsg.value = ''
@@ -46,32 +65,38 @@ const submitPrompt = async (text: string): Promise<void> => {
   msgs.value.push({
     id: counter,
     role: 'user',
-    content: text,
+    content: trimmedText,
     format: "plain",
     substanceCard: null,
   })
 
+  counter++
+
   isLoading.value = true
 
   const req: YumekawaChatRequest = {
-    message: text,
-    history: msgs.value ? msgs.value : []
+    message: trimmedText,
+    history: msgs.value,
   }
-  let res: YumekawaChatResponse
 
   try {
-    res = await $fetch('/api/chatbot/yumekawaChatbot',{method: 'POST', body: req}) as YumekawaChatResponse
+    const res = await $fetch<YumekawaChatResponse>(
+      '/api/chatbot/yumekawaChatbot',
+      {
+        method: 'POST',
+        body: req,
+      },
+    )
 
     msgs.value.push({
       id: counter,
       role: 'assistant',
       content: res.reply,
       format: "markdown",
-      substanceCard: res.substanceCard ?? null
+      substanceCard: res.substanceCard ?? null,
     })
-    
-    counter++
 
+    counter++
   } catch (err) {
     console.log(err)
 
@@ -80,8 +105,8 @@ const submitPrompt = async (text: string): Promise<void> => {
       role: 'assistant',
       content: `ごめんなさい、返答の取得に失敗しました。少し時間をおいてお試しください…`,
       format: "plain",
-      substanceCard: null
-    }) 
+      substanceCard: null,
+    })
 
     counter++
   } finally {
@@ -120,7 +145,9 @@ const submitPrompt = async (text: string): Promise<void> => {
       :role="msg.role"
       :content="msg.content"
       :format="msg.format"
+      :options="msg.options"
       :substance-card="msg.substanceCard"
+      @select-option="submitPrompt"
     />
 
     <!-- ローディング表示 -->

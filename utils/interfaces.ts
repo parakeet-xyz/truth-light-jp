@@ -1,10 +1,16 @@
-type MessageFormat = "html" | "markdown" | "plain";
+export type MessageFormat = "html" | "markdown" | "plain" | "options";
+
+export type YumekawaChatOption = {
+  label: string,
+  value: string,
+}
 
 export interface YumekawaChatMessage {
   id: number;
   role: "user" | "assistant";
   content: string;
   format?: MessageFormat;
+  options?: YumekawaChatOption[]
   substanceCard?: SubstanceCardData | null;
 }
 
