@@ -10,10 +10,32 @@ import { yumekawaChatbotConfig } from "~/utils/yumekawaChatbot.config";
 
 import { findSubstanceInDb } from "~/server/utils/substances/findSubstance"
 
-function toInputMessage(message: { role: "user" | "assistant"; content: string }) {
+function toInputMessage(message: YumekawaChatMessage) {
+  const trimmedContent = message.content.trim();
+  const options = message.options;
+  const hasOptions = Array.isArray(options) && options.length > 0;
+
+  if (!hasOptions) {
+    return {
+      role: message.role,
+      content: trimmedContent,
+    };
+  }
+
+  const serializedOptions = options
+    .map((option, index) => `${index + 1}. ${option.label} (${option.value})`)
+    .join("\n");
+
   return {
     role: message.role,
-    content: message.content,
+    content: `${trimmedContent}\n\n[options]\n${serializedOptions}`,
+  };
+}
+
+function toInputUserMessage(content: string) {
+  return {
+    role: "user" as const,
+    content: content.trim(),
   };
 }
 
@@ -91,7 +113,7 @@ export default defineEventHandler(async (event): Promise<YumekawaChatResponse> =
 
   const input = [
     ...history.map(toInputMessage),
-    toInputMessage({ role: "user", content: body.message.trim() }),
+    toInputUserMessage(body.message),
   ];
 
   const client = new OpenAI({ apiKey });
