@@ -44,6 +44,7 @@ html, body, #__nuxt { height: 100%; }
 
 #__nuxtContent h3 {
   font-weight: 600;
+  font-size: 1.125rem;
   margin-bottom: 1rem;
 }
 
@@ -52,13 +53,26 @@ html, body, #__nuxt { height: 100%; }
   line-height: 1.75rem;
 }
 
-#__nuxtContent article ul {
+#__nuxtContent article strong {
+  font-weight: 600;
+}
+
+#__nuxtContent article ul,
+#__nuxtContent article ol {
   margin-bottom: 1.75rem;
   line-height: 1.75rem;
 }
 
-#__nuxtContent article ul li {
-  list-style: disc inside;
+#__nuxtContent article ul {
+  list-style-type: disc;
+  list-style-position: outside;
+  padding-left: 1.5rem;
+}
+
+#__nuxtContent article ol {
+  list-style-type: decimal;
+  list-style-position: outside;
+  padding-left: 1.5rem;
 }
 
 #__nuxtContent h2 a,

@@ -2,7 +2,7 @@ export default defineAppConfig({
   truthlight: {
     site: {
       name: 'Truth Light',
-      topPageName: 'Truth Light | キリスト × ドラッグ × 回復',
+      topPageName: 'Truth Light | 薬物依存のリカバリー＆ハームリダクション',
       topPageDescription: 'Truth Lightは「日本版Erowid」を目指し、薬物に対する正しい情報と依存症からの回復の道を提供します。',
       ogImage: '/og-default.png'
     },
@@ -38,7 +38,12 @@ export default defineAppConfig({
           marijuana: { type: "link", title: '🥦 マリファナ', to: '/docs/basics/marijuana' },
           ketamine: { type: 'link', title: '🐘 ケタミン/PCP', to: 'docs/basics/ketamine-pcp' },
         },
-        recovery: { type: "link", title: '❤️‍🩹 依存症からの回復', to: '/docs/recovery' },
+        recovery: {
+          type: "menu",
+          title: '❤️‍🩹 依存症からの回復',
+          support: { type: 'link', title: '相談先', to: 'docs/recovery/get-help' },
+          program: { type: 'link', title: '依存症回復プログラム', to: 'docs/recovery/program-for-recover-addiction' },
+        },
         info: {
           type: "menu",
           title: "✝️ イエス・キリスト",
