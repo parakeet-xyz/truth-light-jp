@@ -276,15 +276,9 @@ console.log(sorted)
       </div>
       
       <!-- サブスタンステーブル -->
-<<<<<<< HEAD
-      <div v-else class="mx-4 rounded-lg border border-[#BFC9D1] to-transparent overflow-hidden">
-        <div class="max-h-[80dvh] overflow-y-auto">
-          <table class="w-full table-fixed border-separate border-spacing-0" id="substances-table">
-=======
       <div v-else class="mx-4 rounded-lg border border-[#BFC9D1] overflow-hidden">
         <div class="max-h-[80vh] overflow-y-auto">
           <table class="w-full table-fixed border-collapse border-spacing-0" id="substances-table">
->>>>>>> origin/codex/refactor-contentsubstancestable-code
             <colgroup>
               <col class="w-2/4" />
               <col class="w-1/4 hidden md:table-cell" />
@@ -293,11 +287,7 @@ console.log(sorted)
 
             <thead class="title">
               <tr class="">
-<<<<<<< HEAD
-                <th class="sticky bg-[#e5e7eb] border-b border-white/10 text-slate-400 top-0 text-left pl-6 pt-4 pr-4 pb-4">
-=======
                 <th class="sticky bg-[#DDE4E7] border-b border-white/10 text-slate-400 top-0 text-left pl-6 pt-4 pr-4 pb-4">
->>>>>>> origin/codex/refactor-contentsubstancestable-code
                   <button
                     class="sort-toggle"
                     :class="sortClass('name')"
@@ -309,21 +299,12 @@ console.log(sorted)
                   <input
                     v-model="qName"
                     type="search"
-<<<<<<< HEAD
-                    class="w-full h-7 p-2 bg-[#DDE4E7] rounded-lg"
-                    placeholder="名称/通称で検索"
-                  />
-                </th>
-
-                <th class="sticky bg-[#e5e7eb] border-b border-white/10 text-slate-400 top-0 text-left pl-6 pt-4 pr-4 pb-4">
-=======
                     class="w-full h-7 p-2 bg-[#EAEFEF]rounded-lg"
                     placeholder="検索"
                   />
                 </th>
 
                 <th class="sticky bg-[#DDE4E7] border-b border-white/10 text-slate-400 top-0 text-left pl-6 pt-4 pr-4 pb-4">
->>>>>>> origin/codex/refactor-contentsubstancestable-code
                   <button
                     class="sort-toggle"
                     :class="sortClass('category')"
@@ -335,21 +316,12 @@ console.log(sorted)
                   <input
                     v-model="qCategory"
                     type="search"
-<<<<<<< HEAD
-                    class="w-full h-7 p-2 bg-[#DDE4E7] rounded-lg"
-                    placeholder="カテゴリで検索"
-                  />
-                </th>
-
-                <th class="sticky bg-[#e5e7eb] border-b border-white/10 text-slate-400 top-0 text-left pl-6 pt-4 pr-4 pb-4">
-=======
                     class="w-full h-7 p-2 bg-[#EAEFEF]rounded-lg"
                     placeholder="検索"
                   />
                 </th>
 
                 <th class="sticky bg-[#DDE4E7] border-b border-white/10 text-slate-400 top-0 text-left pl-6 pt-4 pr-4 pb-4">
->>>>>>> origin/codex/refactor-contentsubstancestable-code
                   <button
                     class="sort-toggle"
                     :class="sortClass('legal')"
@@ -379,18 +351,6 @@ console.log(sorted)
                 class="row cursor-pointer group "
                 @click="go(r.id)"
               >
-<<<<<<< HEAD
-                <td class="bg-[#e5e7eb]/30 h-14 border-b border-[#BFC9D1] p-4 break-words group-hover:text-teal-200 group-hover:bg-teal-500/10">
-                  <div class="font-medium">{{ r.commonName }}</div>
-                  <div v-if="r.aliases" class="text-slate-400 text-sm">{{ r.aliases }}</div>
-                </td>
-
-                <td class="hidden md:table-cell bg-[#e5e7eb]/30 border-b border-[#BFC9D1] group-hover:text-teal-200 group-hover:bg-teal-500/10">
-                  {{ r.category }}
-                </td>
-
-                <td class="hidden md:table-cell bg-[#e5e7eb]/30 border-b border-[#BFC9D1] group-hover:text-teal-200 group-hover:bg-teal-500/10">
-=======
                 <td class="bg-[#DDE4E7]/30 border-y border-[#BFC9D1] h-14 p-4 break-words group-hover:border-[#FF9B51] group-hover:text-[#FF9B51] group-hover:bg-[#FF9B51]/10">
                   <div class="font-base custom-font-bold">{{ r.commonName }}</div>
                   <div v-if="r.aliases" class="text-slate-400 text-sm">{{ r.aliases }}</div>
@@ -401,7 +361,6 @@ console.log(sorted)
                 </td>
 
                 <td class="hidden md:table-cell bg-[#DDE4E7]/30 border-y border-[#BFC9D1] group-hover:border-[#FF9B51] group-hover:text-[#FF9B51] group-hover:bg-[#FF9B51]/10">
->>>>>>> origin/codex/refactor-contentsubstancestable-code
                   {{ r.legal }}
                 </td>
               </tr>
@@ -416,11 +375,7 @@ console.log(sorted)
         </div>
       </div>
 
-<<<<<<< HEAD
-      <div v-if="!pending && !error" class="mx-4 mt-2 text-slate-400 text-sm">
-=======
       <div v-if="!pending && !error" class="mx-4 mt-2 text-[#BFC9D1] text-sm">
->>>>>>> origin/codex/refactor-contentsubstancestable-code
         件数: {{ sorted.length }} / {{ rows.length }}
       </div>
     </div>
