@@ -351,16 +351,16 @@ console.log(sorted)
                 class="row cursor-pointer group "
                 @click="go(r.id)"
               >
-                <td class="bg-[#DDE4E7]/30 border-y border-[#BFC9D1] h-14 p-4 break-words group-hover:border-[#FF9B51] group-hover:text-[#FF9B51] group-hover:bg-[#FF9B51]/10">
+                <td class="bg-[#DDE4E7]/30 border-y border-[#BFC9D1] h-14 p-4 break-words group-hover:text-[#FF9B51] group-hover:bg-[#FF9B51]/10">
                   <div class="font-base custom-font-bold">{{ r.commonName }}</div>
                   <div v-if="r.aliases" class="text-slate-400 text-sm">{{ r.aliases }}</div>
                 </td>
 
-                <td class="hidden md:table-cell bg-[#DDE4E7]/30 border-y border-[#BFC9D1] group-hover:border-[#FF9B51] group-hover:text-[#FF9B51] group-hover:bg-[#FF9B51]/10">
+                <td class="hidden md:table-cell bg-[#DDE4E7]/30 border-y border-[#BFC9D1] group-hover:text-[#FF9B51] group-hover:bg-[#FF9B51]/10">
                   {{ r.category }}
                 </td>
 
-                <td class="hidden md:table-cell bg-[#DDE4E7]/30 border-y border-[#BFC9D1] group-hover:border-[#FF9B51] group-hover:text-[#FF9B51] group-hover:bg-[#FF9B51]/10">
+                <td class="hidden md:table-cell bg-[#DDE4E7]/30 border-y border-[#BFC9D1] group-hover:text-[#FF9B51] group-hover:bg-[#FF9B51]/10">
                   {{ r.legal }}
                 </td>
               </tr>
