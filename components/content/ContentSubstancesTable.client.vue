@@ -234,8 +234,9 @@ const filtered = computed<Row[]>(() => {
     ids = ids ? intersect(ids, hit) : hit
   }
 
-  if (!ids) return list
-  return list.filter((r) => ids.has(r.id))
+  const matchedIds = ids
+  if (!matchedIds) return list
+  return list.filter((r) => matchedIds.has(r.id))
 })
 
 const sorted = computed<Row[]>(() => {
