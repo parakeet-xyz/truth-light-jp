@@ -273,10 +273,10 @@ const go = (id: string) => {
         Failed to load: {{ String(error) }}
       </div>
       
-      <!-- Substance Table -->
-      <div v-else class="rounded-3xl border border-white/10 to-transparent overflow-hidden">
+      <!-- サブスタンステーブル -->
+      <div v-else class="mx-4 rounded-lg border border-[#BFC9D1] overflow-hidden">
         <div class="max-h-[80vh] overflow-y-auto">
-          <table class="w-full table-fixed border-separate border-spacing-0" id="substances-table">
+          <table class="w-full table-fixed border-collapse border-spacing-0" id="substances-table">
             <colgroup>
               <col class="w-2/4" />
               <col class="w-1/4 hidden md:table-cell" />
@@ -350,7 +350,7 @@ const go = (id: string) => {
                 class="row cursor-pointer group"
                 @click="go(r.id)"
               >
-                <td class="bg-slate-900/30 border-b border-t border-slate-700/60 h-14 p-4 break-words group-hover:border-teal-500/70 group-hover:text-teal-200 group-hover:bg-teal-500/10">
+                <td class="bg-slate-900/30 border-y border-slate-700/60 h-14 p-4 break-words group-hover:border-teal-500/70 group-hover:text-teal-200 group-hover:bg-teal-500/10">
                   <div class="font-medium">{{ r.commonName }}</div>
                   <div v-if="r.aliases" class="text-slate-400 text-sm">{{ r.aliases }}</div>
                 </td>
@@ -374,7 +374,7 @@ const go = (id: string) => {
         </div>
       </div>
 
-      <div v-if="!pending && !error" class="mt-2 text-slate-400 text-sm">
+      <div v-if="!pending && !error" class="mx-4 mt-2 text-slate-400 text-sm">
         件数: {{ sorted.length }} / {{ rows.length }}
       </div>
     </div>
