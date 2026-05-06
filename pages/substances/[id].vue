@@ -116,7 +116,7 @@
                 <ul class="mb-4 list-disc pl-5 space-y-1">
                   <li>
                     <a :href="substance.external_resources.dosage_duration.url" target="_blank"
-                      class="underline text-slate-300 hover:text-white"
+                      class="underline text-[#25343F] hover:text-white"
                     >
                       外部リンク：{{ substance.external_resources.dosage_duration.label }}
                     </a>
@@ -140,7 +140,7 @@
                     <a :href="substance.external_resources.experiences.url"
                       target="_blank"
                       rel="noreferrer"
-                      class="underline text-slate-300 hover:text-white"
+                      class="underline text-[#25343F] hover:text-white"
                     >
                       外部リンク：{{ substance.external_resources.experiences.label }}
                     </a>
@@ -194,21 +194,21 @@
             <dl class="space-y-3 text-sm">
               <div class="flex gap-3">
                 <dt class="w-28 text-[#25343F]">系統名<sup>[1]</sup></dt>
-                <dd class="flex-1 text-slate-400 break-words">
+                <dd class="flex-1 text-[#25343F] break-words">
                   {{ substance?.systematic_name || "—" }}
                 </dd>
               </div>
 
               <div class="flex gap-3">
                 <dt class="w-28 text-[#25343F]">SMILES<sup>[1]</sup></dt>
-                <dd class="w-28 flex-1 text-slate-400 break-words">
+                <dd class="w-28 flex-1 text-[#25343F] break-words">
                   {{ substance?.identifiers?.smiles || "—" }}
                 </dd>
               </div>
 
               <div class="flex gap-3">
                 <dt class="w-28 text-[#25343F]">カテゴリー</dt>
-                <dd class="flex-1 text-slate-400 break-words">
+                <dd class="flex-1 text-[#25343F]break-words">
                   <span v-for="cat in substance?.categories">
                     {{ cat }},
                   </span>
@@ -217,7 +217,7 @@
 
               <div class="flex gap-3">
                 <dt class="w-28 text-[#25343F]">法規制</dt>
-                <dd class="flex-1 text-slate-400 break-words">
+                <dd class="flex-1 text-[#25343F] break-words">
                   <span class="block">{{ substance?.legal?.jp?.law_category || "—" }}</span>
                   <span v-if="substance?.legal?.jp?.source_link" class="block underline"><a :href="substance?.legal?.jp?.source_link" target="_blank">[一次ソース]</a></span>
                 </dd>
