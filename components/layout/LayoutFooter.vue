@@ -1,8 +1,8 @@
 <template>
-  <!-- サブスタンス検索用 -->
-  <footer v-if="props.variant === `substances`" class="pb-4">
-    <p class="text-[#25343F] text-center">{{ copyright }}</p>
-  </footer>
+    <!-- サブスタンス検索用 -->
+    <footer v-if="props.variant === `substances`" class="">
+        <p class="text-[#25343F] text-center">{{ copyright }}</p>
+    </footer>
 
   <!-- デフォルトページ用 -->
   <footer v-else class="pb-4 bg-[#BFC9D1] border-t border-[#EAEFEF]/20">

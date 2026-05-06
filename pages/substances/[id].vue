@@ -6,10 +6,10 @@
         <div class="text-sm text-slate-400 mb-2">
           <NuxtLink to="/substances" class="hover:underline">Substances</NuxtLink>
           <span class="mx-2">/</span>
-          <span class="text-slate-200">{{ routeId }}</span>
+          <span>{{ routeId }}</span>
         </div>
 
-        <h1 class="text-3xl text-white custom-font-bold leading-tight h-auto">{{ titleJa }}</h1>
+        <h1 class="text-3xl text-[#25343F] custom-font-bold leading-tight h-auto">{{ titleJa }}</h1>
         <p v-if="aliases.length">
           <span v-for="(a, i) in Object.entries(aliases)">
             {{ a[1] }}, 
@@ -17,14 +17,8 @@
         </p>
 
         <div class="mt-3 flex flex-wrap gap-2 text-xs">
-          <span v-if="substance?.id" class="rounded-full border border-teal-600/60 px-3 py-1 text-teal-300">
+          <span v-if="substance?.id" class="rounded-full border border-[#FF9B51] px-3 py-1 bg-[#FF9B51]/10 text-[#FF9B51]">
             ID: {{ substance.id }}
-          </span>
-          <span v-if="substance?.pubchem_cid" class="rounded-full border border-slate-600/60 px-3 py-1 text-slate-200">
-            PubChem CID: {{ substance.pubchem_cid }}
-          </span>
-          <span v-if="substance?.inchikey" class="rounded-full border border-slate-600/60 px-3 py-1 text-slate-200">
-            InChIKey: {{ substance.inchikey }}
           </span>
         </div>
       </header>
@@ -35,10 +29,6 @@
         <p class="mt-2 text-slate-200">
           JSON が見つからなかった：<span class="font-mono">{{ routeId }}</span>
         </p>
-        <p class="mt-4 text-slate-300 text-sm">
-          例：ファイル名が <span class="font-mono">alpha_pvp.json</span> なのに URL が
-          <span class="font-mono">/substances/α-PVP</span> みたいになってるとズレる。
-        </p>
       </div>
 
       <!-- Content -->
@@ -46,8 +36,8 @@
         <!-- Main -->
         <main class="lg:col-span-8 space-y-6">
           <!-- Summary -->
-          <section class="rounded-2xl border border-slate-700/60 bg-slate-900/30 p-6">
-            <h2 class="text-xl text-slate-100 custom-font-bold mb-3">概要</h2>
+          <section class="rounded-2xl border border-[#BFC9D1] bg-[#DDE4E7] p-6">
+            <h2 class="text-xl text-[#25343F] custom-font-bold mb-3">概要</h2>
             <div
               v-if="substance?.summary"
               class="leading-relaxed"
@@ -59,9 +49,9 @@
           <!-- History -->
           <section
             v-if="substance?.history"
-            class="rounded-2xl border border-slate-700/60 bg-slate-900/30 p-6">
+            class="rounded-2xl border border-[#BFC9D1] bg-[#DDE4E7] p-6">
 
-            <h2 class="text-xl text-slate-100 custom-font-bold mb-3">ヒストリー</h2>
+            <h2 class="text-xl text-[#25343F] custom-font-bold mb-3">ヒストリー</h2>
             <div
               class="leading-relaxed"
               v-html="substance.history"
@@ -69,15 +59,15 @@
           </section>
 
           <!-- タブ -->
-          <section class="rounded-2xl border border-slate-700/60 bg-slate-900/30 p-6">
-            <div class="flex flex-wrap gap-2 border-b border-slate-700/60 pb-3 mb-4">
+          <section class="rounded-2xl border border-[#BFC9D1] bg-[#DDE4E7] p-6">
+            <div class="flex flex-wrap gap-2 border-b border-[#BFC9D1] pb-3 mb-4">
               <button
                 v-for="t in tabs"
                 :key="t.key"
                 class="rounded-full px-4 py-1.5 text-sm border transition"
                 :class="activeTab === t.key
-                  ? 'border-teal-600/60 text-teal-300 bg-teal-500/10'
-                  : 'border-slate-700/60 text-slate-200 hover:bg-slate-700/30'"
+                  ? 'border-[#FF9B51] text-[#FF9B51] bg-[#FF9B51]/10'
+                  : 'border-slate-400 text-slate-400 hover:border-[#FF9B51] hover:text-[#FF9B51] hover:bg-[#FF9B51]/10'"
                 @click="activeTab = t.key"
               >
                 {{ t.label }}
@@ -88,7 +78,7 @@
               <template v-if="((substance?.effects?.effects_positive?.length ?? 0) + (substance?.effects?.effects_negative?.length ?? 0)) > 0">
                 <!-- ポジ -->
                 <section v-if="(substance?.effects?.effects_positive?.length ?? 0) > 0" class="mb-6">
-                  <h3 class="text-lg text-slate-100 custom-font-bold mb-2">ポジティブな効果</h3>
+                  <h3 class="text-lg text-[#25343F] custom-font-bold mb-2">ポジティブな効果</h3>
                   <ul class="list-disc pl-5 space-y-1">
                     <li
                       v-for="(ep, i) in (substance?.effects?.effects_positive ?? [])"
@@ -101,7 +91,7 @@
 
                 <!-- ネガ -->
                 <section v-if="(substance?.effects?.effects_negative?.length ?? 0) > 0">
-                  <h3 class="text-lg text-slate-100 custom-font-bold mb-2">ネガティブな効果</h3>
+                  <h3 class="text-lg text-[#25343F] custom-font-bold mb-2">ネガティブな効果</h3>
                   <ul class="list-disc pl-5 space-y-1">
                     <li
                       v-for="(en, i) in (substance?.effects?.effects_negative ?? [])"
@@ -126,7 +116,7 @@
                 <ul class="mb-4 list-disc pl-5 space-y-1">
                   <li>
                     <a :href="substance.external_resources.dosage_duration.url" target="_blank"
-                      class="underline text-slate-300 hover:text-white"
+                      class="underline text-[#25343F] hover:text-white"
                     >
                       外部リンク：{{ substance.external_resources.dosage_duration.label }}
                     </a>
@@ -150,7 +140,7 @@
                     <a :href="substance.external_resources.experiences.url"
                       target="_blank"
                       rel="noreferrer"
-                      class="underline text-slate-300 hover:text-white"
+                      class="underline text-[#25343F] hover:text-white"
                     >
                       外部リンク：{{ substance.external_resources.experiences.label }}
                     </a>
@@ -198,27 +188,27 @@
               <ContentKetcherFrame :smiles="substance?.identifiers?.smiles" />
             </ClientOnly>
           </section>
-          <section class="rounded-2xl border border-slate-700/60 bg-slate-900/30 p-6">
+          <section class="rounded-2xl border border-[#BFC9D1] bg-[#DDE4E7] p-6">
             <h2 class="text-lg custom-font-bold mb-3">基本情報</h2>
 
             <dl class="space-y-3 text-sm">
               <div class="flex gap-3">
-                <dt class="w-28 text-slate-400">系統名<sup>[1]</sup></dt>
-                <dd class="flex-1 text-slate-200 break-words">
+                <dt class="w-28 text-[#25343F]">系統名<sup>[1]</sup></dt>
+                <dd class="flex-1 text-[#25343F] break-words">
                   {{ substance?.systematic_name || "—" }}
                 </dd>
               </div>
 
               <div class="flex gap-3">
-                <dt class="w-28 text-slate-400">SMILES<sup>[1]</sup></dt>
-                <dd class="w-28 flex-1 text-slate-200 break-words">
+                <dt class="w-28 text-[#25343F]">SMILES<sup>[1]</sup></dt>
+                <dd class="w-28 flex-1 text-[#25343F] break-words">
                   {{ substance?.identifiers?.smiles || "—" }}
                 </dd>
               </div>
 
               <div class="flex gap-3">
-                <dt class="w-28 text-slate-400">カテゴリー</dt>
-                <dd class="flex-1 text-slate-200 break-words">
+                <dt class="w-28 text-[#25343F]">カテゴリー</dt>
+                <dd class="flex-1 text-[#25343F]break-words">
                   <span v-for="cat in substance?.categories">
                     {{ cat }},
                   </span>
@@ -226,8 +216,8 @@
               </div>
 
               <div class="flex gap-3">
-                <dt class="w-28 text-slate-400">法規制</dt>
-                <dd class="flex-1 text-slate-200 break-words">
+                <dt class="w-28 text-[#25343F]">法規制</dt>
+                <dd class="flex-1 text-[#25343F] break-words">
                   <span class="block">{{ substance?.legal?.jp?.law_category || "—" }}</span>
                   <span v-if="substance?.legal?.jp?.source_link" class="block underline"><a :href="substance?.legal?.jp?.source_link" target="_blank">[一次ソース]</a></span>
                 </dd>
