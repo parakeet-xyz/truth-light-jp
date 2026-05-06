@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import { computed, onMounted, ref, shallowRef, watch } from "vue"
 import Fuse from "fuse.js"
+import type { IFuseOptions } from "fuse.js"
 import { useRouter } from "vue-router"
 
 type Substance = {
@@ -74,6 +75,8 @@ const error = ref<unknown>(null)
 
 const rows = ref<Row[]>([])
 
+const EMPTY_LEGAL: LegalKey = ""
+
 // 検索（3カラム別）
 const qName = ref("")
 const qCategory = ref("")
@@ -95,9 +98,11 @@ function debounceRef(src: typeof qName, dst: typeof dqName, ms = 150) {
     { immediate: true }
   )
 }
-debounceRef(qName, dqName)
-debounceRef(qCategory, dqCategory)
-debounceRef(qLegal, dqLegal)
+;[
+  [qName, dqName],
+  [qCategory, dqCategory],
+  [qLegal, dqLegal]
+].forEach(([src, dst]) => debounceRef(src, dst))
 
 // Fuse（目的別に3つ作って “積集合” を取る）
 const fuseName = shallowRef<Fuse<Row> | null>(null)
@@ -111,7 +116,7 @@ function buildFuses(list: Row[]) {
     threshold: 0.2,
     ignoreLocation: true,
     minMatchCharLength: 2
-  } satisfies Fuse.IFuseOptions<Row>
+  } satisfies IFuseOptions<Row>
 
   // 名称のFuseオブジェクト
   fuseName.value = new Fuse(list, {
@@ -138,17 +143,27 @@ onMounted(async () => {
     const r = await $fetch.raw("/data/all_substances.json")
     const arr: Substance[] = Array.isArray(r._data) ? r._data : []
 
-    rows.value = arr.map((s) => {
-      const legalVal = s.legal?.jp?.law_category ?? ""
-      return {
-        id: s.id ?? "",
-        commonName: s.common_name ?? s.id ?? "",
-        aliases: (s.aliases ?? []).join(", "),
-        category: (s.categories ?? []).join(", "),
-        legal: legalVal,
-        legalKey: toLegalKey(legalVal)
-      }
-    })
+    rows.value = arr
+      .map((s) => {
+        const id = (s.id ?? "").trim()
+        const commonName = (s.common_name ?? id).trim()
+        const aliases = (s.aliases ?? []).join(", ").trim()
+        const category = (s.categories ?? []).join(", ").trim()
+        const legal = (s.legal?.jp?.law_category ?? "").trim()
+
+        // 空行の原因になるデータを除外
+        if (!id && !commonName && !aliases && !category && !legal) return null
+
+        return {
+          id,
+          commonName,
+          aliases,
+          category,
+          legal,
+          legalKey: toLegalKey(legal)
+        }
+      })
+      .filter((row): row is Row => row !== null)
 
     buildFuses(rows.value)
   } catch (e) {
@@ -192,7 +207,7 @@ const filtered = computed<Row[]>(() => {
 
   const nameQ = dqName.value.trim()
   const catQ = dqCategory.value.trim()
-  const legalQ = dqLegal.value.trim() as LegalKey
+  const legalQ = (dqLegal.value.trim() as LegalKey) || EMPTY_LEGAL
 
   // 何も入ってないなら全件
   if (!nameQ && !catQ && !legalQ) return list
@@ -220,7 +235,7 @@ const filtered = computed<Row[]>(() => {
   }
 
   if (!ids) return list
-  return list.filter((r) => ids!.has(r.id))
+  return list.filter((r) => ids.has(r.id))
 })
 
 const sorted = computed<Row[]>(() => {
