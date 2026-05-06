@@ -285,7 +285,7 @@ const go = (id: string) => {
 
             <thead class="title">
               <tr class="">
-                <th class="sticky bg-slate-900 border-b border-white/10 text-slate-400 top-0 text-left pl-6 pt-4 pr-4 pb-4">
+                <th class="sticky bg-[#DDE4E7] border-b border-white/10 text-slate-400 top-0 text-left pl-6 pt-4 pr-4 pb-4">
                   <button
                     class="sort-toggle"
                     :class="sortClass('name')"
@@ -297,12 +297,12 @@ const go = (id: string) => {
                   <input
                     v-model="qName"
                     type="search"
-                    class="w-full h-7 p-2 bg-slate-700 rounded-lg"
-                    placeholder="名称/通称で検索"
+                    class="w-full h-7 p-2 bg-[#EAEFEF]rounded-lg"
+                    placeholder="検索"
                   />
                 </th>
 
-                <th class="sticky bg-slate-900 border-b border-white/10 text-slate-400 top-0 text-left pl-6 pt-4 pr-4 pb-4">
+                <th class="sticky bg-[#DDE4E7] border-b border-white/10 text-slate-400 top-0 text-left pl-6 pt-4 pr-4 pb-4">
                   <button
                     class="sort-toggle"
                     :class="sortClass('category')"
@@ -314,12 +314,12 @@ const go = (id: string) => {
                   <input
                     v-model="qCategory"
                     type="search"
-                    class="w-full h-7 p-2 bg-slate-700 rounded-lg"
-                    placeholder="カテゴリで検索"
+                    class="w-full h-7 p-2 bg-[#EAEFEF]rounded-lg"
+                    placeholder="検索"
                   />
                 </th>
 
-                <th class="sticky bg-slate-900 border-b border-white/10 text-slate-400 top-0 text-left pl-6 pt-4 pr-4 pb-4">
+                <th class="sticky bg-[#DDE4E7] border-b border-white/10 text-slate-400 top-0 text-left pl-6 pt-4 pr-4 pb-4">
                   <button
                     class="sort-toggle"
                     :class="sortClass('legal')"
@@ -329,7 +329,7 @@ const go = (id: string) => {
                   </button>
                   <br />
                   <label>
-                    <select v-model="qLegal" name="drug" class="w-full pl-2 h-7 text-slate-400 bg-slate-700 rounded-lg">
+                    <select v-model="qLegal" name="drug" class="w-full pl-2 h-7 text-slate-400 bg-[#EAEFEF]rounded-lg">
                       <option value="">選択...</option>
                       <option value="narcotics">麻薬</option>
                       <option value="schedule-1">向1種</option>
@@ -350,16 +350,16 @@ const go = (id: string) => {
                 class="row cursor-pointer group"
                 @click="go(r.id)"
               >
-                <td class="bg-slate-900/30 border-y border-slate-700/60 h-14 p-4 break-words group-hover:border-teal-500/70 group-hover:text-teal-200 group-hover:bg-teal-500/10">
-                  <div class="font-medium">{{ r.commonName }}</div>
+                <td class="bg-[#DDE4E7]/30 border-y border-[#BFC9D1] h-14 p-4 break-words group-hover:border-[#FF9B51] group-hover:text-[#FF9B51] group-hover:bg-[#FF9B51]/10">
+                  <div class="font-base custom-font-bold">{{ r.commonName }}</div>
                   <div v-if="r.aliases" class="text-slate-400 text-sm">{{ r.aliases }}</div>
                 </td>
 
-                <td class="hidden md:table-cell bg-slate-900/30 border-b border-t border-slate-700/60 group-hover:border-teal-500/70 group-hover:text-teal-200 group-hover:bg-teal-500/10">
+                <td class="hidden md:table-cell bg-[#DDE4E7]/30 border-y border-[#BFC9D1] group-hover:border-[#FF9B51] group-hover:text-[#FF9B51] group-hover:bg-[#FF9B51]/10">
                   {{ r.category }}
                 </td>
 
-                <td class="hidden md:table-cell bg-slate-900/30 border-b border-t border-slate-700/60 group-hover:border-teal-500/70 group-hover:text-teal-200 group-hover:bg-teal-500/10">
+                <td class="hidden md:table-cell bg-[#DDE4E7]/30 border-y border-[#BFC9D1] group-hover:border-[#FF9B51] group-hover:text-[#FF9B51] group-hover:bg-[#FF9B51]/10">
                   {{ r.legal }}
                 </td>
               </tr>
@@ -374,7 +374,7 @@ const go = (id: string) => {
         </div>
       </div>
 
-      <div v-if="!pending && !error" class="mx-4 mt-2 text-slate-400 text-sm">
+      <div v-if="!pending && !error" class="mx-4 mt-2 text-[#BFC9D1] text-sm">
         件数: {{ sorted.length }} / {{ rows.length }}
       </div>
     </div>
