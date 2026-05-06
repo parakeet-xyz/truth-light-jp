@@ -243,6 +243,8 @@ const go = (id: string) => {
   if (!id) return
   router.push(`/substances/${encodeURIComponent(id)}`)
 }
+
+console.log(sorted)
 </script>
 
 <template>
@@ -250,16 +252,16 @@ const go = (id: string) => {
     <div class="h-full min-h-0 overflow-y-auto">
 
       <!-- JSONデータ読み込み中 -->
-      <div v-if="pending">Loading...</div>
+      <div v-if="pending">ロード中...</div>
 
       <!-- JSONデータ読み込み失敗 -->
       <div v-else-if="error" class="text-red-500">
-        Failed to load: {{ String(error) }}
+        ロードに失敗: {{ String(error) }}
       </div>
       
-      <!-- Substance Table -->
-      <div v-else class="rounded-3xl border border-white/10 to-transparent overflow-hidden">
-        <div class="max-h-[80vh] overflow-y-auto">
+      <!-- サブスタンステーブル -->
+      <div v-else class="mx-4 rounded-lg border border-[#BFC9D1] to-transparent overflow-hidden">
+        <div class="max-h-[80dvh] overflow-y-auto">
           <table class="w-full table-fixed border-separate border-spacing-0" id="substances-table">
             <colgroup>
               <col class="w-2/4" />
@@ -269,7 +271,7 @@ const go = (id: string) => {
 
             <thead class="title">
               <tr class="">
-                <th class="sticky bg-slate-900 border-b border-white/10 text-slate-400 top-0 text-left pl-6 pt-4 pr-4 pb-4">
+                <th class="sticky bg-[#e5e7eb] border-b border-white/10 text-slate-400 top-0 text-left pl-6 pt-4 pr-4 pb-4">
                   <button
                     class="sort-toggle"
                     :class="sortClass('name')"
@@ -281,12 +283,12 @@ const go = (id: string) => {
                   <input
                     v-model="qName"
                     type="search"
-                    class="w-full h-7 p-2 bg-slate-700 rounded-lg"
+                    class="w-full h-7 p-2 bg-[#DDE4E7] rounded-lg"
                     placeholder="名称/通称で検索"
                   />
                 </th>
 
-                <th class="sticky bg-slate-900 border-b border-white/10 text-slate-400 top-0 text-left pl-6 pt-4 pr-4 pb-4">
+                <th class="sticky bg-[#e5e7eb] border-b border-white/10 text-slate-400 top-0 text-left pl-6 pt-4 pr-4 pb-4">
                   <button
                     class="sort-toggle"
                     :class="sortClass('category')"
@@ -298,12 +300,12 @@ const go = (id: string) => {
                   <input
                     v-model="qCategory"
                     type="search"
-                    class="w-full h-7 p-2 bg-slate-700 rounded-lg"
+                    class="w-full h-7 p-2 bg-[#DDE4E7] rounded-lg"
                     placeholder="カテゴリで検索"
                   />
                 </th>
 
-                <th class="sticky bg-slate-900 border-b border-white/10 text-slate-400 top-0 text-left pl-6 pt-4 pr-4 pb-4">
+                <th class="sticky bg-[#e5e7eb] border-b border-white/10 text-slate-400 top-0 text-left pl-6 pt-4 pr-4 pb-4">
                   <button
                     class="sort-toggle"
                     :class="sortClass('legal')"
@@ -313,7 +315,7 @@ const go = (id: string) => {
                   </button>
                   <br />
                   <label>
-                    <select v-model="qLegal" name="drug" class="w-full pl-2 h-7 text-slate-400 bg-slate-700 rounded-lg">
+                    <select v-model="qLegal" name="drug" class="w-full pl-2 h-7 text-slate-400 bg-[#DDE4E7] rounded-lg">
                       <option value="">選択...</option>
                       <option value="narcotics">麻薬</option>
                       <option value="schedule-1">向1種</option>
@@ -326,24 +328,23 @@ const go = (id: string) => {
                 </th>
               </tr>
             </thead>
-
-            <tbody>
+            <tbody class="">
               <tr
                 v-for="r in sorted"
                 :key="r.id"
-                class="row cursor-pointer group"
+                class="row cursor-pointer group "
                 @click="go(r.id)"
               >
-                <td class="bg-slate-900/30 border-b border-t border-slate-700/60 h-14 p-4 break-words group-hover:border-teal-500/70 group-hover:text-teal-200 group-hover:bg-teal-500/10">
+                <td class="bg-[#e5e7eb]/30 h-14 border-b border-[#BFC9D1] p-4 break-words group-hover:text-teal-200 group-hover:bg-teal-500/10">
                   <div class="font-medium">{{ r.commonName }}</div>
                   <div v-if="r.aliases" class="text-slate-400 text-sm">{{ r.aliases }}</div>
                 </td>
 
-                <td class="hidden md:table-cell bg-slate-900/30 border-b border-t border-slate-700/60 group-hover:border-teal-500/70 group-hover:text-teal-200 group-hover:bg-teal-500/10">
+                <td class="hidden md:table-cell bg-[#e5e7eb]/30 border-b border-[#BFC9D1] group-hover:text-teal-200 group-hover:bg-teal-500/10">
                   {{ r.category }}
                 </td>
 
-                <td class="hidden md:table-cell bg-slate-900/30 border-b border-t border-slate-700/60 group-hover:border-teal-500/70 group-hover:text-teal-200 group-hover:bg-teal-500/10">
+                <td class="hidden md:table-cell bg-[#e5e7eb]/30 border-b border-[#BFC9D1] group-hover:text-teal-200 group-hover:bg-teal-500/10">
                   {{ r.legal }}
                 </td>
               </tr>
@@ -358,7 +359,7 @@ const go = (id: string) => {
         </div>
       </div>
 
-      <div v-if="!pending && !error" class="mt-2 text-slate-400 text-sm">
+      <div v-if="!pending && !error" class="mx-4 mt-2 text-slate-400 text-sm">
         件数: {{ sorted.length }} / {{ rows.length }}
       </div>
     </div>
