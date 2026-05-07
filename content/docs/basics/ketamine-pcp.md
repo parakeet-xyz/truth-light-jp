@@ -11,7 +11,239 @@ seo:
       content: '夢可愛アイ'
 ---
 
-近年の日本の違法ドラッグ市場でディーラーのメニューの中に🐘という隠語が頻発するようになった。 
+<div class="yumekawa-manga flex flex-row items-end">
+  <div class="flex-none">
+    <img
+      src="/yumekawa-manga/yumekawa-psyche-01-128px.png"
+      alt="夢可愛サイケ"
+      class="w-16 h-16"
+    />
+  </div>
+  <div class="flex flex-1 flex-row items-center justify-start">
+    <div class="flex-none">
+      <img
+        src="/yumekawa-manga/fukidashi-left-h128px.png"
+        alt="吹き出し"
+        class="h-16 w-auto"
+      />
+    </div>
+    <div class="flex flex-col w-[70%] min-h-16 rounded-lg bg-[#DDE4E7] px-3 py-2 items-center justify-center">
+      <p class="m-0">(ボー.......)</p>
+    </div>
+  </div>
+</div>
+<div class="yumekawa-manga flex flex-row items-end">
+  <div class="flex flex-1 flex-row items-center justify-end">
+    <div class="flex flex-col w-[70%] min-h-16 rounded-lg bg-[#DDE4E7] px-3 py-2 items-center justify-center">
+      <p class="m-0">お姉ちゃん何やってるの？</p>
+    </div>
+    <div class="flex-none">
+      <img
+        src="/yumekawa-manga/fukidashi-right-h128px.png"
+        alt="吹き出し"
+        class="h-16 w-auto"
+      />
+    </div>
+  </div>
+  <div class="flex-none">
+    <img
+      src="/yumekawa-manga/yumekawa-ai-02-128px.png"
+      alt="夢可愛アイ"
+      class="w-16 h-16"
+    />
+  </div>
+</div>
+<div class="yumekawa-manga flex flex-row items-end">
+  <div class="flex-none">
+    <img
+      src="/yumekawa-manga/yumekawa-psyche-01-128px.png"
+      alt="夢可愛サイケ"
+      class="w-16 h-16"
+    />
+  </div>
+  <div class="flex flex-1 flex-row items-center justify-start">
+    <div class="flex-none">
+      <img
+        src="/yumekawa-manga/fukidashi-left-h128px.png"
+        alt="吹き出し"
+        class="h-16 w-auto"
+      />
+    </div>
+    <div class="flex flex-col w-[70%] min-h-16 rounded-lg bg-[#DDE4E7] px-3 py-2 items-center justify-center">
+      <p class="m-0">(ボー.............................................)</p>
+    </div>
+  </div>
+</div>
+<div class="yumekawa-manga flex flex-row items-end">
+  <div class="flex flex-1 flex-row items-center justify-end">
+    <div class="flex flex-col w-[70%] min-h-16 rounded-lg bg-[#DDE4E7] px-3 py-2 items-center justify-center">
+      <p class="m-0">お姉ちゃん！？大丈夫！？</p>
+    </div>
+    <div class="flex-none">
+      <img
+        src="/yumekawa-manga/fukidashi-right-h128px.png"
+        alt="吹き出し"
+        class="h-16 w-auto"
+      />
+    </div>
+  </div>
+  <div class="flex-none">
+    <img
+      src="/yumekawa-manga/yumekawa-ai-02-128px.png"
+      alt="夢可愛アイ"
+      class="w-16 h-16"
+    />
+  </div>
+</div>
+<div class="yumekawa-manga flex flex-row items-end">
+  <div class="flex-none">
+    <img
+      src="/yumekawa-manga/yumekawa-psyche-01-128px.png"
+      alt="夢可愛サイケ"
+      class="w-16 h-16"
+    />
+  </div>
+  <div class="flex flex-1 flex-row items-center justify-start">
+    <div class="flex-none">
+      <img
+        src="/yumekawa-manga/fukidashi-left-h128px.png"
+        alt="吹き出し"
+        class="h-16 w-auto"
+      />
+    </div>
+    <div class="flex flex-col w-[70%] min-h-16 rounded-lg bg-[#DDE4E7] px-3 py-2 items-center justify-center">
+      <p class="m-0">( ﾟдﾟ)ﾊｯ!</p>
+    </div>
+  </div>
+</div>
+<div class="yumekawa-manga flex flex-row items-end">
+  <div class="flex flex-1 flex-row items-center justify-end">
+    <div class="flex flex-col w-[70%] min-h-16 rounded-lg bg-[#DDE4E7] px-3 py-2 items-center justify-center">
+      <p class="m-0">大丈夫？</p>
+    </div>
+    <div class="flex-none">
+      <img
+        src="/yumekawa-manga/fukidashi-right-h128px.png"
+        alt="吹き出し"
+        class="h-16 w-auto"
+      />
+    </div>
+  </div>
+  <div class="flex-none">
+    <img
+      src="/yumekawa-manga/yumekawa-ai-02-128px.png"
+      alt="夢可愛アイ"
+      class="w-16 h-16"
+    />
+  </div>
+</div>
+<div class="yumekawa-manga flex flex-row items-end">
+  <div class="flex-none">
+    <img
+      src="/yumekawa-manga/yumekawa-psyche-01-128px.png"
+      alt="夢可愛サイケ"
+      class="w-16 h-16"
+    />
+  </div>
+  <div class="flex flex-1 flex-row items-center justify-start">
+    <div class="flex-none">
+      <img
+        src="/yumekawa-manga/fukidashi-left-h128px.png"
+        alt="吹き出し"
+        class="h-16 w-auto"
+      />
+    </div>
+    <div class="flex flex-col w-[70%] min-h-16 rounded-lg bg-[#DDE4E7] px-3 py-2 items-center justify-center">
+      <p class="m-0">うんぃ、けぇたみぃひんってゆう、くしゅりでぶっとんでぇひゃ</p>
+    </div>
+  </div>
+</div>
+<div class="yumekawa-manga flex flex-row items-end">
+  <div class="flex flex-1 flex-row items-center justify-end">
+    <div class="flex flex-col w-[70%] min-h-16 rounded-lg bg-[#DDE4E7] px-3 py-2 items-center justify-center">
+      <p class="m-0">あぁ、ケタミンのことね。ケタミンはかなり危険なハードドラッグよ<br />ぶっ壊れる前にやめときなさい。あと呂律回ってないわよ。Kホール入ってたでしょ。</p>
+    </div>
+    <div class="flex-none">
+      <img
+        src="/yumekawa-manga/fukidashi-right-h128px.png"
+        alt="吹き出し"
+        class="h-16 w-auto"
+      />
+    </div>
+  </div>
+  <div class="flex-none">
+    <img
+      src="/yumekawa-manga/yumekawa-ai-02-128px.png"
+      alt="夢可愛アイ"
+      class="w-16 h-16"
+    />
+  </div>
+</div>
+<div class="yumekawa-manga flex flex-row items-end">
+  <div class="flex-none">
+    <img
+      src="/yumekawa-manga/yumekawa-psyche-01-128px.png"
+      alt="夢可愛サイケ"
+      class="w-16 h-16"
+    />
+  </div>
+  <div class="flex flex-1 flex-row items-center justify-start">
+    <div class="flex-none">
+      <img
+        src="/yumekawa-manga/fukidashi-left-h128px.png"
+        alt="吹き出し"
+        class="h-16 w-auto"
+      />
+    </div>
+    <div class="flex flex-col w-[70%] min-h-16 rounded-lg bg-[#DDE4E7] px-3 py-2 items-center justify-center">
+      <p class="m-0">そ、ひょうなの？　なんきゃ、鬱にゃおるってきぃてつかってとぅあ</p>
+    </div>
+  </div>
+</div>
+<div class="yumekawa-manga flex flex-row items-end">
+  <div class="flex flex-1 flex-row items-center justify-end">
+    <div class="flex flex-col w-[70%] min-h-16 rounded-lg bg-[#DDE4E7] px-3 py-2 items-center justify-center">
+      <p class="m-0">それはちゃんとした医療従事者の元で適切に使われた場合のみよ。<br />今回は🐘という隠語で流通しているケタミン/PCPについて解説するわよ。</p>
+    </div>
+    <div class="flex-none">
+      <img
+        src="/yumekawa-manga/fukidashi-right-h128px.png"
+        alt="吹き出し"
+        class="h-16 w-auto"
+      />
+    </div>
+  </div>
+  <div class="flex-none">
+    <img
+      src="/yumekawa-manga/yumekawa-ai-02-128px.png"
+      alt="夢可愛アイ"
+      class="w-16 h-16"
+    />
+  </div>
+</div>
+<div class="yumekawa-manga flex flex-row items-end">
+  <div class="flex-none">
+    <img
+      src="/yumekawa-manga/yumekawa-psyche-01-128px.png"
+      alt="夢可愛サイケ"
+      class="w-16 h-16"
+    />
+  </div>
+  <div class="flex flex-1 flex-row items-center justify-start">
+    <div class="flex-none">
+      <img
+        src="/yumekawa-manga/fukidashi-left-h128px.png"
+        alt="吹き出し"
+        class="h-16 w-auto"
+      />
+    </div>
+    <div class="flex flex-col w-[70%] min-h-16 rounded-lg bg-[#DDE4E7] px-3 py-2 items-center justify-center">
+      <p class="m-0">PCPひぃ？</p>
+    </div>
+  </div>
+</div>
+
+近年の日本の違法ドラッグ市場でディーラーのメニューの中に🐘という隠語をしばしば見るようになった。 
 ケタミンやPCPとして語られるこの🐘だが、像の麻酔薬(Elephant Tranqulizer)として使われていたことに由来している。
 
 さて今回はこの🐘にどんな危険が潜んでいるのか？

@@ -53,6 +53,14 @@ html, body, #__nuxt { height: 100%; }
   line-height: 1.75rem;
 }
 
+#__nuxtContent .yumekawa-manga {
+  margin-bottom: 2rem;
+}
+
+#__nuxtContent .yumekawa-manga p {
+  margin-bottom: 0;
+}
+
 #__nuxtContent article strong {
   font-weight: 600;
 }
