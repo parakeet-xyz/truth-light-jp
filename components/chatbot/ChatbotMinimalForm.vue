@@ -76,7 +76,14 @@ const submitPrompt = async (text: string): Promise<void> => {
 
   const req: YumekawaChatRequest = {
     message: trimmedText,
-    history: msgs.value,
+    history: msgs.value.map((msg) => ({
+      id: msg.id,
+      role: msg.role,
+      content: msg.content,
+      format: msg.format,
+      options: msg.options,
+      substanceCard: msg.substanceCard,
+    })),
   }
 
   try {
