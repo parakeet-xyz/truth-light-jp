@@ -1,0 +1,46 @@
+{
+  "last_modified": "2026-05-10",
+  "id": "cathinone",
+  "common_name": "Cathinone",
+  "systematic_name": "2-amino-1-phenylpropan-1-one",
+  "aliases": [
+    "カチノン",
+    "Ephedrane",
+    "カート",
+    "Khat",
+    "Chat",
+    "Quat",
+    "Cath",
+    "二―アミノプロピオフェノン及びその塩類"
+  ],
+  "identifiers": {
+    "pubchem_cid": "107786",
+    "inchi_key": "PUAQLLVFLMYYJJ-UHFFFAOYSA-N",
+    "smiles": "CC(C(=O)C1=CC=CC=C1)N"
+  },
+  "categories": ["中枢神経刺激薬"],
+  "legal": {
+    "jp": {
+      "law_number": "",
+      "law_category": "麻薬",
+      "official_name": "二―アミノプロピオフェノン及びその塩類",
+      "effective_date": "",
+      "source_link": "https://laws.e-gov.go.jp/law/402CO0000000238/"
+    }
+  },
+  "summary": "Cathinone（カチノン）は、Khat（Catha edulis）に含まれる天然の中枢神経刺激性アルカロイドであり、化学的には amphetamine の β-keto 類縁体である。覚醒感・多幸感・血圧上昇など amphetamine 様の作用を示すが、効力は amphetamine より低いとされる。合成カチノン類は、この cathinone 骨格をもとに置換基を変化させた一群の化合物である。",
+  "effects": {
+    "effects_positive": [],
+    "effects_negative": []
+  },
+  "external_resources": {
+    "experiences": {
+      "label": "",
+      "url": ""
+    },
+    "dosage_duration": {
+      "label": "",
+      "url": ""
+    }
+  }
+}

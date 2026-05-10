@@ -1,33 +1,18 @@
 {
+  "last_modified": "2026-05-10",
   "id": "2-eapb",
   "common_name": "2-EAPB",
   "systematic name": "1-(1-benzofuran-2-yl)-N-ethylpropan-2-amine",
   "aliases": [
     "2-EAPB",
-    "2-(2-(Ethylamino)propyl)benzofuran",
-    "857PLD0E6R",
-    "UNII-857PLD0E6R",
-    "J3.314.551I",
-    "2-Benzofuranethanamine, N-ethyl-alpha-methyl-",
-    "2-Benzofuranethylamine, N-ethyl-alpha-methyl-",
-    "2-BENZOFURANETHANAMINE, N-ETHYL-.ALPHA.-METHYL-",
-    "2-BENZOFURANETHYLAMINE, N-ETHYL-.ALPHA.-METHYL-",
-    "RefChem:197550",
-    "SCHEMBL30457823",
-    "SCHEMBL30458044",
-    "2-(2-ethylaminopropyl)benzofuran",
-    "DTXSID701342729",
-    "1-(1-Benzofuran-2-yl)-N-ethylpropan-2-amine",
-    "Q27269603"
+    "2-(2-(Ethylamino)propyl)benzofuran"
   ],
   "identifiers": {
     "pubchem_cid": "102144589",
     "inchi_key": "SGGKRTSTBXBERJ-UHFFFAOYSA-N",
-    "smiles": "",
-    "inchikey": "SGGKRTSTBXBERJ-UHFFFAOYSA-N",
-    "pubchemCID": "102144589"
+    "smiles": "CCNC(C)CC1=CC2=CC=CC=C2O1"
   },
-  "categories": [],
+  "categories": ["異性体", "ベンゾフラン系"],
   "legal": {
     "jp": {
       "law_number": "",
@@ -37,7 +22,7 @@
       "source_link": "https://laws.e-gov.go.jp/law/419M60000100014"
     }
   },
-  "summary": "",
+  "summary": "2-EAPBは2-APBの窒素原子にエチル基が付与された6-EAPB(BenzoFury)・5-EAPBの異性体である",
   "history": "",
   "effects": {
     "effects_positive": [],

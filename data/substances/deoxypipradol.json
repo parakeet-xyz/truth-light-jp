@@ -1,0 +1,49 @@
+{
+  "last_modified": "2026-05-10",
+  "id": "deoxypipradol",
+  "common_name": "Deoxypipradol",
+  "systematic name": "2-benzhydrylpiperidine",
+  "aliases": [
+    "2-DPMP",
+    "2-benzhydrylpiperidine",
+    "Desoxypipradrol",
+    "2-diphenylmethylpiperidine"
+  ],
+  "identifiers": {
+    "pubchem_cid": "160506",
+    "inchi_key": "RWTNXJXZVGHMGI-UHFFFAOYSA-N",
+    "smiles": "C1CCNC(C1)C(C2=CC=CC=C2)C3=CC=CC=C3"
+  },
+  "categories": ["中枢神経刺激薬"],
+  "legal": {
+    "jp": {
+      "law_number": "",
+      "law_category": "指定薬物",
+      "official_name": "２－（ジフェニルメチル）ピペリジン及びその塩類",
+      "effective_date": "2016/04/08",
+      "source_link": "https://laws.e-gov.go.jp/law/419M60000100014"
+    }
+  },
+  "summary": "2-diphenylmethylpiperidine(2-DPMP)は長時間作用型のNDRIである。構造はPiperadolやMethylphenidateに類似しているが親水性の置換基を持たないためこれらの物質よりも長い半減期を持つ。DATとNETに対するIC50は70nMと140nMである。",
+  "history": "",
+  "effects": {
+    "effects_positive": [],
+    "effects_negative": []
+  },
+  "external_resources": {
+    "experiences": {
+      "label": "Desoxypipradrol (also 2-DPMP) : Erowid Exp: Main Index",
+      "url": "https://erowid.org/experiences/subs/exp_Desoxypipradrol.shtml"
+    },
+    "dosage_duration": {
+      "label": "2-DPMP | Tripsit.me",
+      "url": "https://tripsit.me/factsheets/2-DPMP"
+    }
+  },
+  "refs": [
+    "https://pubchem.ncbi.nlm.nih.gov/compound/160506",
+    "https://smw.ch/index.php/smw/article/download/1812/2508"
+  ],
+  "molecular_formula": "C18H21N",
+  "molecular_weight": "251.4"
+}
