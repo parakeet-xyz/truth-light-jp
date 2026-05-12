@@ -27,8 +27,6 @@
       "inchi_key": "SVRFNPSJPIDUBC-DYESRHJHSA-N",
       "smiles": "CCCC(=O)N1C=C2C[C@@H]3C(=C[C@H](CN3C)C(=O)N(CC)CC)C4=C2C1=CC=C4"
     },
-    "pubchemCid": "145875086",
-    "inchiKey": "SVRFNPSJPIDUBC-DYESRHJHSA-N",
     "summary": "Lazard Labsが開発したLSDアナログ。<br/>LSD同様の幻覚作用があるとされるが力価はLSD-25の1/7とされている。<br/>代謝には主にCYP3A4とCYP2D6が関与している。<sup>[2]</sup>",
     "history": "",
     "effects": {
@@ -116,8 +114,6 @@
       "inchi_key": "GVGINGNTVRBWSQ-XMMPIXPASA-N",
       "smiles": "CCN(CC)C(=O)[C]1CN(C)[C@@H]2Cc3cn(C(=O)c4ccccc4)c5cccc(C2=C1)c35"
     },
-    "pubchemCid": "",
-    "inchiKey": "GVGINGNTVRBWSQ-XMMPIXPASA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -163,8 +159,6 @@
       "inchi_key": "VSABTUDYQCMWKE-AUSIDOKSSA-N",
       "smiles": "CCN(CC)C(=O)[C@H]1CN([C@@H]2CC3=CN(C4=CC=CC(=C34)C2=C1)C(=O)C5CC5)CC=C"
     },
-    "pubchemCid": "162368406",
-    "inchiKey": "VSABTUDYQCMWKE-AUSIDOKSSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -212,8 +206,6 @@
       "inchi_key": "RAFUPYYDHPFASC-DYESRHJHSA-N",
       "smiles": "CCN(CC)C(=O)[C@H]1CN([C@@H]2CC3=CN(C4=CC=CC(=C34)C2=C1)C(=O)C5CC5)CC=C"
     },
-    "pubchemCid": "155884675",
-    "inchiKey": "RAFUPYYDHPFASC-DYESRHJHSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -261,8 +253,6 @@
       "inchi_key": "DBIYDHUGEKMIHZ-DYESRHJHSA-N",
       "smiles": "170763684"
     },
-    "pubchemCid": "170763684",
-    "inchiKey": "DBIYDHUGEKMIHZ-DYESRHJHSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -311,8 +301,6 @@
       "inchi_key": "IIOLYFVNUDARGZ-CHOFETAFSA-N",
       "smiles": "CCN(C([C@H]1CN(C)[C@]2([H])Cc3c4c(C2=C1)cccc4n(C(c5ccc[cH-]5)=O)c3)=O)CC.c6[cH-]ccc6.[Fe+2]"
     },
-    "pubchemCid": "",
-    "inchiKey": "IIOLYFVNUDARGZ-CHOFETAFSA-N",
     "summary": "LSDのプロドラッグ。2024年にLizard Labsが特許を取得。2025年11月ごろドイツでNPSとして販売が確認された。",
     "history": "",
     "effects": {
@@ -361,8 +349,6 @@
       "inchi_key": "JSMQOVGXBIDBIE-OXQOHEQNSA-N",
       "smiles": "CCC(=O)N1C=C2C[C@@H]3C(=C[C@H](CN3C)C(=O)N(CC)CC)C4=C2C1=CC=C4"
     },
-    "pubchemCid": "119025985",
-    "inchiKey": "JSMQOVGXBIDBIE-OXQOHEQNSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -412,8 +398,6 @@
       "inchi_key": "RYNRSMKGPSUXLC-AUSIDOKSSA-N",
       "smiles": "CCN(CC)C(=O)[C@H]1CN([C@@H]2CC3=CN(C4=CC=CC(=C34)C2=C1)C(=O)CC[Si](C)(C)C)C"
     },
-    "pubchemCid": "172875719",
-    "inchiKey": "RYNRSMKGPSUXLC-AUSIDOKSSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -459,8 +443,6 @@
       "inchi_key": "",
       "smiles": "O=C(n1cc2C[C@H]3N(C[C@@H](C=C3c3cccc1c32)C(=O)N(CC)CC)CC=C)c1sccc1"
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -507,8 +489,6 @@
       "inchi_key": "UKYJDWQKFQDRRX-DYESRHJHSA-N",
       "smiles": "CCN(CC)C(=O)[C@H]1CN([C@@H]2CC3=CN(C4=CC=CC(=C34)C2=C1)C(=O)C5=CC=CS5)C"
     },
-    "pubchemCid": "170763788",
-    "inchiKey": "UKYJDWQKFQDRRX-DYESRHJHSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -556,8 +536,6 @@
       "inchi_key": "GIIBVGJWUZNECE-XMSQKQJNSA-N",
       "smiles": "CCCCC(=O)N1C=C2C[C@@H]3C(=C[C@H](CN3C)C(=O)N(CC)CC)C4=C2C1=CC=C4"
     },
-    "pubchemCid": "162368540",
-    "inchiKey": "GIIBVGJWUZNECE-XMSQKQJNSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -606,8 +584,6 @@
       "inchi_key": "ACRITBNCBMTINK-UHFFFAOYSA-N",
       "smiles": "CC(CC1=CC(=C(C=C1OC)Cl)OC)N"
     },
-    "pubchemCid": "542036",
-    "inchiKey": "ACRITBNCBMTINK-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -647,8 +623,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -677,7 +651,9 @@
       "2-Aminoindane",
       "Indan-2-amine"
     ],
-    "categories": [],
+    "categories": [
+      "中枢神経刺激薬"
+    ],
     "legal": {
       "jp": {
         "law_number": "",
@@ -690,11 +666,9 @@
     "identifiers": {
       "pubchem_cid": "76310",
       "inchi_key": "LMHHFZAXSANGGM-UHFFFAOYSA-N",
-      "smiles": ""
+      "smiles": "C1C(CC2=CC=CC=C21)N"
     },
-    "pubchemCid": "76310",
-    "inchiKey": "LMHHFZAXSANGGM-UHFFFAOYSA-N",
-    "summary": "",
+    "summary": "<p>2-Aminoindane（2-AI）は、インダン骨格を持つ合成アミノインダン系／シクロ化フェネチルアミン系の中枢刺激薬である。主にNET・DAT基質としてNE/DA放出に作用し、放出EC50はNET 86±13 nM、DAT 439±38 nM、SERT >10,000 nMで、セロトニン性は弱い。類縁体にはMDAI、5-IAI、NM-2-AI、MEAIなどがあり、天然アルカロイドではなく植物由来ではない。</p>",
     "history": "",
     "effects": {
       "effects_positive": [],
@@ -715,59 +689,17 @@
     ]
   },
   {
-    "id": "2-aminopropiophenone",
-    "name": "二―アミノプロピオフェノン及びその塩類",
-    "common_name": "二―アミノプロピオフェノン及びその塩類",
-    "systematic_name": "2-aminopropiophenone",
-    "aliases": [
-      "二―アミノプロピオフェノン及びその塩類"
-    ],
-    "categories": [],
-    "legal": {
-      "jp": {
-        "law_number": "",
-        "law_category": "麻薬",
-        "official_name": "二―アミノプロピオフェノン及びその塩類",
-        "effective_date": "",
-        "source_link": "https://laws.e-gov.go.jp/law/402CO0000000238/"
-      }
-    },
-    "identifiers": {
-      "pubchem_cid": "",
-      "inchi_key": "",
-      "smiles": ""
-    },
-    "pubchemCid": "",
-    "inchiKey": "",
-    "summary": "",
-    "history": "",
-    "effects": {
-      "effects_positive": [],
-      "effects_negative": []
-    },
-    "external_resources": {
-      "experiences": {
-        "label": "",
-        "url": ""
-      },
-      "dosage_duration": {
-        "label": "",
-        "url": ""
-      }
-    },
-    "refs": []
-  },
-  {
     "id": "2-apb",
     "name": "2-APB",
     "common_name": "2-APB",
-    "systematic_name": "2-diphenylboranyloxyethanamine",
+    "systematic_name": "1-(1-benzofuran-2-yl)propan-2-amine",
     "aliases": [
-      "2-Aminoethyl diphenylborinate",
-      "2-Aminoethoxydiphenylborate",
-      "2-aminoethoxydiphenyl borate"
+      "2-(2-Aminopropyl)benzofuran"
     ],
-    "categories": [],
+    "categories": [
+      "異性体",
+      "ベンゾフラン系"
+    ],
     "legal": {
       "jp": {
         "law_number": "",
@@ -778,13 +710,11 @@
       }
     },
     "identifiers": {
-      "pubchem_cid": "1598",
-      "inchi_key": "BLZVCIGGICSWIG-UHFFFAOYSA-N",
-      "smiles": ""
+      "pubchem_cid": "413938",
+      "inchi_key": "QGLBWEFCBFEAPH-UHFFFAOYSA-N",
+      "smiles": "CC(CC1=CC2=CC=CC=C2O1)N"
     },
-    "pubchemCid": "1598",
-    "inchiKey": "BLZVCIGGICSWIG-UHFFFAOYSA-N",
-    "summary": "",
+    "summary": "2-APBは6-APB(BenzoFury)、5-APBの異性体である。",
     "history": "",
     "effects": {
       "effects_positive": [],
@@ -801,124 +731,7 @@
       }
     },
     "refs": [
-      "https://pubchem.ncbi.nlm.nih.gov/compound/1598"
-    ]
-  },
-  {
-    "id": "2-dimethylamino-1-_3_4-methylenedioxyphenyl_pentane-1-one",
-    "name": "二―ジメチルアミノ―一―(三・四―メチレンジオキシフェニル)ペンタン―一―オン及びその塩類",
-    "common_name": "二―ジメチルアミノ―一―(三・四―メチレンジオキシフェニル)ペンタン―一―オン及びその塩類",
-    "systematic_name": "2-dimethylamino-1-(3,4-methylenedioxyphenyl)pentane-1-one",
-    "aliases": [
-      "二―ジメチルアミノ―一―(三・四―メチレンジオキシフェニル)ペンタン―一―オン及びその塩類"
-    ],
-    "categories": [],
-    "legal": {
-      "jp": {
-        "law_number": "",
-        "law_category": "麻薬",
-        "official_name": "二―ジメチルアミノ―一―(三・四―メチレンジオキシフェニル)ペンタン―一―オン及びその塩類",
-        "effective_date": "",
-        "source_link": "https://laws.e-gov.go.jp/law/402CO0000000238/"
-      }
-    },
-    "identifiers": {
-      "pubchem_cid": "",
-      "inchi_key": "",
-      "smiles": ""
-    },
-    "pubchemCid": "",
-    "inchiKey": "",
-    "summary": "",
-    "history": "",
-    "effects": {
-      "effects_positive": [],
-      "effects_negative": []
-    },
-    "external_resources": {
-      "experiences": {
-        "label": "",
-        "url": ""
-      },
-      "dosage_duration": {
-        "label": "",
-        "url": ""
-      }
-    },
-    "refs": []
-  },
-  {
-    "id": "2-dpmp",
-    "name": "2-DPMP",
-    "common_name": "2-DPMP",
-    "systematic_name": "2-benzhydrylpiperidine",
-    "aliases": [
-      "2-Diphenylmethylpiperidine",
-      "2-DPMP",
-      "RefChem:585826",
-      "2-benzhydrylpiperidine",
-      "Desoxypipradrol",
-      "2-(Diphenylmethyl)piperidine",
-      "Deoxypipradol",
-      "Piperidine, 2-(diphenylmethyl)-",
-      "49UNK1BV8T",
-      "Piperidine,2-(diphenylmethyl)-",
-      "MFCD02663618",
-      "Desoxypipradrol (1mg/mL in Methanol)",
-      "UNII-49UNK1BV8T",
-      "Desoxypipradol",
-      "HSDB 8015",
-      "EINECS 208-276-6",
-      "Oprea1_652788",
-      "SCHEMBL729266",
-      "2-(Diphenylmethyl)piperidine; 2-Benzhydrylpiperidine",
-      "SCHEMBL2966244",
-      "(+/-)-DESOXYPIPRADROL",
-      "DTXSID90897502",
-      "2-Diphenylmethyl-piperidine;2-DPMP",
-      "BBL020743",
-      "STK893433",
-      "AKOS001476367",
-      "LE-0263",
-      "2-DIPHENYLMETHYLPIPERIDINE [HSDB]",
-      "FD111892",
-      "PD048829"
-    ],
-    "categories": [],
-    "legal": {
-      "jp": {
-        "law_number": "",
-        "law_category": "指定薬物",
-        "official_name": "２－（ジフェニルメチル）ピペリジン及びその塩類",
-        "effective_date": "2016/04/08",
-        "source_link": "https://laws.e-gov.go.jp/law/419M60000100014"
-      }
-    },
-    "identifiers": {
-      "pubchem_cid": "160506",
-      "inchi_key": "RWTNXJXZVGHMGI-UHFFFAOYSA-N",
-      "smiles": ""
-    },
-    "pubchemCid": "160506",
-    "inchiKey": "RWTNXJXZVGHMGI-UHFFFAOYSA-N",
-    "summary": "",
-    "history": "",
-    "effects": {
-      "effects_positive": [],
-      "effects_negative": []
-    },
-    "external_resources": {
-      "experiences": {
-        "label": "",
-        "url": ""
-      },
-      "dosage_duration": {
-        "label": "",
-        "url": ""
-      }
-    },
-    "refs": [
-      "https://pubchem.ncbi.nlm.nih.gov/compound/160506"
+      "https://pubchem.ncbi.nlm.nih.gov/compound/413938"
     ]
   },
   {
@@ -928,23 +741,12 @@
     "systematic_name": "1-(1-benzofuran-2-yl)-N-ethylpropan-2-amine",
     "aliases": [
       "2-EAPB",
-      "2-(2-(Ethylamino)propyl)benzofuran",
-      "857PLD0E6R",
-      "UNII-857PLD0E6R",
-      "J3.314.551I",
-      "2-Benzofuranethanamine, N-ethyl-alpha-methyl-",
-      "2-Benzofuranethylamine, N-ethyl-alpha-methyl-",
-      "2-BENZOFURANETHANAMINE, N-ETHYL-.ALPHA.-METHYL-",
-      "2-BENZOFURANETHYLAMINE, N-ETHYL-.ALPHA.-METHYL-",
-      "RefChem:197550",
-      "SCHEMBL30457823",
-      "SCHEMBL30458044",
-      "2-(2-ethylaminopropyl)benzofuran",
-      "DTXSID701342729",
-      "1-(1-Benzofuran-2-yl)-N-ethylpropan-2-amine",
-      "Q27269603"
+      "2-(2-(Ethylamino)propyl)benzofuran"
     ],
-    "categories": [],
+    "categories": [
+      "異性体",
+      "ベンゾフラン系"
+    ],
     "legal": {
       "jp": {
         "law_number": "",
@@ -957,11 +759,9 @@
     "identifiers": {
       "pubchem_cid": "102144589",
       "inchi_key": "SGGKRTSTBXBERJ-UHFFFAOYSA-N",
-      "smiles": ""
+      "smiles": "CCNC(C)CC1=CC2=CC=CC=C2O1"
     },
-    "pubchemCid": "102144589",
-    "inchiKey": "SGGKRTSTBXBERJ-UHFFFAOYSA-N",
-    "summary": "",
+    "summary": "2-EAPBは2-APBの窒素原子にエチル基が付与された6-EAPB(BenzoFury)・5-EAPBの異性体である",
     "history": "",
     "effects": {
       "effects_positive": [],
@@ -982,202 +782,19 @@
     ]
   },
   {
-    "id": "2-ethylamino-1-_3_4-methylenedioxyphenyl_butane-1-one",
-    "name": "二―エチルアミノ―一―(三・四―メチレンジオキシフェニル)ブタン―一―オン及びその塩類",
-    "common_name": "二―エチルアミノ―一―(三・四―メチレンジオキシフェニル)ブタン―一―オン及びその塩類",
-    "systematic_name": "2-ethylamino-1-(3,4-methylenedioxyphenyl)butane-1-one",
-    "aliases": [
-      "二―エチルアミノ―一―(三・四―メチレンジオキシフェニル)ブタン―一―オン及びその塩類"
-    ],
-    "categories": [],
-    "legal": {
-      "jp": {
-        "law_number": "",
-        "law_category": "麻薬",
-        "official_name": "二―エチルアミノ―一―(三・四―メチレンジオキシフェニル)ブタン―一―オン及びその塩類",
-        "effective_date": "",
-        "source_link": "https://laws.e-gov.go.jp/law/402CO0000000238/"
-      }
-    },
-    "identifiers": {
-      "pubchem_cid": "",
-      "inchi_key": "",
-      "smiles": ""
-    },
-    "pubchemCid": "",
-    "inchiKey": "",
-    "summary": "",
-    "history": "",
-    "effects": {
-      "effects_positive": [],
-      "effects_negative": []
-    },
-    "external_resources": {
-      "experiences": {
-        "label": "",
-        "url": ""
-      },
-      "dosage_duration": {
-        "label": "",
-        "url": ""
-      }
-    },
-    "refs": []
-  },
-  {
-    "id": "2-ethylamino-1-_3_4-methylenedioxyphenyl_pentane-1-one",
-    "name": "二―エチルアミノ―一―(三・四―メチレンジオキシフェニル)ペンタン―一―オン及びその塩類",
-    "common_name": "二―エチルアミノ―一―(三・四―メチレンジオキシフェニル)ペンタン―一―オン及びその塩類",
-    "systematic_name": "2-ethylamino-1-(3,4-methylenedioxyphenyl)pentane-1-one",
-    "aliases": [
-      "二―エチルアミノ―一―(三・四―メチレンジオキシフェニル)ペンタン―一―オン及びその塩類"
-    ],
-    "categories": [],
-    "legal": {
-      "jp": {
-        "law_number": "",
-        "law_category": "麻薬",
-        "official_name": "二―エチルアミノ―一―(三・四―メチレンジオキシフェニル)ペンタン―一―オン及びその塩類",
-        "effective_date": "",
-        "source_link": "https://laws.e-gov.go.jp/law/402CO0000000238/"
-      }
-    },
-    "identifiers": {
-      "pubchem_cid": "",
-      "inchi_key": "",
-      "smiles": ""
-    },
-    "pubchemCid": "",
-    "inchiKey": "",
-    "summary": "",
-    "history": "",
-    "effects": {
-      "effects_positive": [],
-      "effects_negative": []
-    },
-    "external_resources": {
-      "experiences": {
-        "label": "",
-        "url": ""
-      },
-      "dosage_duration": {
-        "label": "",
-        "url": ""
-      }
-    },
-    "refs": []
-  },
-  {
-    "id": "2-ethylamino-1-_3_4-methylenedioxyphenyl_propane-1-one",
-    "name": "二―エチルアミノ―一―(三・四―メチレンジオキシフェニル)プロパン―一―オン及びその塩類",
-    "common_name": "二―エチルアミノ―一―(三・四―メチレンジオキシフェニル)プロパン―一―オン及びその塩類",
-    "systematic_name": "2-ethylamino-1-(3,4-methylenedioxyphenyl)propane-1-one",
-    "aliases": [
-      "二―エチルアミノ―一―(三・四―メチレンジオキシフェニル)プロパン―一―オン及びその塩類"
-    ],
-    "categories": [],
-    "legal": {
-      "jp": {
-        "law_number": "",
-        "law_category": "麻薬",
-        "official_name": "二―エチルアミノ―一―(三・四―メチレンジオキシフェニル)プロパン―一―オン及びその塩類",
-        "effective_date": "",
-        "source_link": "https://laws.e-gov.go.jp/law/402CO0000000238/"
-      }
-    },
-    "identifiers": {
-      "pubchem_cid": "",
-      "inchi_key": "",
-      "smiles": ""
-    },
-    "pubchemCid": "",
-    "inchiKey": "",
-    "summary": "",
-    "history": "",
-    "effects": {
-      "effects_positive": [],
-      "effects_negative": []
-    },
-    "external_resources": {
-      "experiences": {
-        "label": "",
-        "url": ""
-      },
-      "dosage_duration": {
-        "label": "",
-        "url": ""
-      }
-    },
-    "refs": []
-  },
-  {
-    "id": "2-ethylamino-1-phenylpropane-1-one",
-    "name": "二―エチルアミノ―一―フェニルプロパン―一―オン及びその塩類",
-    "common_name": "二―エチルアミノ―一―フェニルプロパン―一―オン及びその塩類",
-    "systematic_name": "2-ethylamino-1-phenylpropane-1-one",
-    "aliases": [
-      "二―エチルアミノ―一―フェニルプロパン―一―オン及びその塩類"
-    ],
-    "categories": [],
-    "legal": {
-      "jp": {
-        "law_number": "",
-        "law_category": "麻薬",
-        "official_name": "二―エチルアミノ―一―フェニルプロパン―一―オン及びその塩類",
-        "effective_date": "",
-        "source_link": "https://laws.e-gov.go.jp/law/402CO0000000238/"
-      }
-    },
-    "identifiers": {
-      "pubchem_cid": "",
-      "inchi_key": "",
-      "smiles": ""
-    },
-    "pubchemCid": "",
-    "inchiKey": "",
-    "summary": "",
-    "history": "",
-    "effects": {
-      "effects_positive": [],
-      "effects_negative": []
-    },
-    "external_resources": {
-      "experiences": {
-        "label": "",
-        "url": ""
-      },
-      "dosage_duration": {
-        "label": "",
-        "url": ""
-      }
-    },
-    "refs": []
-  },
-  {
-    "id": "2-fea",
-    "name": "2-FEA",
-    "common_name": "2-FEA",
+    "id": "2-fluoroethamphetamine",
+    "name": "2-Fluoroethamphetamine",
+    "common_name": "2-Fluoroethamphetamine",
     "systematic_name": "N-ethyl-1-(2-fluorophenyl)propan-2-amine",
     "aliases": [
-      "Ortho-fluoroethamphetamine",
+      "ortho-Fluoroethamphetamine",
       "o-Fluoroethamphetamine",
       "2-Fluoroethamphetamine",
-      "2-Fea",
-      "2-Fluoro-ethyl amphetamine",
-      "L39X6766K3",
-      "1-(2'-Fluorophenyl)-2-ethylaminopropane",
-      "N-ethyl-1-(2-fluorophenyl)propan-2-amine",
-      "N-Ethyl-2-fluoro-alpha-methylbenzeneethanamine",
-      "Benzeneethanamine, N-ethyl-2-fluoro-alpha-methyl-",
-      "N-ETHYL-2-FLUORO-.ALPHA.-METHYLBENZENEETHANAMINE",
-      "BENZENEETHANAMINE, N-ETHYL-2-FLUORO-.ALPHA.-METHYL-",
-      "RefChem:197775",
-      "UNII-L39X6766K3",
-      "SCHEMBL10561344",
-      "DTXSID201342748",
-      "PD085531"
+      "2-FEA"
     ],
-    "categories": [],
+    "categories": [
+      "中枢神経刺激薬"
+    ],
     "legal": {
       "jp": {
         "law_number": "",
@@ -1190,11 +807,9 @@
     "identifiers": {
       "pubchem_cid": "20027466",
       "inchi_key": "NIWYLNFSJJLYHU-UHFFFAOYSA-N",
-      "smiles": ""
+      "smiles": "CCNC(C)CC1=CC=CC=C1F"
     },
-    "pubchemCid": "20027466",
-    "inchiKey": "NIWYLNFSJJLYHU-UHFFFAOYSA-N",
-    "summary": "",
+    "summary": "<p>2-FEAは、フェニル環2位にフッ素、アミン窒素にエチル基を持つ合成アンフェタミン系・置換フェネチルアミン系NPSである。DAT/NET/SERTへの定量的親和性やIC50の信頼できる公開データは乏しいが、構造上はモノアミントランスポーター基質・放出薬型刺激薬と推定される。2-FA、2-FMA、3-FEA、4-FEA、ethamphetamineに近縁で、自然由来ではない。</p>",
     "history": "",
     "effects": {
       "effects_positive": [],
@@ -1245,8 +860,6 @@
       "inchi_key": "RTXKYSLDFKUESF-UHFFFAOYSA-N",
       "smiles": "CCNC1(CCCCC1=O)C2=CC=CC=C2F"
     },
-    "pubchemCid": "168323042",
-    "inchiKey": "RTXKYSLDFKUESF-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -1294,8 +907,6 @@
       "inchi_key": "PHFAGYYTDLITTB-UHFFFAOYSA-N",
       "smiles": "CNC1(CCCCC1=O)C2=CC=CC=C2F"
     },
-    "pubchemCid": "13771618",
-    "inchiKey": "PHFAGYYTDLITTB-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -1345,8 +956,6 @@
       "inchi_key": "QTYLEXQVLJYJHT-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "67471199",
-    "inchiKey": "QTYLEXQVLJYJHT-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -1410,8 +1019,6 @@
       "inchi_key": "ANJIDHKQUCZNQY-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "547092",
-    "inchiKey": "ANJIDHKQUCZNQY-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -1471,8 +1078,6 @@
       "inchi_key": "QXXCUXIRBHSITD-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "67833251",
-    "inchiKey": "QXXCUXIRBHSITD-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -1514,8 +1119,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -1557,8 +1160,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -1600,8 +1201,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -1654,8 +1253,6 @@
       "inchi_key": "DOZQPYDMJMLVKX-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "12198617",
-    "inchiKey": "DOZQPYDMJMLVKX-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -1714,8 +1311,6 @@
       "inchi_key": "ATMBBMXJNIJRST-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "125181239",
-    "inchiKey": "ATMBBMXJNIJRST-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -1781,8 +1376,6 @@
       "inchi_key": "RSUNJYKZRKIBNB-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "125181394",
-    "inchiKey": "RSUNJYKZRKIBNB-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -1831,8 +1424,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -1887,8 +1478,6 @@
       "inchi_key": "AHIUIEOLKNDLSC-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "125181230",
-    "inchiKey": "AHIUIEOLKNDLSC-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -1949,8 +1538,6 @@
       "inchi_key": "VHWXICYYQMMZCW-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "125181419",
-    "inchiKey": "VHWXICYYQMMZCW-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -1999,8 +1586,6 @@
       "inchi_key": "FJFPOGCVVLUYAQ-UHFFFAOYSA-N",
       "smiles": "COC1=CC=CC=C1CNCCC2=CC(=C(C=C2OC)Cl)OC"
     },
-    "pubchemCid": "46856354",
-    "inchiKey": "FJFPOGCVVLUYAQ-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -2065,8 +1650,6 @@
       "inchi_key": "UTVHBNXCFSATDB-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "118536027",
-    "inchiKey": "UTVHBNXCFSATDB-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -2127,8 +1710,6 @@
       "inchi_key": "SYBINTRPEZWFLZ-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "135391539",
-    "inchiKey": "SYBINTRPEZWFLZ-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -2190,8 +1771,6 @@
       "inchi_key": "PXDVGFGXPVCNAB-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "118796522",
-    "inchiKey": "PXDVGFGXPVCNAB-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -2255,8 +1834,6 @@
       "inchi_key": "RMLXCDMTGWSEOU-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "39424372",
-    "inchiKey": "RMLXCDMTGWSEOU-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -2309,8 +1886,6 @@
       "inchi_key": "FWEBGKDUEZRMRQ-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "129844505",
-    "inchiKey": "FWEBGKDUEZRMRQ-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -2371,8 +1946,6 @@
       "inchi_key": "LPBKNBHMWRBPHT-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "57469209",
-    "inchiKey": "LPBKNBHMWRBPHT-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -2433,8 +2006,6 @@
       "inchi_key": "FEUZHYRXGQTBRO-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "10001761",
-    "inchiKey": "FEUZHYRXGQTBRO-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -2483,8 +2054,6 @@
       "inchi_key": "ZFUOLNAKPBFDIJ-UHFFFAOYSA-N",
       "smiles": "COC1=CC=CC=C1CNCCC2=CC(=C(C=C2OC)I)OC"
     },
-    "pubchemCid": "10251906",
-    "inchiKey": "ZFUOLNAKPBFDIJ-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -2555,8 +2124,6 @@
       "inchi_key": "YZDFADGMVOSVIX-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "10265873",
-    "inchiKey": "YZDFADGMVOSVIX-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -2598,8 +2165,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -2665,8 +2230,6 @@
       "inchi_key": "CGKQFIWIPSIVAS-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "29979100",
-    "inchiKey": "CGKQFIWIPSIVAS-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -2739,8 +2302,6 @@
       "inchi_key": "UNQQFDCVEMVQHM-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "135740",
-    "inchiKey": "UNQQFDCVEMVQHM-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -2811,8 +2372,6 @@
       "inchi_key": "VDRGNAMREYBIHA-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "24729233",
-    "inchiKey": "VDRGNAMREYBIHA-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -2885,8 +2444,6 @@
       "inchi_key": "WNCUVUUEJZEATP-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "76632",
-    "inchiKey": "WNCUVUUEJZEATP-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -2936,8 +2493,6 @@
       "inchi_key": "PQHQBRJAAZQXHL-UHFFFAOYSA-N",
       "smiles": "COC1=CC(=C(C=C1CCN)OC)I"
     },
-    "pubchemCid": "10267191",
-    "inchiKey": "PQHQBRJAAZQXHL-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -3003,8 +2558,6 @@
       "inchi_key": "ZMUSDZGRRJGRAO-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "10036637",
-    "inchiKey": "ZMUSDZGRRJGRAO-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -3051,8 +2604,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "44719510",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -3116,8 +2667,6 @@
       "inchi_key": "PZJOKFZGPTVNBF-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "44350080",
-    "inchiKey": "PZJOKFZGPTVNBF-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -3161,8 +2710,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -3207,8 +2754,6 @@
       "inchi_key": "OLEVEPDJOFPJTF-UHFFFAOYSA-N",
       "smiles": "CCCSC1=C(C=C(C(=C1)OC)CCN)OC"
     },
-    "pubchemCid": "24728635",
-    "inchiKey": "OLEVEPDJOFPJTF-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -3273,8 +2818,6 @@
       "inchi_key": "LYXGNMLWYONZID-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "10399795",
-    "inchiKey": "LYXGNMLWYONZID-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -3321,8 +2864,6 @@
       "inchi_key": "HTAHSJBVCSUAGE-UHFFFAOYSA-N",
       "smiles": "CN1CCC(CC1)OC(=O)C2=CC=CC=C2F"
     },
-    "pubchemCid": "848678",
-    "inchiKey": "HTAHSJBVCSUAGE-UHFFFAOYSA-N",
     "summary": "<p>コカインのフェニル環の2位にヒドロキシ基（–OH）を導入すると結合親和性が約10倍増加し得ることが知られているため、ピペルカインの2-フッ素化も同様に、結合親和性を高める可能性がある。<p><p>ピペルカインはコカインと同様にドーパミントランスポーター（DAT）と相互作用すると報告されており、その他にもNa⁺イオンチャンネル阻害作用が関与するとされる。構造的には、トロパン骨格の部分が N-メチルピペリジン基 に置き換わっており、さらにフェニル環には 2-フルオロ置換基 が付いている。</p>",
     "history": "",
     "effects": {
@@ -3378,8 +2919,6 @@
       "inchi_key": "JOSWCKYCXJMLNM-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "155884739",
-    "inchiKey": "JOSWCKYCXJMLNM-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -3428,8 +2967,6 @@
       "inchi_key": "XRHDBCOEMRBYDU-UHFFFAOYSA-N",
       "smiles": "CN1C2CCC1CC(C2)OC(=O)C3=CC=CC=C3F"
     },
-    "pubchemCid": "69566020",
-    "inchiKey": "XRHDBCOEMRBYDU-UHFFFAOYSA-N",
     "summary": "<p>2′-フルオロコカインは、コカインと比べてモノアミントランスポーター全体に対する親和性が低い一方で、ややNAT（ノルアドレナリントランスポーター）への親和性がわずかに高いことが報告されている。</p><p>このため、2′-フルオロトロパコカインも同様に、コカインよりDAT選択性がやや低く、力価（ポテンシー）も低い可能性がある。</p>",
     "history": "",
     "effects": {
@@ -3475,8 +3012,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -3518,8 +3053,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -3565,8 +3098,6 @@
       "inchi_key": "JMABLCPXWZOLCW-UHFFFAOYSA-N",
       "smiles": "CC1C(OCCN1)C2=CC3=C(C=C2)OCO3"
     },
-    "pubchemCid": "82286499",
-    "inchiKey": "JMABLCPXWZOLCW-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -3606,8 +3137,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -3647,8 +3176,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -3688,8 +3215,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -3729,8 +3254,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -3773,8 +3296,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -3814,8 +3335,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -3855,8 +3374,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -3896,8 +3413,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -3939,8 +3454,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -3982,8 +3495,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -4034,8 +3545,6 @@
       "inchi_key": "VOEFELLSAAJCHJ-UHFFFAOYSA-N",
       "smiles": "CC(C(=O)C1=CC(=CC=C1)Cl)NC"
     },
-    "pubchemCid": "50999285",
-    "inchiKey": "VOEFELLSAAJCHJ-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -4081,8 +3590,6 @@
       "inchi_key": "BOFUZZAQNVYZFF-UHFFFAOYSA-N",
       "smiles": "CC1C(OCCN1)C2=CC(=CC=C2)Cl"
     },
-    "pubchemCid": "43350791",
-    "inchiKey": "BOFUZZAQNVYZFF-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -4143,8 +3650,6 @@
       "inchi_key": "CKPWHLGHHXSVJI-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "57458869",
-    "inchiKey": "CKPWHLGHHXSVJI-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -4205,8 +3710,6 @@
       "inchi_key": "RRVAUTPWWWFYQT-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "58216164",
-    "inchiKey": "RRVAUTPWWWFYQT-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -4273,8 +3776,6 @@
       "inchi_key": "PQIBROLLUQSNQI-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "53415330",
-    "inchiKey": "PQIBROLLUQSNQI-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -4323,8 +3824,6 @@
       "inchi_key": "VHYVKJAQSJCYCK-UHFFFAOYSA-N",
       "smiles": "CC1C(OCCN1)C2=CC(=CC=C2)F"
     },
-    "pubchemCid": "54673723",
-    "inchiKey": "VHYVKJAQSJCYCK-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -4371,8 +3870,6 @@
       "inchi_key": "MIKNPNLBFHVMKK-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "137332171",
-    "inchiKey": "MIKNPNLBFHVMKK-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -4420,8 +3917,6 @@
       "inchi_key": "AMSXTZUCNOKUEN-UHFFFAOYSA-N",
       "smiles": "C1CCC(CC1)(C2=CC(=CC=C2)O)N3CCCCC3"
     },
-    "pubchemCid": "133277",
-    "inchiKey": "AMSXTZUCNOKUEN-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -4465,8 +3960,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -4511,8 +4004,6 @@
       "inchi_key": "JZVMREFYFTZXGN-UHFFFAOYSA-N",
       "smiles": "CC1=CC(=CC=C1)C2(CCCCC2)N3CCCC3"
     },
-    "pubchemCid": "137332188",
-    "inchiKey": "JZVMREFYFTZXGN-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -4562,8 +4053,6 @@
       "inchi_key": "OFGOOZLOGUNDFS-UHFFFAOYSA-N",
       "smiles": "CCNC1(CCCCC1)C2=CC(=CC=C2)OC"
     },
-    "pubchemCid": "57461569",
-    "inchiKey": "OFGOOZLOGUNDFS-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -4608,8 +4097,6 @@
       "inchi_key": "BOGOEDFWPOXWQE-UHFFFAOYSA-N",
       "smiles": "COC1=CC=CC(=C1)C2(CCCCC2)N3CCOCC3"
     },
-    "pubchemCid": "132605908",
-    "inchiKey": "BOGOEDFWPOXWQE-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -4658,8 +4145,6 @@
       "inchi_key": "BQQSZHHKGPOXLN-UHFFFAOYSA-N",
       "smiles": "COC1=CC=CC(=C1)C2(CCCCC2)N3CCCCC3"
     },
-    "pubchemCid": "11778080",
-    "inchiKey": "BQQSZHHKGPOXLN-UHFFFAOYSA-N",
     "summary": "NMDA型グルタミン酸受容体の非競合的アンタゴニスト",
     "history": "",
     "effects": {
@@ -4705,8 +4190,6 @@
       "inchi_key": "VTEOTZPEMDQENX-UHFFFAOYSA-N",
       "smiles": "CC1=CC(=CC=C1)CN2CCNCC2"
     },
-    "pubchemCid": "79213",
-    "inchiKey": "VTEOTZPEMDQENX-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -4750,8 +4233,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -4817,8 +4298,6 @@
       "inchi_key": "XDXMRSBXBOXSQW-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "91253",
-    "inchiKey": "XDXMRSBXBOXSQW-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -4868,8 +4347,6 @@
       "inchi_key": "QDNXSIYWHYGMCD-UHFFFAOYSA-N",
       "smiles": "CC1=CC(=CC=C1)C(=O)C(C)NC"
     },
-    "pubchemCid": "71741532",
-    "inchiKey": "QDNXSIYWHYGMCD-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -4909,8 +4386,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -4952,8 +4427,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -5007,8 +4480,6 @@
       "inchi_key": "AHLXCGRWNKUNTQ-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "44350137",
-    "inchiKey": "AHLXCGRWNKUNTQ-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -5065,8 +4536,6 @@
       "inchi_key": "KKMCHCCXGKYEKJ-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "54929142",
-    "inchiKey": "KKMCHCCXGKYEKJ-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -5113,8 +4582,6 @@
       "inchi_key": "PFPLGKFWWBXTNP-UHFFFAOYSA-N",
       "smiles": "C1CCC(CC1)(C2=CC(=CC=C2)F)N3CCCCC3"
     },
-    "pubchemCid": "398433",
-    "inchiKey": "PFPLGKFWWBXTNP-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -5161,8 +4628,6 @@
       "inchi_key": "GPTHUZORYIVVNJ-UHFFFAOYSA-N",
       "smiles": "CCC1C(OCCN1)C2=CC(=CC=C2)F"
     },
-    "pubchemCid": "165361708",
-    "inchiKey": "GPTHUZORYIVVNJ-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -5207,8 +4672,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -5257,8 +4720,6 @@
       "inchi_key": "NPILLHMQNMXXTL-UHFFFAOYSA-N",
       "smiles": "CC1C(OC(=N1)N)C2=CC=C(C=C2)C"
     },
-    "pubchemCid": "",
-    "inchiKey": "NPILLHMQNMXXTL-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -5314,8 +4775,6 @@
       "inchi_key": "WRHFDIBXZYYCHO-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "119025857",
-    "inchiKey": "WRHFDIBXZYYCHO-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -5382,8 +4841,6 @@
       "inchi_key": "WYEVVQJLTXBMPM-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "24801867",
-    "inchiKey": "WYEVVQJLTXBMPM-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -5451,8 +4908,6 @@
       "inchi_key": "ZPAOVGZYDSXCPK-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "24801868",
-    "inchiKey": "ZPAOVGZYDSXCPK-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -5503,8 +4958,6 @@
       "inchi_key": "RTLRUOSYLFOFHV-UHFFFAOYSA-N",
       "smiles": "CC(=O)OC1=CC=CC2=C1C(=CN2)CCN(C)C"
     },
-    "pubchemCid": "15429212",
-    "inchiKey": "RTLRUOSYLFOFHV-UHFFFAOYSA-N",
     "summary": "シロシン(4-HO-DMT)の合成プロドラッグ。インドールの4-ヒドロキシ基がアセチル化されており、血中や肝臓にて速やかに脱アセチル化されシロシンに代謝される。<br />4-AcO-DMT自体もセロトニン受容体に対する親和性を有している<sup>[2]</sup>。",
     "history": "1963年ごろHofmannらによってシロシンの最初のプロドラッグとして報告され<sup>[3]</sup>、Shulginsの著書TiHKALにてシロシンのプロドラッグとなりうるエステルとして言及<sup>[4]</sup>。<br />その後Nicholsらによって効率的な4-AcO-DMTの合成方法が開発され<sup>[5]</sup><br />2000年代に入ると娯楽用としてオンラインで流通することとなった。",
     "effects": {
@@ -5578,8 +5031,6 @@
       "inchi_key": "VMFRFQVZMZGHOK-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "138454311",
-    "inchiKey": "VMFRFQVZMZGHOK-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -5645,8 +5096,6 @@
       "inchi_key": "OMDKHOOGGJRLLX-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "71308138",
-    "inchiKey": "OMDKHOOGGJRLLX-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -5719,8 +5168,6 @@
       "inchi_key": "CIDMXLOVFPIHDS-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "46783587",
-    "inchiKey": "CIDMXLOVFPIHDS-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -5764,8 +5211,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -5807,8 +5252,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -5865,8 +5308,6 @@
       "inchi_key": "FMDPVFRFGCOFKM-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "82100385",
-    "inchiKey": "FMDPVFRFGCOFKM-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -5939,8 +5380,6 @@
       "inchi_key": "XXLWNLKEOWWHDC-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "3128",
-    "inchiKey": "XXLWNLKEOWWHDC-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -5984,8 +5423,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -6042,8 +5479,6 @@
       "inchi_key": "WWWBFWRUWWKJIJ-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "132280994",
-    "inchiKey": "WWWBFWRUWWKJIJ-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -6097,8 +5532,6 @@
       "inchi_key": "MRILILMKQADCNG-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "137699817",
-    "inchiKey": "MRILILMKQADCNG-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -6154,8 +5587,6 @@
       "inchi_key": "FUYPDKFWOHBUFT-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "71316576",
-    "inchiKey": "FUYPDKFWOHBUFT-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -6215,8 +5646,6 @@
       "inchi_key": "PUJNOWQUPWZVER-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "18352720",
-    "inchiKey": "PUJNOWQUPWZVER-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -6260,8 +5689,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -6303,8 +5730,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "519737966",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -6344,8 +5769,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -6385,8 +5808,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -6426,8 +5847,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -6477,8 +5896,6 @@
       "inchi_key": "DGXWNDGLEOIEGT-UHFFFAOYSA-N",
       "smiles": "CC(CC1=CC=C(C=C1)F)N"
     },
-    "pubchemCid": "9986",
-    "inchiKey": "DGXWNDGLEOIEGT-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -6522,8 +5939,6 @@
       "inchi_key": "QZFMCYUBPSLOBP-UHFFFAOYSA-N",
       "smiles": "CCCC(=O)N(C1CCN(CC1)CCC2=CC=CC=C2)C3=CC=C(C=C3)F"
     },
-    "pubchemCid": "86280430",
-    "inchiKey": "QZFMCYUBPSLOBP-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -6567,8 +5982,6 @@
       "inchi_key": "RKXQYWFDJDYSEN-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "123133727",
-    "inchiKey": "RKXQYWFDJDYSEN-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -6617,8 +6030,6 @@
       "inchi_key": "OZDOSQNUJIXEOR-UHFFFAOYSA-N",
       "smiles": "CC(C)C(=O)N(C1CCN(CC1)CCC2=CC=CC=C2)C3=CC=C(C=C3)F"
     },
-    "pubchemCid": "100974914",
-    "inchiKey": "OZDOSQNUJIXEOR-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -6681,8 +6092,6 @@
       "inchi_key": "MWKQPIROPJSFRI-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "49853406",
-    "inchiKey": "MWKQPIROPJSFRI-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -6742,8 +6151,6 @@
       "inchi_key": "XISBAJBPDVRSPG-CHWSQXEVSA-N",
       "smiles": ""
     },
-    "pubchemCid": "52944002",
-    "inchiKey": "XISBAJBPDVRSPG-CHWSQXEVSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -6797,8 +6204,6 @@
       "inchi_key": "CLXPYTBRAZHUFD-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "43350789",
-    "inchiKey": "CLXPYTBRAZHUFD-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -6853,8 +6258,6 @@
       "inchi_key": "JQELEPKHBXEAHR-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "138454310",
-    "inchiKey": "JQELEPKHBXEAHR-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -6904,8 +6307,6 @@
       "inchi_key": "ZOXZWYWOECCBSH-UHFFFAOYSA-N",
       "smiles": "CCNC(C)C(=O)C1=CC=C(C=C1)C"
     },
-    "pubchemCid": "52988259",
-    "inchiKey": "ZOXZWYWOECCBSH-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -6965,8 +6366,6 @@
       "inchi_key": "MUZGGFNYVLGUFS-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "15100753",
-    "inchiKey": "MUZGGFNYVLGUFS-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -7008,8 +6407,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -7051,8 +6448,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -7094,8 +6489,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -7135,8 +6528,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -7207,8 +6598,6 @@
       "inchi_key": "FNVSEQCPMXWQKG-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "118796493",
-    "inchiKey": "FNVSEQCPMXWQKG-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -7256,8 +6645,6 @@
       "inchi_key": "UGFMBZYKVQSQFX-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "90766",
-    "inchiKey": "UGFMBZYKVQSQFX-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -7328,8 +6715,6 @@
       "inchi_key": "MQUIHBQDYYAEMH-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "216281",
-    "inchiKey": "MQUIHBQDYYAEMH-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -7373,8 +6758,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -7416,8 +6799,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -7457,8 +6838,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -7512,8 +6891,6 @@
       "inchi_key": "UKVFBTRCNFUOFU-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "91698929",
-    "inchiKey": "UKVFBTRCNFUOFU-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -7562,8 +6939,6 @@
       "inchi_key": "LJQBMYDFWFGESC-UHFFFAOYSA-N",
       "smiles": "CC1C(OC(=N1)N)C2=CC=CC=C2"
     },
-    "pubchemCid": "92196",
-    "inchiKey": "LJQBMYDFWFGESC-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -7634,8 +7009,6 @@
       "inchi_key": "ZDHZDWSHLNBTEB-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "199116",
-    "inchiKey": "ZDHZDWSHLNBTEB-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -7696,8 +7069,6 @@
       "inchi_key": "ZOGGCQVVLHCLHY-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "71750237",
-    "inchiKey": "ZOGGCQVVLHCLHY-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -7756,8 +7127,6 @@
       "inchi_key": "WJZNCJIOIACDBR-UONOGXRCSA-N",
       "smiles": ""
     },
-    "pubchemCid": "23815457",
-    "inchiKey": "WJZNCJIOIACDBR-UONOGXRCSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -7812,8 +7181,6 @@
       "inchi_key": "OPOYXGQXRAORRI-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "132989148",
-    "inchiKey": "OPOYXGQXRAORRI-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -7882,8 +7249,6 @@
       "inchi_key": "KBRYKXCBGISXQV-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "21854225",
-    "inchiKey": "KBRYKXCBGISXQV-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -7925,8 +7290,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -7966,8 +7329,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -8007,8 +7368,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -8048,8 +7407,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -8091,8 +7448,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -8132,8 +7487,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -8175,8 +7528,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -8223,8 +7574,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -8284,8 +7633,6 @@
       "inchi_key": "CBDPDVXPZYOIRM-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "118796478",
-    "inchiKey": "CBDPDVXPZYOIRM-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -8329,8 +7676,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -8372,8 +7717,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -8427,8 +7770,6 @@
       "inchi_key": "QIKHYQCWGUGFBB-QGZVFWFLSA-N",
       "smiles": ""
     },
-    "pubchemCid": "157010663",
-    "inchiKey": "QIKHYQCWGUGFBB-QGZVFWFLSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -8475,8 +7816,6 @@
       "inchi_key": "GZGKSDAMWRWYOZ-MRXNPFEDSA-N",
       "smiles": "CC(C)(C)[C@@H](C(=O)OC)NC(=O)C1=NN(C2=CC=CC=C21)CCCCF"
     },
-    "pubchemCid": "145707216",
-    "inchiKey": "GZGKSDAMWRWYOZ-MRXNPFEDSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -8521,8 +7860,6 @@
       "inchi_key": "PCVBISJRIYDMIU-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "165412099",
-    "inchiKey": "PCVBISJRIYDMIU-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -8564,8 +7901,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -8607,8 +7942,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -8674,8 +8007,6 @@
       "inchi_key": "VKUMKUZDZWHMQU-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "9837232",
-    "inchiKey": "VKUMKUZDZWHMQU-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -8740,8 +8071,6 @@
       "inchi_key": "PZTJXZKNTPCPJL-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "192601",
-    "inchiKey": "PZTJXZKNTPCPJL-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -8809,8 +8138,6 @@
       "inchi_key": "AULGMISRJWGTBA-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "55253543",
-    "inchiKey": "AULGMISRJWGTBA-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -8867,8 +8194,6 @@
       "inchi_key": "CIGWUZUBQBQZAO-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "129844558",
-    "inchiKey": "CIGWUZUBQBQZAO-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -8928,8 +8253,6 @@
       "inchi_key": "ZBZDDOARNPAMSP-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "102336590",
-    "inchiKey": "ZBZDDOARNPAMSP-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -8987,8 +8310,6 @@
       "inchi_key": "WCBYXIBEPFZUBG-HNNXBMFYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "91936927",
-    "inchiKey": "WCBYXIBEPFZUBG-HNNXBMFYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -9043,8 +8364,6 @@
       "inchi_key": "GQYZBLMAONPUNX-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "119058049",
-    "inchiKey": "GQYZBLMAONPUNX-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -9104,8 +8423,6 @@
       "inchi_key": "XBSWUIWDRFCAGZ-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "91936859",
-    "inchiKey": "XBSWUIWDRFCAGZ-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -9170,8 +8487,6 @@
       "inchi_key": "DZNDVBLSHUYZLI-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "118796524",
-    "inchiKey": "DZNDVBLSHUYZLI-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -9228,8 +8543,6 @@
       "inchi_key": "FNMFGMMHNFDPNT-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "124519691",
-    "inchiKey": "FNMFGMMHNFDPNT-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -9273,8 +8586,6 @@
       "inchi_key": "MGZNWVDDFDINBW-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "129844439",
-    "inchiKey": "MGZNWVDDFDINBW-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -9344,8 +8655,6 @@
       "inchi_key": "BIHPYCDDPGNWQO-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "131506",
-    "inchiKey": "BIHPYCDDPGNWQO-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -9404,8 +8713,6 @@
       "inchi_key": "ZOVRTIPCNFERHY-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "102336592",
-    "inchiKey": "ZOVRTIPCNFERHY-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -9461,8 +8768,6 @@
       "inchi_key": "PLQTZOCLUHHCOI-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "112500533",
-    "inchiKey": "PLQTZOCLUHHCOI-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -9535,8 +8840,6 @@
       "inchi_key": "ACEHBQPPDDGCGZ-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "49756",
-    "inchiKey": "ACEHBQPPDDGCGZ-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -9609,8 +8912,6 @@
       "inchi_key": "OGNJZVNNKBZFRM-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "36906",
-    "inchiKey": "OGNJZVNNKBZFRM-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -9629,6 +8930,57 @@
     },
     "refs": [
       "https://pubchem.ncbi.nlm.nih.gov/compound/36906"
+    ]
+  },
+  {
+    "id": "5-meo-dalt",
+    "name": "5-MeO-DALT",
+    "common_name": "5-MeO-DALT",
+    "systematic_name": "N-[2-(5-methoxy-1H-indol-3-yl)ethyl]-N-(prop-2-en-1-yl)prop-2-en-1-amine",
+    "aliases": [
+      "N,N-Diallyl-5-methoxytryptamine",
+      "5-Methoxy-N,N-diallyltryptamine",
+      "5-Methoxy-DALT",
+      "Foxtrot",
+      "N・N―ジアリル―五―メトキシトリプタミン及びその塩類"
+    ],
+    "categories": [
+      "サイケデリックス",
+      "トリプタミン系"
+    ],
+    "legal": {
+      "jp": {
+        "law_number": "",
+        "law_category": "麻薬",
+        "official_name": "N・N―ジアリル―五―メトキシトリプタミン及びその塩類",
+        "effective_date": "",
+        "source_link": "https://laws.e-gov.go.jp/law/402CO0000000238/"
+      }
+    },
+    "identifiers": {
+      "pubchem_cid": "50878551",
+      "inchi_key": "HGRHWEAUHXYNNP-UHFFFAOYSA-N",
+      "smiles": "C=CCN(CCC1=CNC2=C1C=C(OC)C=C2)CC=C"
+    },
+    "summary": "<p>5-MeO-DALTは、合成トリプタミン系／5-メトキシトリプタミン系のセロトニン作動性幻覚薬である。5-HT1A・5-HT2B・5-HT6・5-HT7に比較的高親和性を示し、5-HT2A/2C親和性は低めとされるが、5-HT2A受容体にたいしてはフルアゴニストとして作用する。DALT、5-MeO-DiPT、5-MeO-MiPTと構造・薬理学的に近縁で、自然由来アルカロイドではない。<p><p>インドール基の5位置換トリプタミンは非置換トリプタミン及び他の置換トリプタミンよりも効力が強くユーザーの評価とも一致している。</p>",
+    "history": "",
+    "effects": {
+      "effects_positive": [],
+      "effects_negative": []
+    },
+    "external_resources": {
+      "experiences": {
+        "label": "5-MeO-DALT : Erowid Exp: Main Index",
+        "url": "https://www.erowid.org/experiences/subs/exp_5MeODALT.shtml"
+      },
+      "dosage_duration": {
+        "label": "Erowid 5-MeO-DALT Vault : Dose/Dosage",
+        "url": "https://www.erowid.org/chemicals/5meo_dalt/5meo_dalt_dose.shtml"
+      }
+    },
+    "refs": [
+      "LKlein, L. M., Cozzi, N. V., Daley, P. F., Brandt, S. D., & Halberstadt, A. L. (2018). Receptor binding profiles and behavioral pharmacology of ring-substituted N,N-diallyltryptamine analogs. Neuropharmacology, 142, 231–239. https://doi.org/10.1016/j.neuropharm.2018.02.028",
+      "Puigseslloses, P., et al. (2024). Structure-activity relationships of serotonergic 5-MeO-DMT derivatives: Insights into psychoactive and thermoregulatory properties. Molecular Psychiatry, 29(8), 2346-2358. https://doi.org/10.1038/s41380-024-02506-8"
     ]
   },
   {
@@ -9683,8 +9035,6 @@
       "inchi_key": "KGDVJQQWCDDEPP-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "417608",
-    "inchiKey": "KGDVJQQWCDDEPP-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -9726,8 +9076,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -9782,8 +9130,6 @@
       "inchi_key": "ZSTKHSQDNIGFLM-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "1832",
-    "inchiKey": "ZSTKHSQDNIGFLM-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -9851,8 +9197,6 @@
       "inchi_key": "PNHPVNBKLQWBKH-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "14011047",
-    "inchiKey": "PNHPVNBKLQWBKH-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -9916,8 +9260,6 @@
       "inchi_key": "VVEQXDHSGNBFLZ-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "53485366",
-    "inchiKey": "VVEQXDHSGNBFLZ-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -9959,8 +9301,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -10031,8 +9371,6 @@
       "inchi_key": "HEDOODBJFVUQMS-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "2763156",
-    "inchiKey": "HEDOODBJFVUQMS-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -10074,8 +9412,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -10117,8 +9453,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -10170,8 +9504,6 @@
       "inchi_key": "VUPMALPMUYUYES-HNNXBMFYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "91936938",
-    "inchiKey": "VUPMALPMUYUYES-HNNXBMFYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -10225,8 +9557,6 @@
       "inchi_key": "SOYDDJYBRCNNIT-MRXNPFEDSA-N",
       "smiles": ""
     },
-    "pubchemCid": "119026135",
-    "inchiKey": "SOYDDJYBRCNNIT-MRXNPFEDSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -10278,8 +9608,6 @@
       "inchi_key": "ITZSOCZDFSHNCL-QGZVFWFLSA-N",
       "smiles": ""
     },
-    "pubchemCid": "118796421",
-    "inchiKey": "ITZSOCZDFSHNCL-QGZVFWFLSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -10343,8 +9671,6 @@
       "inchi_key": "YWSYUMWEKPNAHT-KRWDZBQOSA-N",
       "smiles": ""
     },
-    "pubchemCid": "125181449",
-    "inchiKey": "YWSYUMWEKPNAHT-KRWDZBQOSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -10389,8 +9715,6 @@
       "inchi_key": "UCMFSGVIEPXYIV-UHFFFAOYSA-N",
       "smiles": "C1C2CC3CC1CC(C2)(C3)NC(=O)C4=NN(C5=CC=CC=C54)CCCCCF"
     },
-    "pubchemCid": "71711119",
-    "inchiKey": "UCMFSGVIEPXYIV-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -10434,8 +9758,6 @@
       "inchi_key": "SAFXSUZMRLTBMM-UHFFFAOYSA-N",
       "smiles": "CC(C)C(C(=O)OC)NC(=O)C1=NN(C2=CC=CC=C21)CCCCCF"
     },
-    "pubchemCid": "102333975",
-    "inchiKey": "SAFXSUZMRLTBMM-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -10490,8 +9812,6 @@
       "inchi_key": "SMRRORRDOWXERZ-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "134818048",
-    "inchiKey": "SMRRORRDOWXERZ-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -10547,8 +9867,6 @@
       "inchi_key": "RNWBJOCYFGGMRJ-LJQANCHMSA-N",
       "smiles": ""
     },
-    "pubchemCid": "165361474",
-    "inchiKey": "RNWBJOCYFGGMRJ-LJQANCHMSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -10607,8 +9925,6 @@
       "inchi_key": "VDEACSPMBSUVRD-GOSISDBHSA-N",
       "smiles": ""
     },
-    "pubchemCid": "137700114",
-    "inchiKey": "VDEACSPMBSUVRD-GOSISDBHSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -10663,8 +9979,6 @@
       "inchi_key": "WPRKGJGOLPGBMG-IBGZPJMESA-N",
       "smiles": ""
     },
-    "pubchemCid": "155907803",
-    "inchiKey": "WPRKGJGOLPGBMG-IBGZPJMESA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -10715,8 +10029,6 @@
       "inchi_key": "LIRBKFHBIDESHO-MRXNPFEDSA-N",
       "smiles": ""
     },
-    "pubchemCid": "165361518",
-    "inchiKey": "LIRBKFHBIDESHO-MRXNPFEDSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -10760,8 +10072,6 @@
       "inchi_key": "CHSUEEBESACQDV-GOSISDBHSA-N",
       "smiles": "CC(C)(C)[C@@H](C(=O)OC)NC(=O)C1=CN(C2=CC=CC=C21)CCCCCF"
     },
-    "pubchemCid": "129597835",
-    "inchiKey": "CHSUEEBESACQDV-GOSISDBHSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -10806,8 +10116,6 @@
       "inchi_key": "PWEKNGSNNAKWBL-UHFFFAOYSA-N",
       "smiles": "CC(C)(C)C(C(=O)OC)NC(=O)C1=NN(C2=CC=CC=C21)CCCCCF"
     },
-    "pubchemCid": "101895417",
-    "inchiKey": "PWEKNGSNNAKWBL-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -10869,8 +10177,6 @@
       "inchi_key": "DJKVOBZLMBHFKX-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "118796566",
-    "inchiKey": "DJKVOBZLMBHFKX-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -10916,8 +10222,6 @@
       "inchi_key": "MBOCMBFDYVSGLJ-UHFFFAOYSA-N",
       "smiles": "C1=CC=C2C(=C1)C(=CN2CCCCCF)C(=O)OC3=CC=CC4=C3N=CC=C4"
     },
-    "pubchemCid": "72710774",
-    "inchiKey": "MBOCMBFDYVSGLJ-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -10973,8 +10277,6 @@
       "inchi_key": "VFLXAWVAWXHMFB-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "91936847",
-    "inchiKey": "VFLXAWVAWXHMFB-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -11037,8 +10339,6 @@
       "inchi_key": "FQDAMYLMQQKPRX-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "9794343",
-    "inchiKey": "FQDAMYLMQQKPRX-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -11103,8 +10403,6 @@
       "inchi_key": "VRNGXHJGMCJRSQ-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "192599",
-    "inchiKey": "VRNGXHJGMCJRSQ-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -11166,8 +10464,6 @@
       "inchi_key": "MIRNYUKRRZFBOI-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "102336591",
-    "inchiKey": "MIRNYUKRRZFBOI-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -11231,8 +10527,6 @@
       "inchi_key": "RYENLSMHLCNXJT-CYXFISRXSA-N",
       "smiles": ""
     },
-    "pubchemCid": "44301524",
-    "inchiKey": "RYENLSMHLCNXJT-CYXFISRXSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -11276,8 +10570,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -11319,8 +10611,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -11365,8 +10655,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "75994",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -11412,8 +10700,6 @@
       "inchi_key": "PEISRHQJLATJPJ-MMMKDXCPSA-N",
       "smiles": "CN1[C@H]2CC[C@@H]1[C@H]([C@H](C2)OC(=O)C3=CC=CC=C3O)C(=O)OC"
     },
-    "pubchemCid": "10519659",
-    "inchiKey": "PEISRHQJLATJPJ-MMMKDXCPSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -11474,8 +10760,6 @@
       "inchi_key": "NQTMRZNYLIGQCF-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "11544639",
-    "inchiKey": "NQTMRZNYLIGQCF-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -11548,8 +10832,6 @@
       "inchi_key": "JKGIMVBQKSRTGX-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "17754357",
-    "inchiKey": "JKGIMVBQKSRTGX-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -11601,8 +10883,6 @@
       "inchi_key": "LJSMCOGLALRQKD-BISOHRNISA-N",
       "smiles": ""
     },
-    "pubchemCid": "154728220",
-    "inchiKey": "LJSMCOGLALRQKD-BISOHRNISA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -11646,8 +10926,6 @@
       "inchi_key": "KJNZIEGLNLCWTQ-KRWDZBQOSA-N",
       "smiles": "CC(C)[C@@H](C(=O)N)NC(=O)C1=NN(C2=CC=CC=C21)CC3CCCCC3"
     },
-    "pubchemCid": "44206133",
-    "inchiKey": "KJNZIEGLNLCWTQ-KRWDZBQOSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -11691,8 +10969,6 @@
       "inchi_key": "AKOOIMKXADOPDA-KRWDZBQOSA-N",
       "smiles": "CC(C)[C@@H](C(=O)N)NC(=O)C1=NN(C2=CC=CC=C21)CC3=CC=C(C=C3)F"
     },
-    "pubchemCid": "58124325",
-    "inchiKey": "AKOOIMKXADOPDA-KRWDZBQOSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -11741,8 +11017,6 @@
       "inchi_key": "AJGUHANHCUPXSK-KRWDZBQOSA-N",
       "smiles": ""
     },
-    "pubchemCid": "121232597",
-    "inchiKey": "AJGUHANHCUPXSK-KRWDZBQOSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -11786,8 +11060,6 @@
       "inchi_key": "GIMHPAQOAAZSHS-HNNXBMFYSA-N",
       "smiles": "CCCCCN1C2=CC=CC=C2C(=N1)C(=O)N[C@@H](C(C)C)C(=O)N"
     },
-    "pubchemCid": "71301472",
-    "inchiKey": "GIMHPAQOAAZSHS-HNNXBMFYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -11845,8 +11117,6 @@
       "inchi_key": "KCCVWUAAHDXNNQ-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "129532609",
-    "inchiKey": "KCCVWUAAHDXNNQ-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -11890,8 +11160,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -11938,8 +11206,6 @@
       "inchi_key": "OKTLVZBUKMRPLL-UHFFFAOYSA-N",
       "smiles": "CC(CC1=CC=CC=C1)N2CCC(CC2)N(C3=CC=CC=C3)C(=O)C"
     },
-    "pubchemCid": "62307",
-    "inchiKey": "OKTLVZBUKMRPLL-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -11982,8 +11248,6 @@
       "inchi_key": "FYIUUQUPOKIKNI-UHFFFAOYSA-N",
       "smiles": "CC(=O)N(C1CCN(CC1)CCC2=CC=CC=C2)C3=CC=CC=C3"
     },
-    "pubchemCid": "527015",
-    "inchiKey": "FYIUUQUPOKIKNI-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -12025,8 +11289,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -12071,8 +11333,6 @@
       "inchi_key": "RFQNLMWUIJJEQF-UHFFFAOYSA-N",
       "smiles": "C=CC(=O)N(C1CCN(CC1)CCC2=CC=CC=C2)C3=CC=CC=C3"
     },
-    "pubchemCid": "",
-    "inchiKey": "RFQNLMWUIJJEQF-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -12125,8 +11385,6 @@
       "inchi_key": "ACFKPINHOINOFB-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "137700313",
-    "inchiKey": "ACFKPINHOINOFB-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -12182,8 +11440,6 @@
       "inchi_key": "XFZLBNDGZVRJNJ-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "123132009",
-    "inchiKey": "XFZLBNDGZVRJNJ-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -12225,8 +11481,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -12273,8 +11527,6 @@
       "inchi_key": "NXDLAZXBALPFSN-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "162705324",
-    "inchiKey": "NXDLAZXBALPFSN-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -12316,8 +11568,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -12357,8 +11607,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -12408,8 +11656,6 @@
       "inchi_key": "IUFIUAWRCUVUCQ-GOSISDBHSA-N",
       "smiles": ""
     },
-    "pubchemCid": "129406620",
-    "inchiKey": "IUFIUAWRCUVUCQ-GOSISDBHSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -12453,8 +11699,6 @@
       "inchi_key": "GPWADXHYJAZPAX-OAHLLOKOSA-N",
       "smiles": "CCCCN1C2=CC=CC=C2C(=N1)C(=O)N[C@H](C(=O)N)C(C)(C)C"
     },
-    "pubchemCid": "155907792",
-    "inchiKey": "GPWADXHYJAZPAX-OAHLLOKOSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -12509,8 +11753,6 @@
       "inchi_key": "ZWCCSIUBHCZKOY-GOSISDBHSA-N",
       "smiles": ""
     },
-    "pubchemCid": "68894304",
-    "inchiKey": "ZWCCSIUBHCZKOY-GOSISDBHSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -12557,8 +11799,6 @@
       "inchi_key": "ZWCCSIUBHCZKOY-GOSISDBHSA-N",
       "smiles": "CC(C)(C)[C@@H](C(=O)N)NC(=O)C1=NN(C2=CC=CC=C21)CC3CCCCC3"
     },
-    "pubchemCid": "68894304",
-    "inchiKey": "ZWCCSIUBHCZKOY-GOSISDBHSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -12602,8 +11842,6 @@
       "inchi_key": "ZSSGCSINPVBLQD-GOSISDBHSA-N",
       "smiles": "CC(C)(C)[C@@H](C(=O)N)NC(=O)C1=NN(C2=CC=CC=C21)CC3=CC=C(C=C3)F"
     },
-    "pubchemCid": "58124399",
-    "inchiKey": "ZSSGCSINPVBLQD-GOSISDBHSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -12648,8 +11886,6 @@
       "inchi_key": "PZMLDAGKYPJWHJ-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "162705326",
-    "inchiKey": "PZMLDAGKYPJWHJ-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -12706,8 +11942,6 @@
       "inchi_key": "FWTARAXQGJRQKN-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "86280478",
-    "inchiKey": "FWTARAXQGJRQKN-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -12771,8 +12005,6 @@
       "inchi_key": "IXUYMXAKKYWKRG-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "72710773",
-    "inchiKey": "IXUYMXAKKYWKRG-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -12819,8 +12051,6 @@
       "inchi_key": "JMZROFPPEXCTST-UHFFFAOYSA-N",
       "smiles": "CN(C)C1(CCCCC1)CNC(=O)C2=CC(=C(C=C2)Cl)Cl"
     },
-    "pubchemCid": "187760",
-    "inchiKey": "JMZROFPPEXCTST-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -12891,8 +12121,6 @@
       "inchi_key": "UCTCCIPCJZKWEZ-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "57404063",
-    "inchiKey": "UCTCCIPCJZKWEZ-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -12941,8 +12169,6 @@
       "inchi_key": "JCQLEPDZFXGHHQ-OXQOHEQNSA-N",
       "smiles": ""
     },
-    "pubchemCid": "15227511",
-    "inchiKey": "JCQLEPDZFXGHHQ-OXQOHEQNSA-N",
     "summary": "1976年に初めて学術論文にて名前が出る。その後1997年にアレクサンダー・シュルギンの「TiHKAL」にて説明され2015年にはオンラインでデザイナードラッグとして流通が確認された。",
     "history": "",
     "effects": {
@@ -13015,8 +12241,6 @@
       "inchi_key": "FJOWXGYLIWJFCH-OXQOHEQNSA-N",
       "smiles": ""
     },
-    "pubchemCid": "201111",
-    "inchiKey": "FJOWXGYLIWJFCH-OXQOHEQNSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -13083,8 +12307,6 @@
       "inchi_key": "MCYCODJKXUJSAT-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "10264356",
-    "inchiKey": "MCYCODJKXUJSAT-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -13154,8 +12376,6 @@
       "inchi_key": "BCWCXWKCQMBFBQ-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "44350301",
-    "inchiKey": "BCWCXWKCQMBFBQ-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -13199,8 +12419,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -13240,8 +12458,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "17396975",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -13302,8 +12518,6 @@
       "inchi_key": "JNUAYHHGCXYBHX-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "44719469",
-    "inchiKey": "JNUAYHHGCXYBHX-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -13347,8 +12561,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -13390,8 +12602,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -13433,8 +12643,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -13476,8 +12684,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -13519,8 +12725,6 @@
       "inchi_key": "NGTVDHYUFBKWID-UHFFFAOYSA-N",
       "smiles": "CCC(=O)N(C1CCN(CC1)C(C)CC2=CC=CC=C2)C3=CC=CC=C3"
     },
-    "pubchemCid": "62281",
-    "inchiKey": "NGTVDHYUFBKWID-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -13565,8 +12769,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "62309",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -13608,8 +12810,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -13658,8 +12858,6 @@
       "inchi_key": "YDIIDRWHPFMLGR-UHFFFAOYSA-N",
       "smiles": "CCCC(C(=O)C1=CC=CC=C1)N2CCCC2"
     },
-    "pubchemCid": "11148955",
-    "inchiKey": "YDIIDRWHPFMLGR-UHFFFAOYSA-N",
     "summary": "α-PVPは、バレロフェノンの2位がピロリジン-1-イル基で置換されたカチノン系デザイナードラッグである。ドパミン・ノルアドレナリン再取り込み阻害作用を有し、その再取り込み阻害作用(IC<sub>50</sub>)はそれぞれ12.8±1.2nM・14.2±1.2nMと、コカインの211±19nM・292±34nMと比較しても非常に強力である。",
     "history": "",
     "effects": {
@@ -13699,8 +12897,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "2118",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -13744,8 +12940,6 @@
       "inchi_key": "ALQFAGFPQCBPED-UHFFFAOYSA-N",
       "smiles": "C1=CC=C2C(=C1)C=CC=C2C(=O)C3=CN(C4=CC=CC=C43)CCCCCF"
     },
-    "pubchemCid": "53393997",
-    "inchiKey": "ALQFAGFPQCBPED-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -13814,8 +13008,6 @@
       "inchi_key": "URKVBEKZCMUTQC-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "9929889",
-    "inchiKey": "URKVBEKZCMUTQC-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -13888,8 +13080,6 @@
       "inchi_key": "ZUHIXXCLLBMBDW-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "10141893",
-    "inchiKey": "ZUHIXXCLLBMBDW-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -13957,8 +13147,6 @@
       "inchi_key": "JRECAXBHMULNJQ-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "10293794",
-    "inchiKey": "JRECAXBHMULNJQ-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -14024,8 +13212,6 @@
       "inchi_key": "VWVAIBKHFCUSMD-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "57458892",
-    "inchiKey": "VWVAIBKHFCUSMD-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -14078,8 +13264,6 @@
       "inchi_key": "KSLCYQTUSSEGPT-MRXNPFEDSA-N",
       "smiles": ""
     },
-    "pubchemCid": "9955789",
-    "inchiKey": "KSLCYQTUSSEGPT-MRXNPFEDSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -14141,8 +13325,6 @@
       "inchi_key": "GAJBHYUAJOTAEW-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "57458891",
-    "inchiKey": "GAJBHYUAJOTAEW-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -14215,8 +13397,6 @@
       "inchi_key": "LFFIIZFINPPEMC-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "9889172",
-    "inchiKey": "LFFIIZFINPPEMC-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -14270,8 +13450,6 @@
       "inchi_key": "ROWZIXRLVUOMCJ-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "121494125",
-    "inchiKey": "ROWZIXRLVUOMCJ-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -14323,8 +13501,6 @@
       "inchi_key": "NYQOGZPXNJSYDW-FQEVSTJZSA-N",
       "smiles": ""
     },
-    "pubchemCid": "129522103",
-    "inchiKey": "NYQOGZPXNJSYDW-FQEVSTJZSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -14369,8 +13545,6 @@
       "inchi_key": "FRFFLYJQPCIIQB-SFHVURJKSA-N",
       "smiles": "CC(C)[C@@H](C(=O)OC)NC(=O)C1=NN(C2=CC=CC=C21)CC3=CC=C(C=C3)F"
     },
-    "pubchemCid": "119026173",
-    "inchiKey": "FRFFLYJQPCIIQB-SFHVURJKSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -14422,8 +13596,6 @@
       "inchi_key": "KTTMFFHXDMTTOB-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "119058053",
-    "inchiKey": "KTTMFFHXDMTTOB-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -14465,8 +13637,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "7029",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -14509,8 +13679,6 @@
       "inchi_key": "ONNOFKFOZAJDHT-UHFFFAOYSA-N",
       "smiles": "C1CC2=CC=CC=C2C(C3=CC=CC=C31)NCCCCCCC(=O)O"
     },
-    "pubchemCid": "34870",
-    "inchiKey": "ONNOFKFOZAJDHT-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -14550,8 +13718,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "17397066",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -14591,8 +13757,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "7847621",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -14634,8 +13798,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -14698,8 +13860,6 @@
       "inchi_key": "MDJYHWLDDJBTMX-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "71308155",
-    "inchiKey": "MDJYHWLDDJBTMX-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -14741,8 +13901,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -14791,8 +13949,6 @@
       "inchi_key": "OYARCJMQMAFMTG-KRWDZBQOSA-N",
       "smiles": ""
     },
-    "pubchemCid": "154735174",
-    "inchiKey": "OYARCJMQMAFMTG-KRWDZBQOSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -14854,8 +14010,6 @@
       "inchi_key": "DMHWDSGURMXMGE-FQEVSTJZSA-N",
       "smiles": ""
     },
-    "pubchemCid": "44206137",
-    "inchiKey": "DMHWDSGURMXMGE-FQEVSTJZSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -14897,8 +14051,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "7848803",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -14969,8 +14121,6 @@
       "inchi_key": "VHMRXGAIDDCGDU-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "129870",
-    "inchiKey": "VHMRXGAIDDCGDU-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -15043,8 +14193,6 @@
       "inchi_key": "RGSVXQJPSWZXOP-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "123692",
-    "inchiKey": "RGSVXQJPSWZXOP-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -15088,8 +14236,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -15129,8 +14275,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "51091837",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -15172,8 +14316,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -15218,8 +14360,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -15262,8 +14402,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -15305,8 +14443,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -15348,8 +14484,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -15391,8 +14525,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -15434,8 +14566,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -15479,8 +14609,6 @@
       "inchi_key": "JUJSXRUYGOTLSI-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "162368425",
-    "inchiKey": "JUJSXRUYGOTLSI-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -15553,8 +14681,6 @@
       "inchi_key": "YEAQNUMCWMRYMU-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "13271852",
-    "inchiKey": "YEAQNUMCWMRYMU-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -15620,8 +14746,6 @@
       "inchi_key": "HFYJGAIOBIDRPX-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "11288812",
-    "inchiKey": "HFYJGAIOBIDRPX-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -15663,8 +14787,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -15704,8 +14826,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -15775,8 +14895,6 @@
       "inchi_key": "CGKQZIULZRXRRJ-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "56843046",
-    "inchiKey": "CGKQZIULZRXRRJ-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -15835,8 +14953,6 @@
       "inchi_key": "OSNIIMCBVLBNGS-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "9794472",
-    "inchiKey": "OSNIIMCBVLBNGS-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -15894,8 +15010,6 @@
       "inchi_key": "VPHHNGQFGIQHOU-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "129318251",
-    "inchiKey": "VPHHNGQFGIQHOU-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -15957,8 +15071,6 @@
       "inchi_key": "OOJXMFNDUXHDOV-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "10421832",
-    "inchiKey": "OOJXMFNDUXHDOV-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -16000,8 +15112,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "2441",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -16064,8 +15174,6 @@
       "inchi_key": "GIKPTWKWYXCBEC-SSDOTTSWSA-N",
       "smiles": ""
     },
-    "pubchemCid": "10544447",
-    "inchiKey": "GIKPTWKWYXCBEC-SSDOTTSWSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -16109,8 +15217,6 @@
       "inchi_key": "CNOFBGYRMCBVLO-UHFFFAOYSA-N",
       "smiles": "CC(C1=CC=C(C=C1)Br)N2CCC(CC2)N3C4=CC=CC=C4NC3=O"
     },
-    "pubchemCid": "145975294",
-    "inchiKey": "CNOFBGYRMCBVLO-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -16150,8 +15256,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "2451",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -16197,8 +15301,6 @@
       "inchi_key": "ZQBMUHABRSEAIK-UXBLZVDNSA-N",
       "smiles": "CCCC(=O)N1CCN(CC1)C/C=C/C2=CC=CC=C2"
     },
-    "pubchemCid": "6005081",
-    "inchiKey": "ZQBMUHABRSEAIK-UXBLZVDNSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -16260,8 +15362,6 @@
       "inchi_key": "DDPMGIMJSRUULN-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "53249194",
-    "inchiKey": "DDPMGIMJSRUULN-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -16303,8 +15403,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "40400",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -16346,8 +15444,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "17397334",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -16387,8 +15483,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "17397336",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -16428,8 +15522,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "6473",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -16473,8 +15565,6 @@
       "inchi_key": "UZZPOLCDCVWLAZ-UHFFFAOYSA-N",
       "smiles": "CCCCOC1=CC=C(C=C1)CC2=NC3=C(N2CCN(CC)CC)C=CC(=C3)[N+](=O)[O-]"
     },
-    "pubchemCid": "156588955",
-    "inchiKey": "UZZPOLCDCVWLAZ-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -16521,8 +15611,6 @@
       "inchi_key": "QQOMYEQLWQJRKK-UHFFFAOYSA-N",
       "smiles": "CCCC(=O)N(C1CCN(CC1)CCC2=CC=CC=C2)C3=CC=CC=C3"
     },
-    "pubchemCid": "621174",
-    "inchiKey": "QQOMYEQLWQJRKK-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -16565,8 +15653,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -16606,8 +15692,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "51091652",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -16653,8 +15737,6 @@
       "inchi_key": "HNMJDLVMIUDJNH-MJGOQNOKSA-N",
       "smiles": "CCCCCCCC(C)(C)C1=CC(=C(C=C1)[C@@H]2CCC[C@@H](C2)O)O"
     },
-    "pubchemCid": "12788231",
-    "inchiKey": "HNMJDLVMIUDJNH-MJGOQNOKSA-N",
     "summary": "CP 47,497の炭素鎖(C8)ホモログ",
     "history": "",
     "effects": {
@@ -16712,8 +15794,6 @@
       "inchi_key": "AJSBNWAHEDVQJT-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "53494930",
-    "inchiKey": "AJSBNWAHEDVQJT-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -16759,8 +15839,6 @@
       "inchi_key": "YDSDEBIZUNNPOB-UHFFFAOYSA-N",
       "smiles": "CCC(=O)N(C1=CC=CC=C1)C2(CCN(CC2)CCC3=CC=CC=C3)C(=O)OC"
     },
-    "pubchemCid": "62156",
-    "inchiKey": "YDSDEBIZUNNPOB-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -16800,9 +15878,57 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "441457",
-    "inchiKey": "",
     "summary": "",
+    "history": "",
+    "effects": {
+      "effects_positive": [],
+      "effects_negative": []
+    },
+    "external_resources": {
+      "experiences": {
+        "label": "",
+        "url": ""
+      },
+      "dosage_duration": {
+        "label": "",
+        "url": ""
+      }
+    },
+    "refs": []
+  },
+  {
+    "id": "cathinone",
+    "name": "Cathinone",
+    "common_name": "Cathinone",
+    "systematic_name": "2-amino-1-phenylpropan-1-one",
+    "aliases": [
+      "カチノン",
+      "Ephedrane",
+      "カート",
+      "Khat",
+      "Chat",
+      "Quat",
+      "Cath",
+      "二―アミノプロピオフェノン及びその塩類"
+    ],
+    "categories": [
+      "中枢神経刺激薬"
+    ],
+    "legal": {
+      "jp": {
+        "law_number": "",
+        "law_category": "麻薬",
+        "official_name": "二―アミノプロピオフェノン及びその塩類",
+        "effective_date": "",
+        "source_link": "https://laws.e-gov.go.jp/law/402CO0000000238/"
+      }
+    },
+    "identifiers": {
+      "pubchem_cid": "107786",
+      "inchi_key": "PUAQLLVFLMYYJJ-UHFFFAOYSA-N",
+      "smiles": "CC(C(=O)C1=CC=CC=C1)N"
+    },
+    "summary": "Cathinone（カチノン）は、Khat（Catha edulis）に含まれる天然の中枢神経刺激性アルカロイドであり、化学的には amphetamine の β-keto 類縁体である。覚醒感・多幸感・血圧上昇など amphetamine 様の作用を示すが、効力は amphetamine より低いとされる。合成カチノン類は、この cathinone 骨格をもとに置換基を変化させた一群の化合物である。",
     "history": "",
     "effects": {
       "effects_positive": [],
@@ -16872,8 +15998,6 @@
       "inchi_key": "RSUMDJRTAFBISX-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "9799417",
-    "inchiKey": "RSUMDJRTAFBISX-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -16915,8 +16039,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "7847333",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -16956,8 +16078,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -16997,8 +16117,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -17040,8 +16158,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -17081,8 +16197,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "7848316",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -17122,8 +16236,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "2802",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -17165,8 +16277,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -17206,8 +16316,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "22312",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -17247,8 +16355,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "7848391",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -17288,8 +16394,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "2816",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -17337,8 +16441,6 @@
       "inchi_key": "ZPUCINDJVBIVPJ-LJISPDSOSA-N",
       "smiles": "CN1[C@H]2CC[C@@H]1[C@H]([C@H](C2)OC(=O)C3=CC=CC=C3)C(=O)OC"
     },
-    "pubchemCid": "446220",
-    "inchiKey": "ZPUCINDJVBIVPJ-LJISPDSOSA-N",
     "summary": "コカインは南米の低木エリスロキシロン・コカの葉から得られるトロパンアルカロイドの一つ。<br />局所麻酔薬、中枢神経刺激薬、ナトリウムチャネル遮断薬、アドレナリン再取り込み阻害薬、ドーパミン再取り込み阻害、セロトニン再取り込み阻害、交感神経刺激、血管収縮など多彩な薬理作用を示す。",
     "history": "",
     "effects": {
@@ -17391,8 +16493,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -17432,8 +16532,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -17475,8 +16573,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -17516,8 +16612,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -17560,8 +16654,6 @@
       "inchi_key": "JGTSOWOPISVAHG-UHFFFAOYSA-N",
       "smiles": "CC(C)(C1=CC=CC=C1)NC(=O)C2=NN(C3=CC=CC=C32)CCCCC#N"
     },
-    "pubchemCid": "117650402",
-    "inchiKey": "JGTSOWOPISVAHG-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -17620,8 +16712,6 @@
       "inchi_key": "MXJYOUMYJGNQEY-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "129532613",
-    "inchiKey": "MXJYOUMYJGNQEY-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -17663,8 +16753,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -17704,8 +16792,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -17745,8 +16831,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -17799,8 +16883,6 @@
       "inchi_key": "INXXQNIOWMOYEJ-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "155884426",
-    "inchiKey": "INXXQNIOWMOYEJ-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -17850,8 +16932,6 @@
       "inchi_key": "CFMZQSDQCNKGII-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "155884799",
-    "inchiKey": "CFMZQSDQCNKGII-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -17905,8 +16985,6 @@
       "inchi_key": "CGHCGYCTOLWAPL-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "155884822",
-    "inchiKey": "CGHCGYCTOLWAPL-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -17950,8 +17028,6 @@
       "inchi_key": "AWHWTKXMUJLSRM-UHFFFAOYSA-N",
       "smiles": "CCCCCN1C2=C(C3=CC=CC=C31)C(=O)N(C=C2)C(C)(C)C4=CC=CC=C4"
     },
-    "pubchemCid": "134818034",
-    "inchiKey": "AWHWTKXMUJLSRM-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -18005,8 +17081,6 @@
       "inchi_key": "RCXFMWJQOYCIQU-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "86273678",
-    "inchiKey": "RCXFMWJQOYCIQU-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -18065,8 +17139,6 @@
       "inchi_key": "LCBASRYREGWIJT-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "86273676",
-    "inchiKey": "LCBASRYREGWIJT-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -18124,8 +17196,6 @@
       "inchi_key": "HINCNLQQLQFMRD-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "86273679",
-    "inchiKey": "HINCNLQQLQFMRD-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -18167,8 +17237,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "5838",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -18227,8 +17295,6 @@
       "inchi_key": "PEASFKSPITUZGT-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "126682248",
-    "inchiKey": "PEASFKSPITUZGT-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -18272,8 +17338,6 @@
       "inchi_key": "OIQSKDSKROTEMN-UHFFFAOYSA-N",
       "smiles": "C1CC1C(=O)N(C2CCN(CC2)CCC3=CC=CC=C3)C4=CC=CC=C4"
     },
-    "pubchemCid": "137332271",
-    "inchiKey": "OIQSKDSKROTEMN-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -18313,8 +17377,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -18354,8 +17416,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "96024482",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -18397,8 +17457,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -18440,8 +17498,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -18485,8 +17541,6 @@
       "inchi_key": "YLTWYAXWDLZZCU-UHFFFAOYSA-N",
       "smiles": "CCCCCC1=CC(=C2C3=CC(CCC3C(OC2=C1)(C)C)C)O"
     },
-    "pubchemCid": "71440386",
-    "inchiKey": "YLTWYAXWDLZZCU-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -18529,8 +17583,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -18574,8 +17626,6 @@
       "inchi_key": "UQOUHXDCXBITSF-GDBMZVCRSA-N",
       "smiles": "CCCCCC1=CC(=C2[C@@H]3C[C@@H](CC=C3C(OC2=C1)(C)C)C)O"
     },
-    "pubchemCid": "91936925",
-    "inchiKey": "UQOUHXDCXBITSF-GDBMZVCRSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -18617,8 +17667,6 @@
       "inchi_key": "WWYMYGIVLCKTBL-UHFFFAOYSA-N",
       "smiles": "CCCCCC1=CC(=C2C3CC(C=CC3C(OC2=C1)(C)C)C)O"
     },
-    "pubchemCid": "14552256",
-    "inchiKey": "WWYMYGIVLCKTBL-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -18660,8 +17708,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -18703,8 +17749,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -18749,8 +17793,6 @@
       "inchi_key": "DEWSJDIJFWQLOA-RTBURBONSA-N",
       "smiles": "CCCCCC1=CC2=C([C@@H]3C=C(CC[C@H]3C(O2)(C)C)C)C(=C1)OC(=O)C"
     },
-    "pubchemCid": "198013",
-    "inchiKey": "DEWSJDIJFWQLOA-RTBURBONSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -18792,8 +17834,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -18835,8 +17875,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -18854,6 +17892,55 @@
       }
     },
     "refs": []
+  },
+  {
+    "id": "deoxypipradol",
+    "name": "Deoxypipradol",
+    "common_name": "Deoxypipradol",
+    "systematic_name": "2-benzhydrylpiperidine",
+    "aliases": [
+      "2-DPMP",
+      "2-benzhydrylpiperidine",
+      "Desoxypipradrol",
+      "2-diphenylmethylpiperidine"
+    ],
+    "categories": [
+      "中枢神経刺激薬"
+    ],
+    "legal": {
+      "jp": {
+        "law_number": "",
+        "law_category": "指定薬物",
+        "official_name": "２－（ジフェニルメチル）ピペリジン及びその塩類",
+        "effective_date": "2016/04/08",
+        "source_link": "https://laws.e-gov.go.jp/law/419M60000100014"
+      }
+    },
+    "identifiers": {
+      "pubchem_cid": "160506",
+      "inchi_key": "RWTNXJXZVGHMGI-UHFFFAOYSA-N",
+      "smiles": "C1CCNC(C1)C(C2=CC=CC=C2)C3=CC=CC=C3"
+    },
+    "summary": "2-diphenylmethylpiperidine(2-DPMP)は長時間作用型のNDRIである。構造はPiperadolやMethylphenidateに類似しているが親水性の置換基を持たないためこれらの物質よりも長い半減期を持つ。DATとNETに対するIC50は70nMと140nMである。",
+    "history": "",
+    "effects": {
+      "effects_positive": [],
+      "effects_negative": []
+    },
+    "external_resources": {
+      "experiences": {
+        "label": "Desoxypipradrol (also 2-DPMP) : Erowid Exp: Main Index",
+        "url": "https://erowid.org/experiences/subs/exp_Desoxypipradrol.shtml"
+      },
+      "dosage_duration": {
+        "label": "2-DPMP | Tripsit.me",
+        "url": "https://tripsit.me/factsheets/2-DPMP"
+      }
+    },
+    "refs": [
+      "https://pubchem.ncbi.nlm.nih.gov/compound/160506",
+      "https://smw.ch/index.php/smw/article/download/1812/2508"
+    ]
   },
   {
     "id": "deschloro-n-ethyl-_ketamine",
@@ -18891,8 +17978,6 @@
       "inchi_key": "IDLSBAANXISGEI-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "132989542",
-    "inchiKey": "IDLSBAANXISGEI-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -18955,8 +18040,6 @@
       "inchi_key": "ZAGBSZSITDFFAF-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "437168",
-    "inchiKey": "ZAGBSZSITDFFAF-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -19000,8 +18083,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -19060,8 +18141,6 @@
       "inchi_key": "OXOBKZZXZVFOBB-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "1295",
-    "inchiKey": "OXOBKZZXZVFOBB-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -19105,8 +18184,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -19151,8 +18228,6 @@
       "inchi_key": "MKXZASYAUGDDCJ-NJAFHUGGSA-N",
       "smiles": "CN1CC[C@@]23CCCC[C@@H]2[C@@H]1CC4=C3C=C(C=C4)OC"
     },
-    "pubchemCid": "5360696",
-    "inchiKey": "MKXZASYAUGDDCJ-NJAFHUGGSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -19209,8 +18284,6 @@
       "inchi_key": "MPZINTHEMFDGTH-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "66553702",
-    "inchiKey": "MPZINTHEMFDGTH-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -19254,8 +18327,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -19295,8 +18366,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "3016",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -19367,8 +18436,6 @@
       "inchi_key": "ZJDCGVDEEHWEIG-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "68871",
-    "inchiKey": "ZJDCGVDEEHWEIG-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -19412,8 +18479,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -19455,8 +18520,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -19498,8 +18561,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -19541,8 +18602,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -19584,8 +18643,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -19627,8 +18684,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -19670,8 +18725,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -19713,8 +18766,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -19738,38 +18789,7 @@
     "name": "Dimethocaine",
     "common_name": "Dimethocaine",
     "systematic_name": "[3-(diethylamino)-2,2-dimethylpropyl] 4-aminobenzoate",
-    "aliases": [
-      "Dimethocaine",
-      "3-(Diethylamino)-2,2-dimethylpropyl 4-aminobenzoate",
-      "R3L4A6GOWZ",
-      "NSC-68927",
-      "(3-Diethylamino-2,2-dimethyl)propyl 4-aminobenzoat",
-      "1-Propanol, 3-(diethylamino)-2,2-dimethyl-, 4-aminobenzoate (ester)",
-      "DTXSID40240185",
-      "NSC68927",
-      "RefChem:134182",
-      "DTXCID40162676",
-      "Larocaine",
-      "[3-(diethylamino)-2,2-dimethylpropyl] 4-aminobenzoate",
-      "1-Propanol, 3-(diethylamino)-2,2-dimethyl-, p-aminobenzoate",
-      "1-Propanol, 3-(diethylamino)-2,2-dimethyl-, p-aminobenzoate (ester)",
-      "3-Diethylamino-2,2-dimethylpropyl 4-Aminobenzoate",
-      "UNII-R3L4A6GOWZ",
-      "NSC 68927",
-      "BRN 2215967",
-      "4-Aminobenzoesaeure-3-diethylamino-2,2-dimethylproplylester",
-      "DIMETHOCAINE [MI]",
-      "SCHEMBL25088",
-      "DIMETHOCAINE [WHO-DD]",
-      "CHEMBL4752832",
-      "CHEBI:135154",
-      "1-Propanol, 2-[(diethylamino)methyl]-2-methyl-, 1-(4-aminobenzoate)",
-      "MFCD01697030",
-      "AKOS022180477",
-      "MSK162629-100A",
-      "WLN: ZR DVO1X1&1&1N2&2",
-      "1-Propanol,2-dimethyl-, p-aminobenzoate"
-    ],
+    "aliases": [],
     "categories": [],
     "legal": {
       "jp": {
@@ -19783,10 +18803,8 @@
     "identifiers": {
       "pubchem_cid": "7177",
       "inchi_key": "OWQIUQKMMPDHQQ-UHFFFAOYSA-N",
-      "smiles": ""
+      "smiles": "CCN(CC)CC(C)(C)COC(=O)C1=CC=C(C=C1)N"
     },
-    "pubchemCid": "7177",
-    "inchiKey": "OWQIUQKMMPDHQQ-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -19830,8 +18848,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -19873,8 +18889,52 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
+    "summary": "",
+    "history": "",
+    "effects": {
+      "effects_positive": [],
+      "effects_negative": []
+    },
+    "external_resources": {
+      "experiences": {
+        "label": "",
+        "url": ""
+      },
+      "dosage_duration": {
+        "label": "",
+        "url": ""
+      }
+    },
+    "refs": []
+  },
+  {
+    "id": "dipentylone",
+    "name": "Dipentylone",
+    "common_name": "Dipentylone",
+    "systematic_name": "1-(1,3-benzodioxol-5-yl)-2-(dimethylamino)pentan-1-one",
+    "aliases": [
+      "N,N-Dimetylpentylone",
+      "Dimethylpentylone",
+      "bk-DMBDP",
+      "二―ジメチルアミノ―一―(三・四―メチレンジオキシフェニル)ペンタン―一―オン及びその塩類"
+    ],
+    "categories": [
+      "中枢神経刺激薬"
+    ],
+    "legal": {
+      "jp": {
+        "law_number": "",
+        "law_category": "麻薬",
+        "official_name": "二―ジメチルアミノ―一―(三・四―メチレンジオキシフェニル)ペンタン―一―オン及びその塩類",
+        "effective_date": "",
+        "source_link": "https://laws.e-gov.go.jp/law/402CO0000000238/"
+      }
+    },
+    "identifiers": {
+      "pubchem_cid": "119057570",
+      "inchi_key": "PQTJKFUXRBKONZ-UHFFFAOYSA-N",
+      "smiles": "CCCC(C(=O)C1=CC2=C(C=C1)OCO2)N(C)C"
+    },
     "summary": "",
     "history": "",
     "effects": {
@@ -19916,8 +18976,6 @@
       "inchi_key": "JQWJJJYHVHNXJH-UHFFFAOYSA-N",
       "smiles": "C1CCN(CC1)C(CC2=CC=CC=C2)C3=CC=CC=C3"
     },
-    "pubchemCid": "206666",
-    "inchiKey": "JQWJJJYHVHNXJH-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -19959,8 +19017,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -20031,8 +19087,6 @@
       "inchi_key": "OGCGXUGBDJGFFY-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "204386",
-    "inchiKey": "OGCGXUGBDJGFFY-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -20076,8 +19130,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -20148,8 +19200,6 @@
       "inchi_key": "ZRVAAGAZUWXRIP-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "26903",
-    "inchiKey": "ZRVAAGAZUWXRIP-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -20206,8 +19256,6 @@
       "inchi_key": "WZVCLFAACAERMB-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "102144588",
-    "inchiKey": "WZVCLFAACAERMB-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -20251,8 +19299,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -20294,8 +19340,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -20337,8 +19381,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -20390,8 +19432,6 @@
       "inchi_key": "WIMLPRYZJQNQLE-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "157010705",
-    "inchiKey": "WIMLPRYZJQNQLE-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -20435,8 +19475,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -20507,8 +19545,6 @@
       "inchi_key": "BGMZUEKZENQUJY-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "1229",
-    "inchiKey": "BGMZUEKZENQUJY-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -20552,8 +19588,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -20593,8 +19627,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -20660,8 +19692,6 @@
       "inchi_key": "WYZQBEQQQKCTHM-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "24756409",
-    "inchiKey": "WYZQBEQQQKCTHM-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -20703,8 +19733,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -20746,8 +19774,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -20791,8 +19817,6 @@
       "inchi_key": "PHMBVCPLDPDESM-FKSUSPILSA-N",
       "smiles": "CN1[C@H]2CC[C@@H]1[C@H]([C@H](C2)O)C(=O)O"
     },
-    "pubchemCid": "91460",
-    "inchiKey": "PHMBVCPLDPDESM-FKSUSPILSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -20843,8 +19867,6 @@
       "inchi_key": "HKKKXLZFEZHHFC-GOSISDBHSA-N",
       "smiles": ""
     },
-    "pubchemCid": "163203511",
-    "inchiKey": "HKKKXLZFEZHHFC-GOSISDBHSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -20903,8 +19925,6 @@
       "inchi_key": "FJMMDJDPNLZYLA-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "118796466",
-    "inchiKey": "FJMMDJDPNLZYLA-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -20958,8 +19978,6 @@
       "inchi_key": "YOECWCNJGHHTMN-IBGZPJMESA-N",
       "smiles": ""
     },
-    "pubchemCid": "125181443",
-    "inchiKey": "YOECWCNJGHHTMN-IBGZPJMESA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -21022,8 +20040,6 @@
       "inchi_key": "IGFZMQXEKIZPDR-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "110821",
-    "inchiKey": "IGFZMQXEKIZPDR-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -21087,8 +20103,6 @@
       "inchi_key": "RHOGRSKNWDNCDN-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "38240",
-    "inchiKey": "RHOGRSKNWDNCDN-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -21130,8 +20144,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "3261",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -21191,8 +20203,6 @@
       "inchi_key": "MYNOUXJLOHVSMQ-DNVCBOLYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "44457783",
-    "inchiKey": "MYNOUXJLOHVSMQ-DNVCBOLYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -21211,6 +20221,55 @@
     },
     "refs": [
       "https://pubchem.ncbi.nlm.nih.gov/compound/44457783"
+    ]
+  },
+  {
+    "id": "ethcathinone",
+    "name": "Ethcathinone",
+    "common_name": "Ethcathinone",
+    "systematic_name": "2-(ethylamino)-1-phenylpropan-1-one",
+    "aliases": [
+      "エトカチノン",
+      "N-Ethyl-cathinone",
+      "N-Ethylaminopropiophenone",
+      "二―エチルアミノ―一―フェニルプロパン―一―オン及びその塩類"
+    ],
+    "categories": [
+      "中枢神経刺激薬",
+      "合成カチノン系"
+    ],
+    "legal": {
+      "jp": {
+        "law_number": "",
+        "law_category": "麻薬",
+        "official_name": "二―エチルアミノ―一―フェニルプロパン―一―オン及びその塩類",
+        "effective_date": "",
+        "source_link": "https://laws.e-gov.go.jp/law/402CO0000000238/"
+      }
+    },
+    "identifiers": {
+      "pubchem_cid": "458519",
+      "inchi_key": "LYMHIBZGTAPASQ-UHFFFAOYSA-N",
+      "smiles": "CCNC(C)C(=O)C1=CC=CC=C1"
+    },
+    "summary": "Ethcathinoneは、カチノン系・β-ケトアンフェタミン系の合成精神刺激薬で、CathinoneのN-エチル誘導体である。hDAT阻害IC50は約1,440 nM、hSERTは>100,000 nMで、セロトニン系よりDAT選択性が高い。構造的にはCathinone、Methcathinone、Buphedrone、N-ethyl系カチノン類に近い。天然物ではないが、母核のCathinoneはCatha edulis（Khat）由来アルカロイドである。",
+    "history": "",
+    "effects": {
+      "effects_positive": [],
+      "effects_negative": []
+    },
+    "external_resources": {
+      "experiences": {
+        "label": "",
+        "url": ""
+      },
+      "dosage_duration": {
+        "label": "",
+        "url": ""
+      }
+    },
+    "refs": [
+      "Nadal-Gratacós, N., Ríos-Rodríguez, E., Pubill, D., Batllori, X., Camarasa, J., Escubedo, E., Berzosa, X., & López-Arnau, R. (2023). Structure-Activity Relationship of N-Ethyl-Hexedrone Analogues: Role of the α-Carbon Side-Chain Length in the Mechanism of Action, Cytotoxicity, and Behavioral Effects in Mice. ACS chemical neuroscience, 14(4), 787–799. https://doi.org/10.1021/acschemneuro.2c00772"
     ]
   },
   {
@@ -21234,8 +20293,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "7847769",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -21275,8 +20332,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "7847768",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -21318,8 +20373,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -21359,8 +20412,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "51091453",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -21402,8 +20453,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -21454,8 +20503,6 @@
       "inchi_key": "OTQVTBPHZRARTL-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "91844468",
-    "inchiKey": "OTQVTBPHZRARTL-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -21474,6 +20521,56 @@
     },
     "refs": [
       "https://pubchem.ncbi.nlm.nih.gov/compound/91844468"
+    ]
+  },
+  {
+    "id": "ethylone",
+    "name": "Ethylone",
+    "common_name": "Ethylone",
+    "systematic_name": "1-(1,3-benzodioxol-5-yl)-2-(ethylamino)propan-1-one",
+    "aliases": [
+      "bk-MDEA",
+      "エチロン",
+      "3,4-Methylenedioxy-N-ethylcathinone",
+      "二―エチルアミノ―一―(三・四―メチレンジオキシフェニル)プロパン―一―オン及びその塩類"
+    ],
+    "categories": [
+      "中枢神経刺激薬",
+      "エンタクトジェン",
+      "合成カチノン系"
+    ],
+    "legal": {
+      "jp": {
+        "law_number": "",
+        "law_category": "麻薬",
+        "official_name": "二―エチルアミノ―一―(三・四―メチレンジオキシフェニル)プロパン―一―オン及びその塩類",
+        "effective_date": "",
+        "source_link": "https://laws.e-gov.go.jp/law/402CO0000000238/"
+      }
+    },
+    "identifiers": {
+      "pubchem_cid": "57252245",
+      "inchi_key": "MJEMIOXXNCZZFK-UHFFFAOYSA-N",
+      "smiles": "CCNC(C)C(=O)C1=CC2=C(C=C1)OCO2"
+    },
+    "summary": "Ethyloneは合成カチノン系の精神刺激薬で、別名 bk-MDEA / MDEC / 3,4-methylenedioxy-N-ethylcathinone。モノアミントランスポーターに作用し、NET/DAT/SERTの取り込み阻害IC50は約2,540/5,680/4,460 nMで、比較的非選択的な「cocaine-MDMA mixed cathinone」とされる。Methylone、Butylone、Eutylone、N-Ethylpentyloneなどのメチレンジオキシカチノン類と近縁。自然由来ではなく合成物質。",
+    "history": "",
+    "effects": {
+      "effects_positive": [],
+      "effects_negative": []
+    },
+    "external_resources": {
+      "experiences": {
+        "label": "",
+        "url": ""
+      },
+      "dosage_duration": {
+        "label": "",
+        "url": ""
+      }
+    },
+    "refs": [
+      "Simmler LD, Buser TA, Donzelli M, Schramm Y, Dieu LH, Huwyler J, Chaboz S, Hoener MC, Liechti ME. Pharmacological characterization of designer cathinones in vitro. British Journal of Pharmacology. 2013;168(2):458–470. doi:10.1111/j.1476-5381.2012.02145.x"
     ]
   },
   {
@@ -21504,8 +20601,6 @@
       "inchi_key": "IFYLVUHLOOCYBG-UHFFFAOYSA-N",
       "smiles": "CCNC1(CCCCC1)C2=CC=CC=C2"
     },
-    "pubchemCid": "16622",
-    "inchiKey": "IFYLVUHLOOCYBG-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -21555,8 +20650,6 @@
       "inchi_key": "BMLPNUNXHUGDOI-UHFFFAOYSA-N",
       "smiles": "CCN(CC)CCN1C2=CC=CC=C2N=C1CC3=CC=C(C=C3)OCC"
     },
-    "pubchemCid": "149797386",
-    "inchiKey": "BMLPNUNXHUGDOI-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -21627,8 +20720,6 @@
       "inchi_key": "NPUKDXXFDDZOKR-LLVKDONJSA-N",
       "smiles": ""
     },
-    "pubchemCid": "667484",
-    "inchiKey": "NPUKDXXFDDZOKR-LLVKDONJSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -21672,8 +20763,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -21719,8 +20808,6 @@
       "inchi_key": "UMGXRAISFRUVKD-UHFFFAOYSA-N",
       "smiles": "CCOC1=CC=C(C=C1)CC2=NC3=C(N2CCN4CCCCC4)C=CC(=C3)[N+](=O)[O-]"
     },
-    "pubchemCid": "162623834",
-    "inchiKey": "UMGXRAISFRUVKD-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -21766,8 +20853,6 @@
       "inchi_key": "LQZWZCJCEPUKCJ-UHFFFAOYSA-N",
       "smiles": "CCOC1=CC=C(C=C1)CC2=NC3=C(N2CCN4CCCC4)C=CC(=C3)[N+](=O)[O-]"
     },
-    "pubchemCid": "155804760",
-    "inchiKey": "LQZWZCJCEPUKCJ-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -21810,8 +20895,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -21853,8 +20936,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -21872,6 +20953,57 @@
       }
     },
     "refs": []
+  },
+  {
+    "id": "eutylone",
+    "name": "Eutylone",
+    "common_name": "Eutylone",
+    "systematic_name": "1-(1,3-benzodioxol-5-yl)-2-(ethylamino)butan-1-one",
+    "aliases": [
+      "ユーティロン",
+      "N-ethylbutylone",
+      "N-エチルブチロン",
+      "bk-EBDB",
+      "二―エチルアミノ―一―(三・四―メチレンジオキシフェニル)ブタン―一―オン及びその塩類"
+    ],
+    "categories": [
+      "エンタクトジェン",
+      "中枢神経刺激薬",
+      "カチノン系"
+    ],
+    "legal": {
+      "jp": {
+        "law_number": "",
+        "law_category": "麻薬",
+        "official_name": "二―エチルアミノ―一―(三・四―メチレンジオキシフェニル)ブタン―一―オン及びその塩類",
+        "effective_date": "",
+        "source_link": "https://laws.e-gov.go.jp/law/402CO0000000238/"
+      }
+    },
+    "identifiers": {
+      "pubchem_cid": "57360686",
+      "inchi_key": "YERSNXHEOIYEGX-UHFFFAOYSA-N",
+      "smiles": "CCC(C(=O)C1=CC2=C(C=C1)OCO2)NCC"
+    },
+    "summary": "Eutylone（bk-EBDB、N-ethylbutylone）は、メチレンジオキシフェニル骨格をもつ合成カチノン系・β-ケトアンフェタミン系刺激薬である。DAT/NET再取り込み阻害作用を示し、SERTでは基質様作用も報告される。モノアミントランスポーターへのIC50はDAT 120nM、NET 1,280nM、SERT 690nMで、DAT選択性が比較的高い。構造・薬理学的にはbutylone、ethylone、pentylone、ephyloneに近い。自然由来ではなく合成NPSである。",
+    "history": "",
+    "effects": {
+      "effects_positive": [],
+      "effects_negative": []
+    },
+    "external_resources": {
+      "experiences": {
+        "label": "",
+        "url": ""
+      },
+      "dosage_duration": {
+        "label": "",
+        "url": ""
+      }
+    },
+    "refs": [
+      "Glatfelter, G. C., Walther, D., Evans-Brown, M., & Baumann, M. H. (2021). Eutylone and Its Structural Isomers Interact with Monoamine Transporters and Induce Locomotor Stimulation. ACS chemical neuroscience, 12(7), 1170–1177. https://doi.org/10.1021/acschemneuro.0c00797"
+    ]
   },
   {
     "id": "exo-thc",
@@ -21897,8 +21029,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "21796775",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -21956,8 +21086,6 @@
       "inchi_key": "XYSIFMHZXZATQO-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "122213806",
-    "inchiKey": "XYSIFMHZXZATQO-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -22022,8 +21150,6 @@
       "inchi_key": "RCEKSVIFQKKFLS-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "119025888",
-    "inchiKey": "RCEKSVIFQKKFLS-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -22065,8 +21191,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "14584",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -22111,8 +21235,6 @@
       "inchi_key": "NMCHYWGKBADVMK-UHFFFAOYSA-N",
       "smiles": "CC(CC1=CC=CC=C1)NCCN2C=NC3=C2C(=O)N(C(=O)N3C)C"
     },
-    "pubchemCid": "19527",
-    "inchiKey": "NMCHYWGKBADVMK-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -22154,8 +21276,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -22195,8 +21315,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "61810",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -22238,8 +21356,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -22279,8 +21395,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "3369",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -22336,8 +21450,6 @@
       "inchi_key": "ZTWHIDCAGRMKTC-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "156588967",
-    "inchiKey": "ZTWHIDCAGRMKTC-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -22379,8 +21491,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "3380",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -22420,8 +21530,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "7847395",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -22461,8 +21569,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -22518,8 +21624,6 @@
       "inchi_key": "UXOFEILQVZFLRH-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "118796439",
-    "inchiKey": "UXOFEILQVZFLRH-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -22581,8 +21685,6 @@
       "inchi_key": "MWBHSNBPUSKVDD-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "118796517",
-    "inchiKey": "MWBHSNBPUSKVDD-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -22640,8 +21742,6 @@
       "inchi_key": "VREQTLWJHFQLEX-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "121489975",
-    "inchiKey": "VREQTLWJHFQLEX-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -22700,8 +21800,6 @@
       "inchi_key": "NYHGKZZRRCVGAU-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "125181354",
-    "inchiKey": "NYHGKZZRRCVGAU-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -22769,8 +21867,6 @@
       "inchi_key": "ROHVURVXAOMRJY-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "91936864",
-    "inchiKey": "ROHVURVXAOMRJY-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -22832,8 +21928,6 @@
       "inchi_key": "KUESSZMROAFKQJ-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "124519316",
-    "inchiKey": "KUESSZMROAFKQJ-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -22888,8 +21982,6 @@
       "inchi_key": "AFTQVAQNGJXATO-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "126682249",
-    "inchiKey": "AFTQVAQNGJXATO-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -22935,8 +22027,6 @@
       "inchi_key": "FZJVHWISUGFFQV-UHFFFAOYSA-N",
       "smiles": "C1CN(CCC1N(C2=CC=CC=C2)C(=O)C3=CC=CO3)CCC4=CC=CC=C4"
     },
-    "pubchemCid": "13653606",
-    "inchiKey": "FZJVHWISUGFFQV-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -22978,8 +22068,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -23021,8 +22109,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -23064,8 +22150,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -23105,8 +22189,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "7847598",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -23146,8 +22228,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "7847404",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -23187,8 +22267,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "3563",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -23230,8 +22308,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -23281,8 +22357,6 @@
       "inchi_key": "XKRHRBJLCLXSGE-VNCLPFQGSA-N",
       "smiles": ""
     },
-    "pubchemCid": "16050328",
-    "inchiKey": "XKRHRBJLCLXSGE-VNCLPFQGSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -23327,8 +22401,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -23371,8 +22443,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -23415,8 +22485,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -23466,8 +22534,6 @@
       "inchi_key": "PUKMCMUXXJZVNY-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "130058",
-    "inchiKey": "PUKMCMUXXJZVNY-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -23511,8 +22577,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -23554,8 +22618,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -23597,8 +22659,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -23640,8 +22700,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -23683,8 +22741,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -23744,8 +22800,6 @@
       "inchi_key": "WRPFPNIHTOSMKU-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "14402357",
-    "inchiKey": "WRPFPNIHTOSMKU-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -23789,8 +22843,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -23857,8 +22909,6 @@
       "inchi_key": "SKRDXYBATCVEMS-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "10929",
-    "inchiKey": "SKRDXYBATCVEMS-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -23909,8 +22959,6 @@
       "inchi_key": "AZVPADMEIMLODT-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "68314762",
-    "inchiKey": "AZVPADMEIMLODT-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -23956,8 +23004,6 @@
       "inchi_key": "OIOQREYBGDAYGT-UHFFFAOYSA-N",
       "smiles": "CCN(CC)CCN1C2=C(C=C(C=C2)[N+](=O)[O-])N=C1CC3=CC=C(C=C3)OC(C)C"
     },
-    "pubchemCid": "145721979",
-    "inchiKey": "OIOQREYBGDAYGT-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -24027,8 +23073,6 @@
       "inchi_key": "IBBNKINXTRKICJ-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "10360860",
-    "inchiKey": "IBBNKINXTRKICJ-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -24101,8 +23145,6 @@
       "inchi_key": "LJSBBBWQTLXQEN-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "4273754",
-    "inchiKey": "LJSBBBWQTLXQEN-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -24147,8 +23189,6 @@
       "inchi_key": "JDNLPKCAXICMBW-UHFFFAOYSA-N",
       "smiles": "CCCCCN1C=C(C2=CC=CC=C21)C(=O)C3=CC=CC4=CC=CC=C43"
     },
-    "pubchemCid": "10382701",
-    "inchiKey": "JDNLPKCAXICMBW-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -24219,8 +23259,6 @@
       "inchi_key": "PALJPGHWDUHUPO-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "52224389",
-    "inchiKey": "PALJPGHWDUHUPO-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -24282,8 +23320,6 @@
       "inchi_key": "IVVCMEGHVSDGFJ-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "91936930",
-    "inchiKey": "IVVCMEGHVSDGFJ-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -24347,8 +23383,6 @@
       "inchi_key": "VPBJQDBKZSHCPC-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "9971539",
-    "inchiKey": "VPBJQDBKZSHCPC-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -24392,8 +23426,6 @@
       "inchi_key": "VCHHHSMPMLNVGS-UHFFFAOYSA-N",
       "smiles": "CCCCN1C=C(C2=CC=CC=C21)C(=O)C3=CC=CC4=CC=CC=C43"
     },
-    "pubchemCid": "10471670",
-    "inchiKey": "VCHHHSMPMLNVGS-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -24464,8 +23496,6 @@
       "inchi_key": "UBMPKJKGUQDHRM-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "10547208",
-    "inchiKey": "UBMPKJKGUQDHRM-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -24512,8 +23542,6 @@
       "inchi_key": "HUKJQMKQFWYIHS-UHFFFAOYSA-N",
       "smiles": "CCCCCN1C=C(C2=CC=CC=C21)C(=O)C3=CC=C(C4=CC=CC=C43)C"
     },
-    "pubchemCid": "44466638",
-    "inchiKey": "HUKJQMKQFWYIHS-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -24553,8 +23581,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -24611,8 +23637,6 @@
       "inchi_key": "JLXYYSHMURZHKI-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "44418304",
-    "inchiKey": "JLXYYSHMURZHKI-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -24675,8 +23699,6 @@
       "inchi_key": "AKGUMDFQXWZHHS-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "45268702",
-    "inchiKey": "AKGUMDFQXWZHHS-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -24749,8 +23771,6 @@
       "inchi_key": "SZWYXJHTNGJPKU-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "10045570",
-    "inchiKey": "SZWYXJHTNGJPKU-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -24823,8 +23843,6 @@
       "inchi_key": "YDINKDBAZJOSLV-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "44397500",
-    "inchiKey": "YDINKDBAZJOSLV-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -24897,8 +23915,6 @@
       "inchi_key": "LACIUQLUNACUKC-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "45270396",
-    "inchiKey": "LACIUQLUNACUKC-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -24958,8 +23974,6 @@
       "inchi_key": "JAVDQKMSPNBPCK-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "45268707",
-    "inchiKey": "JAVDQKMSPNBPCK-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -25032,8 +24046,6 @@
       "inchi_key": "FFLSJIQJQKDDCM-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "44397540",
-    "inchiKey": "FFLSJIQJQKDDCM-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -25100,8 +24112,6 @@
       "inchi_key": "YBIPNGRKUAVSBG-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "11616723",
-    "inchiKey": "YBIPNGRKUAVSBG-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -25164,8 +24174,6 @@
       "inchi_key": "WYNZPDDTQGVCLZ-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "16049783",
-    "inchiKey": "WYNZPDDTQGVCLZ-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -25232,8 +24240,6 @@
       "inchi_key": "OCOICOMCAJNSCA-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "44418331",
-    "inchiKey": "OCOICOMCAJNSCA-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -25301,8 +24307,6 @@
       "inchi_key": "IUWBHGFOHXVVKV-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "57458928",
-    "inchiKey": "IUWBHGFOHXVVKV-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -25346,8 +24350,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -25387,8 +24389,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "33746",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -25430,8 +24430,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -25475,8 +24473,6 @@
       "inchi_key": "MKXZASYAUGDDCJ-CGTJXYLNSA-N",
       "smiles": "CN1CC[C@]23CCCC[C@H]2[C@H]1CC4=C3C=C(C=C4)OC"
     },
-    "pubchemCid": "5362449",
-    "inchiKey": "MKXZASYAUGDDCJ-CGTJXYLNSA-N",
     "summary": "デキストロメトルファン(メジコン&reg;)の左旋性。<br />デキストロメトルファンことなりオピオイド受容体への親和性も高くモルヒネの5倍の効力を示す。",
     "history": "",
     "effects": {
@@ -25518,8 +24514,6 @@
       "inchi_key": "CFBQYWXPZVQQTN-QPTUXGOLSA-N",
       "smiles": "C1CC[C@@]23CCN([C@@H]([C@@H]2C1)CC4=C3C=C(C=C4)O)CCC5=CC=CC=C5"
     },
-    "pubchemCid": "5362458",
-    "inchiKey": "CFBQYWXPZVQQTN-QPTUXGOLSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -25561,8 +24555,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -25611,8 +24603,6 @@
       "inchi_key": "VAYOSLLFUXYJDT-RDTXWAMCSA-N",
       "smiles": "CCN(CC)C(=O)[C@H]1CN([C@@H]2CC3=CNC4=CC=CC(=C34)C2=C1)C"
     },
-    "pubchemCid": "5761",
-    "inchiKey": "VAYOSLLFUXYJDT-RDTXWAMCSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -25704,8 +24694,6 @@
       "inchi_key": "DUKNIHFTDAXJON-CTQRGLTFSA-N",
       "smiles": ""
     },
-    "pubchemCid": "71301249",
-    "inchiKey": "DUKNIHFTDAXJON-CTQRGLTFSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -25765,8 +24753,6 @@
       "inchi_key": "FZYJALPWLNXEIP-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "91936840",
-    "inchiKey": "FZYJALPWLNXEIP-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -25825,8 +24811,6 @@
       "inchi_key": "CRGGXDSTBHQLKJ-SFHVURJKSA-N",
       "smiles": ""
     },
-    "pubchemCid": "119026010",
-    "inchiKey": "CRGGXDSTBHQLKJ-SFHVURJKSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -25872,8 +24856,6 @@
       "inchi_key": "IGBHZHCGWLHBAE-UHFFFAOYSA-N",
       "smiles": "CC1=CC=C(C2=CC=CC=C12)C(=O)C3=CN(C4=CC=CC=C43)CCCCCF"
     },
-    "pubchemCid": "66570720",
-    "inchiKey": "IGBHZHCGWLHBAE-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -25913,8 +24895,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "4020",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -25956,8 +24936,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -26028,8 +25006,6 @@
       "inchi_key": "MLJOKPBESJWYGL-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "763557",
-    "inchiKey": "MLJOKPBESJWYGL-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -26073,8 +25049,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -26116,8 +25090,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -26188,8 +25160,6 @@
       "inchi_key": "FQDRMHHCWZAXJM-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "125558",
-    "inchiKey": "FQDRMHHCWZAXJM-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -26231,8 +25201,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -26277,8 +25245,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "105039",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -26320,8 +25286,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -26366,8 +25330,6 @@
       "inchi_key": "LWOCBHBFWNGPGM-QGZVFWFLSA-N",
       "smiles": "CC(C)(C)[C@@H](C(=O)OC)NC(=O)C1=NN(C2=CC=CC=C21)CCCC=C"
     },
-    "pubchemCid": "155804661",
-    "inchiKey": "LWOCBHBFWNGPGM-QGZVFWFLSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -26411,8 +25373,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -26467,8 +25427,6 @@
       "inchi_key": "DGQMLBSSRFFINY-LJQANCHMSA-N",
       "smiles": ""
     },
-    "pubchemCid": "121491808",
-    "inchiKey": "DGQMLBSSRFFINY-LJQANCHMSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -26518,8 +25476,6 @@
       "inchi_key": "RVAWIZIGOSKPBP-HXUWFJFHSA-N",
       "smiles": ""
     },
-    "pubchemCid": "129522107",
-    "inchiKey": "RVAWIZIGOSKPBP-HXUWFJFHSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -26581,8 +25537,6 @@
       "inchi_key": "RFCDVEHNYDVCMU-LJQANCHMSA-N",
       "smiles": ""
     },
-    "pubchemCid": "119025665",
-    "inchiKey": "RFCDVEHNYDVCMU-LJQANCHMSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -26655,8 +25609,6 @@
       "inchi_key": "OLVLMDVPMCIBQW-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "71300672",
-    "inchiKey": "OLVLMDVPMCIBQW-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -26720,8 +25672,6 @@
       "inchi_key": "NIYQOTCYXGXMPI-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "6430845",
-    "inchiKey": "NIYQOTCYXGXMPI-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -26769,8 +25719,6 @@
       "inchi_key": "SFITWQDBYUMAPS-UHFFFAOYSA-N",
       "smiles": "CC1=NC2=CC=CC=C2C(=O)N1C3=CC=CC=C3Cl"
     },
-    "pubchemCid": "9567",
-    "inchiKey": "SFITWQDBYUMAPS-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -26810,8 +25758,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "4041",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -26851,8 +25797,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "96024587",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -26896,8 +25840,6 @@
       "inchi_key": "KHUPPYUUMRDAAX-UHFFFAOYSA-N",
       "smiles": "CN1CCC(CC1)(C2=CC=CC=C2)C(=O)O"
     },
-    "pubchemCid": "101106",
-    "inchiKey": "KHUPPYUUMRDAAX-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -26950,8 +25892,6 @@
       "inchi_key": "HZICDJQMPRFRKC-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "64487873",
-    "inchiKey": "HZICDJQMPRFRKC-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -27005,8 +25945,6 @@
       "inchi_key": "YELGFTGWJGBAQU-UHFFFAOYSA-N",
       "smiles": "CC1=CC=C(C=C1)C(=O)C(C)NC"
     },
-    "pubchemCid": "45266826",
-    "inchiKey": "YELGFTGWJGBAQU-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -27077,8 +26015,6 @@
       "inchi_key": "MFOCDFTXLCYLKU-CMPLNLGQSA-N",
       "smiles": ""
     },
-    "pubchemCid": "30487",
-    "inchiKey": "MFOCDFTXLCYLKU-CMPLNLGQSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -27140,8 +26076,6 @@
       "inchi_key": "FTRWLSZFQILOOD-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "69845357",
-    "inchiKey": "FTRWLSZFQILOOD-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -27194,8 +26128,6 @@
       "inchi_key": "IUEFFEOHJKCBPF-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "101896603",
-    "inchiKey": "IUEFFEOHJKCBPF-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -27239,8 +26171,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -27280,8 +26210,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "71932",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -27352,8 +26280,6 @@
       "inchi_key": "FFEARJCKVFRZRR-BYPYZUCNSA-N",
       "smiles": ""
     },
-    "pubchemCid": "6137",
-    "inchiKey": "FFEARJCKVFRZRR-BYPYZUCNSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -27401,8 +26327,6 @@
       "inchi_key": "VHFVKMTVMIZMIK-UHFFFAOYSA-N",
       "smiles": "C1CN(CCN1)C2=CC(=CC=C2)Cl"
     },
-    "pubchemCid": "1355",
-    "inchiKey": "VHFVKMTVMIZMIK-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -27449,8 +26373,6 @@
       "inchi_key": "KKIMDKMETPPURN-UHFFFAOYSA-N",
       "smiles": "C1CN(CCN1)C2=CC=CC(=C2)C(F)(F)F"
     },
-    "pubchemCid": "4296",
-    "inchiKey": "KKIMDKMETPPURN-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -27492,8 +26414,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "443404",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -27535,8 +26455,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -27578,8 +26496,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -27634,8 +26550,6 @@
       "inchi_key": "BWWWOLYZMKACSB-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "17802040",
-    "inchiKey": "BWWWOLYZMKACSB-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -27677,8 +26591,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "7847623",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -27725,8 +26637,6 @@
       "inchi_key": "LPLLVINFLBSFRP-UHFFFAOYSA-N",
       "smiles": "CC(C(=O)C1=CC=CC=C1)NC"
     },
-    "pubchemCid": "1576",
-    "inchiKey": "LPLLVINFLBSFRP-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -27771,8 +26681,6 @@
       "inchi_key": "HPHUWHKFQXTZPS-UHFFFAOYSA-N",
       "smiles": "CC(CC1=CC=CS1)NC"
     },
-    "pubchemCid": "436156",
-    "inchiKey": "HPHUWHKFQXTZPS-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -27820,8 +26728,6 @@
       "inchi_key": "LPKTWLVEGBNOOX-UHFFFAOYSA-N",
       "smiles": "CCNC1(CCCCC1=O)C2=CC(=CC=C2)OC"
     },
-    "pubchemCid": "52911279",
-    "inchiKey": "LPKTWLVEGBNOOX-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -27869,8 +26775,6 @@
       "inchi_key": "FTQIVDGNGXPEKP-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "163192824",
-    "inchiKey": "FTQIVDGNGXPEKP-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -27928,8 +26832,6 @@
       "inchi_key": "ZGQWDAOLJNAADS-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "117067863",
-    "inchiKey": "ZGQWDAOLJNAADS-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -27982,8 +26884,6 @@
       "inchi_key": "AAVOSBAXDRASAH-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "155817932",
-    "inchiKey": "AAVOSBAXDRASAH-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -28029,8 +26929,6 @@
       "inchi_key": "SADNVKRDSWWFTK-UHFFFAOYSA-N",
       "smiles": "COCC(=O)N(C1CCN(CC1)CCC2=CC=CC=C2)C3=CC=CC=C3"
     },
-    "pubchemCid": "968688",
-    "inchiKey": "SADNVKRDSWWFTK-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -28072,8 +26970,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -28115,8 +27011,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -28167,8 +27061,6 @@
       "inchi_key": "SYHGEUNFJIGTRX-UHFFFAOYSA-N",
       "smiles": "CCCC(C(=O)C1=CC2=C(C=C1)OCO2)N3CCCC3"
     },
-    "pubchemCid": "20111961",
-    "inchiKey": "SYHGEUNFJIGTRX-UHFFFAOYSA-N",
     "summary": "3,4-メチレンジオキシピロバレロンは有機分子化合物である。中枢神経刺激薬、ノルアドレナリン及びドーパミン再取り込み阻害薬として作用する。",
     "history": "",
     "effects": {
@@ -28228,8 +27120,6 @@
       "inchi_key": "DNRNSIJBSCBESJ-IAGOWNOFSA-N",
       "smiles": ""
     },
-    "pubchemCid": "9817261",
-    "inchiKey": "DNRNSIJBSCBESJ-IAGOWNOFSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -28271,8 +27161,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "4158",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -28314,8 +27202,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "7847765",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -28355,8 +27241,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "7848213",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -28396,8 +27280,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -28442,8 +27324,6 @@
       "inchi_key": "HNGZTLMRQTVPBH-UHFFFAOYSA-N",
       "smiles": "CCN(CC)CCN1C2=C(C=C(C=C2)[N+](=O)[O-])N=C1CC3=CC=C(C=C3)OC"
     },
-    "pubchemCid": "53316366",
-    "inchiKey": "HNGZTLMRQTVPBH-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -28485,8 +27365,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "5359353",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -28538,8 +27416,6 @@
       "inchi_key": "JHGDCSPZKQLBOP-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "129318262",
-    "inchiKey": "JHGDCSPZKQLBOP-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -28581,8 +27457,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "4192",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -28637,8 +27511,6 @@
       "inchi_key": "ROICYBLUWUMJFF-RDTXWAMCSA-N",
       "smiles": ""
     },
-    "pubchemCid": "102060927",
-    "inchiKey": "ROICYBLUWUMJFF-RDTXWAMCSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -28704,8 +27576,6 @@
       "inchi_key": "KTQJVAJLJZIKKD-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "29935323",
-    "inchiKey": "KTQJVAJLJZIKKD-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -28778,8 +27648,6 @@
       "inchi_key": "LELBFTMXCIIKKX-QVRQZEMUSA-N",
       "smiles": ""
     },
-    "pubchemCid": "3034396",
-    "inchiKey": "LELBFTMXCIIKKX-QVRQZEMUSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -28824,8 +27692,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -28888,8 +27754,6 @@
       "inchi_key": "JFXASAFVUQVGEW-SFHVURJKSA-N",
       "smiles": ""
     },
-    "pubchemCid": "119058037",
-    "inchiKey": "JFXASAFVUQVGEW-SFHVURJKSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -28962,8 +27826,6 @@
       "inchi_key": "GPVJAXJRAZVITB-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "90966",
-    "inchiKey": "GPVJAXJRAZVITB-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -29007,8 +27869,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -29062,8 +27922,6 @@
       "inchi_key": "UJKHLVOEXULDRU-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "119058030",
-    "inchiKey": "UJKHLVOEXULDRU-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -29114,8 +27972,6 @@
       "inchi_key": "SUEOBRAXHJBVGY-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "132584892",
-    "inchiKey": "SUEOBRAXHJBVGY-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -29176,8 +28032,6 @@
       "inchi_key": "MQZWTCIUDSDFCQ-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "132989661",
-    "inchiKey": "MQZWTCIUDSDFCQ-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -29219,8 +28073,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "7848894",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -29262,8 +28114,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -29305,8 +28155,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -29348,8 +28196,6 @@
       "inchi_key": "",
       "smiles": "C1(O)=C2O[C@@]3([H])C(O)C=C[C@@]4([H])[C@]5([H])[N+](O)(CC[C@@]43C2=C(C5)C=C1)C"
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "e.g.Morphine-N-Chloriedなどの五価窒素モルヒネなども含まれる。",
     "history": "",
     "effects": {
@@ -29391,8 +28237,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -29446,8 +28290,6 @@
       "inchi_key": "GZGBNOYVLYYYCZ-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "165412024",
-    "inchiKey": "GZGBNOYVLYYYCZ-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -29519,8 +28361,6 @@
       "inchi_key": "YOSQVMGMENUCDX-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "6423085",
-    "inchiKey": "YOSQVMGMENUCDX-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -29564,8 +28404,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -29605,8 +28443,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -29650,8 +28486,6 @@
       "inchi_key": "IGBRRSIHEGCUEN-UHFFFAOYSA-N",
       "smiles": "C1CCC(CC1)N2CCN(CC2)C(CC3=CC=CC=C3)C4=CC=CC=C4"
     },
-    "pubchemCid": "431865",
-    "inchiKey": "IGBRRSIHEGCUEN-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -29693,8 +28527,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -29734,8 +28566,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -29788,8 +28618,6 @@
       "inchi_key": "SEIQPCGGBMTHCB-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "145722628",
-    "inchiKey": "SEIQPCGGBMTHCB-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -29833,8 +28661,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -29880,8 +28706,6 @@
       "inchi_key": "HHBRZWRJZICFRP-UHFFFAOYSA-N",
       "smiles": "CCNCCN1C2=C(C=C(C=C2)[N+](=O)[O-])N=C1CC3=CC=C(C=C3)OC(C)C"
     },
-    "pubchemCid": "162623899",
-    "inchiKey": "HHBRZWRJZICFRP-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -29931,8 +28755,6 @@
       "inchi_key": "RESPFUMJVJRUMB-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "162623580",
-    "inchiKey": "RESPFUMJVJRUMB-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -29992,8 +28814,6 @@
       "inchi_key": "HEPVRDHGUWFXJS-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "20326296",
-    "inchiKey": "HEPVRDHGUWFXJS-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -30038,8 +28858,6 @@
       "inchi_key": "CWNKMHIETKEBCA-UHFFFAOYSA-N",
       "smiles": "CCCCC(C(=O)C1=CC=CC=C1)NCC"
     },
-    "pubchemCid": "134822125",
-    "inchiKey": "CWNKMHIETKEBCA-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -30057,6 +28875,56 @@
       }
     },
     "refs": []
+  },
+  {
+    "id": "n-ethylpentylone",
+    "name": "N-Ethylpentylone",
+    "common_name": "N-Ethylpentylone",
+    "systematic_name": "1-(1,3-benzodioxol-5-yl)-2-(ethylamino)pentan-1-one",
+    "aliases": [
+      "Ephylone",
+      "N-ethylnorpentylone",
+      "bk-EBDP",
+      "bk-Ethyl-K",
+      "二―エチルアミノ―一―(三・四―メチレンジオキシフェニル)ペンタン―一―オン及びその塩類"
+    ],
+    "categories": [
+      "中枢神経刺激薬",
+      "合成カチノン系"
+    ],
+    "legal": {
+      "jp": {
+        "law_number": "",
+        "law_category": "麻薬",
+        "official_name": "二―エチルアミノ―一―(三・四―メチレンジオキシフェニル)ペンタン―一―オン及びその塩類",
+        "effective_date": "",
+        "source_link": "https://laws.e-gov.go.jp/law/402CO0000000238/"
+      }
+    },
+    "identifiers": {
+      "pubchem_cid": "57359308",
+      "inchi_key": "VERDHJIMZYXGIW-UHFFFAOYSA-N",
+      "smiles": "CCCC(C(=O)C1=CC2=C(C=C1)OCO2)NCC"
+    },
+    "summary": "N-Ethylpentylone（Ephylone、N-ethylnorpentylone、bk-EBDP）は、メチレンジオキシフェニル骨格をもつ合成カチノン系・β-ケトアンフェタミン系の中枢刺激薬である。DAT、NET、SERTの強力な再取り込み阻害薬で、IC50はDAT 37 nM、NET 105 nM、SERT 383 nMと報告され、モノアミン放出作用は示さない。DAT優位の阻害によりドーパミン・ノルアドレナリン伝達を増強し、覚醒・多幸感・頻脈・高血圧・興奮などを起こしうる。構造・薬理学的にはpentylone、eutylone、butylone、ethylone、methyloneに類似する。自然由来ではなく、合成NPSである。",
+    "history": "",
+    "effects": {
+      "effects_positive": [],
+      "effects_negative": []
+    },
+    "external_resources": {
+      "experiences": {
+        "label": "",
+        "url": ""
+      },
+      "dosage_duration": {
+        "label": "",
+        "url": ""
+      }
+    },
+    "refs": [
+      "Costa, J. L., Cunha, K. F., Lanaro, R., Cunha, R. L., Walther, D., & Baumann, M. H. (2019). Analytical quantification, intoxication case series, and pharmacological mechanism of action for N-ethylnorpentylone (N-ethylpentylone or ephylone). Drug testing and analysis, 11(3), 461–471. https://doi.org/10.1002/dta.2502"
+    ]
   },
   {
     "id": "n-hydroxy-mda",
@@ -30083,8 +28951,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "98528",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -30130,8 +28996,6 @@
       "inchi_key": "ORADFQZOLNHWRQ-UHFFFAOYSA-N",
       "smiles": "CC(CC1=CC2=C(C=C1)OCO2)N(C)O"
     },
-    "pubchemCid": "44350092",
-    "inchiKey": "ORADFQZOLNHWRQ-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -30171,8 +29035,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -30214,8 +29076,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -30257,8 +29117,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -30314,8 +29172,6 @@
       "inchi_key": "NRIHOTHAMAUSRO-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "122129922",
-    "inchiKey": "NRIHOTHAMAUSRO-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -30363,51 +29219,6 @@
       "inchi_key": "JTTDZHBAEQTIPA-UHFFFAOYSA-N",
       "smiles": "COC1=CC=C(C=C1)CC2=NC3=C(N2CCN4CCCC4)C=CC(=C3)[N+](=O)[O-]"
     },
-    "pubchemCid": "168323127",
-    "inchiKey": "JTTDZHBAEQTIPA-UHFFFAOYSA-N",
-    "summary": "",
-    "history": "",
-    "effects": {
-      "effects_positive": [],
-      "effects_negative": []
-    },
-    "external_resources": {
-      "experiences": {
-        "label": "",
-        "url": ""
-      },
-      "dosage_duration": {
-        "label": "",
-        "url": ""
-      }
-    },
-    "refs": []
-  },
-  {
-    "id": "n_n",
-    "name": "N・N―ジアリル―五―メトキシトリプタミン及びその塩類",
-    "common_name": "N・N―ジアリル―五―メトキシトリプタミン及びその塩類",
-    "systematic_name": "N,N-diallyl-5-methoxy-tryptamine",
-    "aliases": [
-      "N・N―ジアリル―五―メトキシトリプタミン及びその塩類"
-    ],
-    "categories": [],
-    "legal": {
-      "jp": {
-        "law_number": "",
-        "law_category": "麻薬",
-        "official_name": "N・N―ジアリル―五―メトキシトリプタミン及びその塩類",
-        "effective_date": "",
-        "source_link": "https://laws.e-gov.go.jp/law/402CO0000000238/"
-      }
-    },
-    "identifiers": {
-      "pubchem_cid": "",
-      "inchi_key": "",
-      "smiles": ""
-    },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -30449,8 +29260,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -30520,8 +29329,6 @@
       "inchi_key": "DTNUPBSOODGRKW-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "11243002",
-    "inchiKey": "DTNUPBSOODGRKW-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -30563,8 +29370,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -30620,8 +29425,6 @@
       "inchi_key": "HGJYPIZWMHHQKS-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "139031057",
-    "inchiKey": "HGJYPIZWMHHQKS-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -30665,8 +29468,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -30706,8 +29507,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "7848656",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -30747,8 +29546,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "7847597",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -30813,8 +29610,6 @@
       "inchi_key": "PRGFSQYZCKCBQO-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "91864534",
-    "inchiKey": "PRGFSQYZCKCBQO-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -30881,8 +29676,6 @@
       "inchi_key": "GWCQNKRMTGVYIZ-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "54752945",
-    "inchiKey": "GWCQNKRMTGVYIZ-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -30926,8 +29719,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -30967,8 +29758,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "2997",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -31010,8 +29799,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -31068,8 +29855,6 @@
       "inchi_key": "UWICFJAXLKCHTQ-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "118796435",
-    "inchiKey": "UWICFJAXLKCHTQ-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -31142,8 +29927,6 @@
       "inchi_key": "UWJUQVWARXYRCG-HIFRSBDPSA-N",
       "smiles": ""
     },
-    "pubchemCid": "9838803",
-    "inchiKey": "UWJUQVWARXYRCG-HIFRSBDPSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -31189,8 +29972,6 @@
       "inchi_key": "NYISTOZKVCMVEL-UHFFFAOYSA-N",
       "smiles": "COCC(=O)N(C1CCN(CC1)CCC2=CC=CC=C2)C3=CC=CC=C3F"
     },
-    "pubchemCid": "60575",
-    "inchiKey": "NYISTOZKVCMVEL-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -31261,8 +30042,6 @@
       "inchi_key": "AHFZDNYNXFMRFQ-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "44828492",
-    "inchiKey": "AHFZDNYNXFMRFQ-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -31307,8 +30086,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -31348,8 +30125,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -31395,8 +30170,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -31436,8 +30209,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "7847530",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -31477,8 +30248,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "7848341",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -31520,8 +30289,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -31563,8 +30330,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -31613,8 +30378,6 @@
       "inchi_key": "KXUBAVLIJFTASZ-UHFFFAOYSA-N",
       "smiles": "CCC(=O)N(C1CCN(CC1)CCC2=CC=CC=C2)C3=CC=C(C=C3)F"
     },
-    "pubchemCid": "62300",
-    "inchiKey": "KXUBAVLIJFTASZ-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -31657,8 +30420,6 @@
       "inchi_key": "OORFXDSWECAQLI-UHFFFAOYSA-N",
       "smiles": "CCCCCCC1=CC(=C2C3=C(CCC(C3)C)C(OC2=C1)(C)C)O"
     },
-    "pubchemCid": "8334",
-    "inchiKey": "OORFXDSWECAQLI-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -31698,8 +30459,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "4723",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -31739,8 +30498,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "441278",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -31782,8 +30539,6 @@
       "inchi_key": "WLIWIUNEJRETFX-UHFFFAOYSA-N",
       "smiles": "CCCC(C(=O)C1=CC=CC=C1)NC"
     },
-    "pubchemCid": "57501499",
-    "inchiKey": "WLIWIUNEJRETFX-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -31823,8 +30578,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "4737",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -31887,8 +30640,6 @@
       "inchi_key": "DFMLULIEUUXXSA-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "60208608",
-    "inchiKey": "DFMLULIEUUXXSA-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -31932,8 +30683,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -31981,8 +30730,6 @@
       "inchi_key": "XADCESSVHJOZHK-UHFFFAOYSA-N",
       "smiles": "CCOC(=O)C1(CCN(CC1)C)C2=CC=CC=C2"
     },
-    "pubchemCid": "4058",
-    "inchiKey": "XADCESSVHJOZHK-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -32024,8 +30771,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -32067,8 +30812,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -32110,8 +30853,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -32153,8 +30894,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "8523",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -32196,8 +30935,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "14707",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -32239,8 +30976,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -32280,8 +31015,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "96025034",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -32321,8 +31054,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "30487",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -32362,8 +31093,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "4763",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -32405,8 +31134,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -32446,8 +31173,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "4771",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -32518,8 +31243,6 @@
       "inchi_key": "CKLKGWHINGNHOK-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "519663",
-    "inchiKey": "CKLKGWHINGNHOK-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -32563,8 +31286,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "61306",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -32604,8 +31325,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "40391",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -32645,8 +31364,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "10083",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -32688,8 +31405,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -32731,8 +31446,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -32803,8 +31516,6 @@
       "inchi_key": "SUPKOOSCJHTBAH-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "60172",
-    "inchiKey": "SUPKOOSCJHTBAH-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -32846,8 +31557,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "7847536",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -32889,8 +31598,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -32961,8 +31668,6 @@
       "inchi_key": "OJCPSBCUMRIPFL-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "14592",
-    "inchiKey": "OJCPSBCUMRIPFL-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -33007,8 +31712,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "26216",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -33050,8 +31753,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -33091,8 +31792,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "47207299",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -33136,8 +31835,6 @@
       "inchi_key": "SJHUJFHOXYDSJY-UHFFFAOYSA-N",
       "smiles": "CCCOC1=CC=C(C=C1)CC2=NC3=C(N2CCN(CC)CC)C=CC(=C3)[N+](=O)[O-]"
     },
-    "pubchemCid": "156589001",
-    "inchiKey": "SJHUJFHOXYDSJY-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -33179,8 +31876,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -33222,8 +31917,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -33276,8 +31969,6 @@
       "inchi_key": "DDVANTXQCRMRFF-FQEVSTJZSA-N",
       "smiles": ""
     },
-    "pubchemCid": "125181260",
-    "inchiKey": "DDVANTXQCRMRFF-FQEVSTJZSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -33319,8 +32010,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -33360,8 +32049,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "14373",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -33401,8 +32088,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "4999",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -33465,8 +32150,6 @@
       "inchi_key": "RHYGTJXOHOGQGI-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "71711120",
-    "inchiKey": "RHYGTJXOHOGQGI-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -33539,8 +32222,6 @@
       "inchi_key": "ZAVGICCEAOUWFM-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "71604304",
-    "inchiKey": "ZAVGICCEAOUWFM-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -33586,8 +32267,6 @@
       "inchi_key": "INUNXTSAACVKJS-UHFFFAOYSA-N",
       "smiles": "CC(CN1CCOCC1)C(C2=CC=CC=C2)(C3=CC=CC=C3)C(=O)N4CCCC4"
     },
-    "pubchemCid": "9648",
-    "inchiKey": "INUNXTSAACVKJS-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -33658,8 +32337,6 @@
       "inchi_key": "OZCYJKDWRUIFFE-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "56841530",
-    "inchiKey": "OZCYJKDWRUIFFE-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -33701,8 +32378,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -33744,8 +32419,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -33815,8 +32488,6 @@
       "inchi_key": "NUAJBITWGGTZCM-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "10041987",
-    "inchiKey": "NUAJBITWGGTZCM-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -33860,8 +32531,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -33910,8 +32579,6 @@
       "inchi_key": "RHWDQYHGQIZSGW-LZRDFDPJSA-N",
       "smiles": ""
     },
-    "pubchemCid": "9820470",
-    "inchiKey": "RHWDQYHGQIZSGW-LZRDFDPJSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -33953,8 +32620,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -34011,8 +32676,6 @@
       "inchi_key": "SPUQBSMPSCYQLS-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "91936885",
-    "inchiKey": "SPUQBSMPSCYQLS-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -34077,8 +32740,6 @@
       "inchi_key": "OLACYTSBFXCDOH-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "2227769",
-    "inchiKey": "OLACYTSBFXCDOH-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -34120,8 +32781,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "5193",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -34189,8 +32848,6 @@
       "inchi_key": "COYHGVCHRRXECF-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "57404059",
-    "inchiKey": "COYHGVCHRRXECF-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -34234,8 +32891,6 @@
       "inchi_key": "GGCSSNBKKAUURC-UHFFFAOYSA-N",
       "smiles": "CCC(=O)N(C1=CC=CC=C1)C2(CCN(CC2)CCC3=CC=CS3)COC"
     },
-    "pubchemCid": "41693",
-    "inchiKey": "GGCSSNBKKAUURC-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -34275,8 +32930,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -34316,8 +32969,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -34359,8 +33010,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -34400,8 +33049,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "5391",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -34448,8 +33095,6 @@
       "inchi_key": "JUZZEWSCNBCFRL-UHFFFAOYSA-N",
       "smiles": "c1csc(C2(N3CCCCC3)CCCCC2)c1"
     },
-    "pubchemCid": "62751",
-    "inchiKey": "JUZZEWSCNBCFRL-UHFFFAOYSA-N",
     "summary": "テノシクリジンは、シクロヘキサンの1位にピペリジン-1-イル基およびチオフェン-2-イル基が結合した構造を有する第三級アミノ化合物である。解離性麻酔薬であり、幻覚作用および中枢刺激作用を有する。作用はフェンサイクリジン（PCP、チエニル基がフェニル基に置き換わった類縁体）に類似するが、より高い効力を示す。中枢神経刺激薬、幻覚薬、NMDA受容体拮抗薬、および神経保護作用を有する化合物としての役割を持つ。ピペリジン類、チオフェン類、および第三級アミノ化合物の一員である。",
     "history": "",
     "effects": {
@@ -34494,8 +33139,6 @@
       "inchi_key": "OHJNHKUFSKAANI-UHFFFAOYSA-N",
       "smiles": "C1CC(OC1)C(=O)N(C2CCN(CC2)CCC3=CC=CC=C3)C4=CC=CC=C4"
     },
-    "pubchemCid": "137332293",
-    "inchiKey": "OHJNHKUFSKAANI-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -34535,8 +33178,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "25215",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -34597,8 +33238,6 @@
       "inchi_key": "MMIKQWIZKBYLKZ-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "132989549",
-    "inchiKey": "MMIKQWIZKBYLKZ-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -34642,8 +33281,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -34691,8 +33328,6 @@
       "inchi_key": "YMRFZDHYDKZXPA-UHFFFAOYSA-N",
       "smiles": "CCC(=O)N(C1CCN(CC1)CCC2=CC=CS2)C3=CC=CC=C3"
     },
-    "pubchemCid": "62380",
-    "inchiKey": "YMRFZDHYDKZXPA-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -34746,8 +33381,6 @@
       "inchi_key": "VAKGBPSFDNTMDJ-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "124518671",
-    "inchiKey": "VAKGBPSFDNTMDJ-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -34808,8 +33441,6 @@
       "inchi_key": "DULWRYKFTVFPTL-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "91864533",
-    "inchiKey": "DULWRYKFTVFPTL-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -34861,8 +33492,6 @@
       "inchi_key": "YAYIQXMTUCPLHG-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "124519290",
-    "inchiKey": "YAYIQXMTUCPLHG-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -34935,8 +33564,6 @@
       "inchi_key": "QAXBVGVYDCAVLV-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "26533",
-    "inchiKey": "QAXBVGVYDCAVLV-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -34983,8 +33610,6 @@
       "inchi_key": "TVSIMAWGATVNGK-UHFFFAOYSA-N",
       "smiles": "CC(CC1=CC(=C(C=C1OC)OC)OC)N"
     },
-    "pubchemCid": "31014",
-    "inchiKey": "TVSIMAWGATVNGK-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -35055,8 +33680,6 @@
       "inchi_key": "DDGNOUVDFKXADP-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "31015",
-    "inchiKey": "DDGNOUVDFKXADP-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -35100,8 +33723,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -35143,8 +33764,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -35184,8 +33803,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "5556",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -35227,8 +33844,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -35270,8 +33885,6 @@
       "inchi_key": "JGPNMZWFVRQNGU-UHFFFAOYSA-N",
       "smiles": "CN(C)C1CCCCC1N(C)C(=O)C2=CC(=C(C=C2)Cl)Cl"
     },
-    "pubchemCid": "13544015",
-    "inchiKey": "JGPNMZWFVRQNGU-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -35313,8 +33926,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "44626619",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -35356,8 +33967,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -35399,8 +34008,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "72135",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -35444,8 +34051,6 @@
       "inchi_key": "PXLDPUUMIHVLEC-UHFFFAOYSA-N",
       "smiles": "CC1(C(C1(C)C)C(=O)C2=CN(C3=CC=CC=C32)CCCCCF)C"
     },
-    "pubchemCid": "57501498",
-    "inchiKey": "PXLDPUUMIHVLEC-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -35499,8 +34104,6 @@
       "inchi_key": "PEXYKZYTXIEEOB-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "11559386",
-    "inchiKey": "PEXYKZYTXIEEOB-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -35542,8 +34145,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "51091726",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -35583,8 +34184,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "96025373",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -35626,8 +34225,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -35667,8 +34264,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -35710,8 +34305,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -35751,8 +34344,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -35792,8 +34383,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -35833,8 +34422,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -35880,8 +34467,6 @@
       "inchi_key": "KYIJLDDXQWBNGX-UHFFFAOYSA-N",
       "smiles": "CCCCC(C(=O)C1=CC=CC=C1)N2CCCC2"
     },
-    "pubchemCid": "102107923",
-    "inchiKey": "KYIJLDDXQWBNGX-UHFFFAOYSA-N",
     "summary": "α-PHPはα-PVPの1炭素延長ホモログであるピロリジノフェノン系合成カチノンである。",
     "history": "",
     "effects": {
@@ -35923,8 +34508,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -35966,8 +34549,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -36009,8 +34590,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -36052,8 +34631,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -36093,8 +34670,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -36134,8 +34709,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -36175,8 +34748,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -36218,8 +34789,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -36263,8 +34832,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -36306,8 +34873,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -36351,8 +34916,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -36394,8 +34957,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -36437,8 +34998,6 @@
       "inchi_key": "",
       "smiles": ""
     },
-    "pubchemCid": "",
-    "inchiKey": "",
     "summary": "",
     "history": "",
     "effects": {
@@ -36509,8 +35068,6 @@
       "inchi_key": "APNSGVMLAYLYCT-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "10958",
-    "inchiKey": "APNSGVMLAYLYCT-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -36583,8 +35140,6 @@
       "inchi_key": "OWFXIOWLTKNBAP-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "8053",
-    "inchiKey": "OWFXIOWLTKNBAP-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -36640,8 +35195,6 @@
       "inchi_key": "NRCNZCLHYWKEDX-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "545140",
-    "inchiKey": "NRCNZCLHYWKEDX-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -36714,8 +35267,6 @@
       "inchi_key": "JQJPBYFTQAANLE-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "10996",
-    "inchiKey": "JQJPBYFTQAANLE-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -36788,8 +35339,6 @@
       "inchi_key": "IOGXOCVLYRDXLW-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "10906",
-    "inchiKey": "IOGXOCVLYRDXLW-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {
@@ -36862,8 +35411,6 @@
       "inchi_key": "GQPLMRYTRLFLPF-UHFFFAOYSA-N",
       "smiles": ""
     },
-    "pubchemCid": "948",
-    "inchiKey": "GQPLMRYTRLFLPF-UHFFFAOYSA-N",
     "summary": "",
     "history": "",
     "effects": {

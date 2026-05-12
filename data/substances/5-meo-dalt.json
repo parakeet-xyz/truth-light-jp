@@ -1,0 +1,48 @@
+{
+  "last_modified": "2026-05-11",
+  "id": "5-meo-dalt",
+  "common_name": "5-MeO-DALT",
+  "systematic_name": "N-[2-(5-methoxy-1H-indol-3-yl)ethyl]-N-(prop-2-en-1-yl)prop-2-en-1-amine",
+  "aliases": [
+    "N,N-Diallyl-5-methoxytryptamine",
+    "5-Methoxy-N,N-diallyltryptamine",
+    "5-Methoxy-DALT",
+    "Foxtrot",
+    "N・N―ジアリル―五―メトキシトリプタミン及びその塩類"
+  ],
+  "identifiers": {
+    "pubchem_cid": "50878551",
+    "inchi_key": "HGRHWEAUHXYNNP-UHFFFAOYSA-N",
+    "smiles": "C=CCN(CCC1=CNC2=C1C=C(OC)C=C2)CC=C"
+  },
+  "categories": ["サイケデリックス", "トリプタミン系"],
+  "legal": {
+    "jp": {
+      "law_number": "",
+      "law_category": "麻薬",
+      "official_name": "N・N―ジアリル―五―メトキシトリプタミン及びその塩類",
+      "effective_date": "",
+      "source_link": "https://laws.e-gov.go.jp/law/402CO0000000238/"
+    }
+  },
+  "summary": "<p>5-MeO-DALTは、合成トリプタミン系／5-メトキシトリプタミン系のセロトニン作動性幻覚薬である。5-HT1A・5-HT2B・5-HT6・5-HT7に比較的高親和性を示し、5-HT2A/2C親和性は低めとされるが、5-HT2A受容体にたいしてはフルアゴニストとして作用する。DALT、5-MeO-DiPT、5-MeO-MiPTと構造・薬理学的に近縁で、自然由来アルカロイドではない。<p><p>インドール基の5位置換トリプタミンは非置換トリプタミン及び他の置換トリプタミンよりも効力が強くユーザーの評価とも一致している。</p>",
+  "history": "",
+  "effects": {
+    "effects_positive": [],
+    "effects_negative": []
+  },
+  "external_resources": {
+    "experiences": {
+      "label": "5-MeO-DALT : Erowid Exp: Main Index",
+      "url": "https://www.erowid.org/experiences/subs/exp_5MeODALT.shtml"
+    },
+    "dosage_duration": {
+      "label": "Erowid 5-MeO-DALT Vault : Dose/Dosage",
+      "url": "https://www.erowid.org/chemicals/5meo_dalt/5meo_dalt_dose.shtml"
+    }
+  },
+  "refs": [
+    "LKlein, L. M., Cozzi, N. V., Daley, P. F., Brandt, S. D., & Halberstadt, A. L. (2018). Receptor binding profiles and behavioral pharmacology of ring-substituted N,N-diallyltryptamine analogs. Neuropharmacology, 142, 231–239. https://doi.org/10.1016/j.neuropharm.2018.02.028",
+    "Puigseslloses, P., et al. (2024). Structure-activity relationships of serotonergic 5-MeO-DMT derivatives: Insights into psychoactive and thermoregulatory properties. Molecular Psychiatry, 29(8), 2346-2358. https://doi.org/10.1038/s41380-024-02506-8"
+  ]
+}

@@ -25,6 +25,8 @@ const files = fs.readdirSync(srcDir).filter((f) => f.endsWith(".json"))
 
 const list = []
 
+let counter = 0
+
 for (const file of files) {
   const filePath = path.join(srcDir, file)
   const fileId = file.replace(/\.json$/, "")
@@ -94,8 +96,8 @@ for (const file of files) {
   const summary = raw.summary ?? raw.description ?? ""
   const history = raw.history ?? ""
   const effects = raw.effects ?? {}
-  const external_resources = raw.external_resources ?? raw.externalResources ?? {}
-  const refs = raw.refs ?? raw.references ?? []
+  const externalResources = raw.external_resources ?? raw.externalResources ?? {}
+  const refs = raw.refs ?? raw.external_resources?.refs ?? raw.externalResources?.refs ?? []
 
   list.push({
     id,
@@ -106,12 +108,10 @@ for (const file of files) {
     categories,
     legal,
     identifiers,
-    pubchemCid: identifiers.pubchem_cid,
-    inchiKey: identifiers.inchi_key,
     summary,
     history,
     effects,
-    external_resources,
+    external_resources: externalResources,
     refs,
   })
 }
@@ -121,5 +121,5 @@ const outputJson = JSON.stringify(list, null, 2)
 fs.writeFileSync(outPublicFile, outputJson, "utf-8")
 fs.writeFileSync(outServerFile, outputJson, "utf-8")
 
-console.log(`✅ [gen] wrote ${list.length} substances -> ${outPublicFile}`)
-console.log(`✅ [gen] wrote ${list.length} substances -> ${outServerFile}`)
+console.log(`✅ [gen.mjs] wrote ${list.length} substances -> ${outPublicFile}`)
+console.log(`✅ [gen.mjs] wrote ${list.length} substances -> ${outServerFile}`)

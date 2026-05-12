@@ -1,0 +1,46 @@
+{
+  "last_modified": "2026-05-10",
+  "id": "ethcathinone",
+  "common_name": "Ethcathinone",
+  "systematic_name": "2-(ethylamino)-1-phenylpropan-1-one",
+  "aliases": [
+    "エトカチノン",
+    "N-Ethyl-cathinone",
+    "N-Ethylaminopropiophenone",
+    "二―エチルアミノ―一―フェニルプロパン―一―オン及びその塩類"
+  ],
+  "identifiers": {
+    "pubchem_cid": "458519",
+    "inchi_key": "LYMHIBZGTAPASQ-UHFFFAOYSA-N",
+    "smiles": "CCNC(C)C(=O)C1=CC=CC=C1"
+  },
+  "categories": ["中枢神経刺激薬", "合成カチノン系"],
+  "legal": {
+    "jp": {
+      "law_number": "",
+      "law_category": "麻薬",
+      "official_name": "二―エチルアミノ―一―フェニルプロパン―一―オン及びその塩類",
+      "effective_date": "",
+      "source_link": "https://laws.e-gov.go.jp/law/402CO0000000238/"
+    }
+  },
+  "summary": "Ethcathinoneは、カチノン系・β-ケトアンフェタミン系の合成精神刺激薬で、CathinoneのN-エチル誘導体である。hDAT阻害IC50は約1,440 nM、hSERTは>100,000 nMで、セロトニン系よりDAT選択性が高い。構造的にはCathinone、Methcathinone、Buphedrone、N-ethyl系カチノン類に近い。天然物ではないが、母核のCathinoneはCatha edulis（Khat）由来アルカロイドである。",
+  "history": "",
+  "effects": {
+    "effects_positive": [],
+    "effects_negative": []
+  },
+  "external_resources": {
+    "experiences": {
+      "label": "",
+      "url": ""
+    },
+    "dosage_duration": {
+      "label": "",
+      "url": ""
+    }
+  },
+  "refs": [
+    "Nadal-Gratacós, N., Ríos-Rodríguez, E., Pubill, D., Batllori, X., Camarasa, J., Escubedo, E., Berzosa, X., & López-Arnau, R. (2023). Structure-Activity Relationship of N-Ethyl-Hexedrone Analogues: Role of the α-Carbon Side-Chain Length in the Mechanism of Action, Cytotoxicity, and Behavioral Effects in Mice. ACS chemical neuroscience, 14(4), 787–799. https://doi.org/10.1021/acschemneuro.2c00772"
+  ]
+}

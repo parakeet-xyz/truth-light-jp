@@ -1,4 +1,5 @@
 {
+  "last_modified": "2026-05-12",
   "id": "2-ai",
   "common_name": "2-AI",
   "systematic name": "2,3-dihydro-1H-inden-2-amine",
@@ -10,11 +11,9 @@
   "identifiers": {
     "pubchem_cid": "76310",
     "inchi_key": "LMHHFZAXSANGGM-UHFFFAOYSA-N",
-    "smiles": "",
-    "inchikey": "LMHHFZAXSANGGM-UHFFFAOYSA-N",
-    "pubchemCID": "76310"
+    "smiles": "C1C(CC2=CC=CC=C21)N"
   },
-  "categories": [],
+  "categories": ["中枢神経刺激薬"],
   "legal": {
     "jp": {
       "law_number": "",
@@ -24,7 +23,7 @@
       "source_link": "https://laws.e-gov.go.jp/law/419M60000100014"
     }
   },
-  "summary": "",
+  "summary": "<p>2-Aminoindane（2-AI）は、インダン骨格を持つ合成アミノインダン系／シクロ化フェネチルアミン系の中枢刺激薬である。主にNET・DAT基質としてNE/DA放出に作用し、放出EC50はNET 86±13 nM、DAT 439±38 nM、SERT >10,000 nMで、セロトニン性は弱い。類縁体にはMDAI、5-IAI、NM-2-AI、MEAIなどがあり、天然アルカロイドではなく植物由来ではない。</p>",
   "history": "",
   "effects": {
     "effects_positive": [],
@@ -44,67 +43,5 @@
     "https://pubchem.ncbi.nlm.nih.gov/compound/76310"
   ],
   "molecular_formula": "C9H11N",
-  "molecular_weight": "133.19",
-  "smiles_canonical": null,
-  "smiles_isomeric": null,
-  "systematic_name": "2,3-dihydro-1H-inden-2-amine",
-  "synonyms_pubchem": [
-    "2-Aminoindan",
-    "2975-41-9",
-    "2-Aminoindane",
-    "Indan-2-amine",
-    "1P810SQ3EY",
-    "J80.606D",
-    "DTXSID40183902",
-    "RefChem:85389",
-    "DTXCID40106393",
-    "221-021-3",
-    "2,3-dihydro-1H-inden-2-amine",
-    "2-Indanamine",
-    "INDAN-2-YLAMINE",
-    "1H-Inden-2-amine, 2,3-dihydro-",
-    "2-Amineindane",
-    "indane-2-ylamine",
-    "2-indanylamine",
-    "2,3-Dihydro-1H-inden-2-ylamine",
-    "MFCD00082597",
-    "Su 8629 hydrochloride",
-    "UNII-1P810SQ3EY",
-    "2-amino-indane",
-    "2-ammo-indane",
-    "indan-2-yl-amine",
-    "indan, 2-amino-",
-    "XM0",
-    "EINECS 221-021-3",
-    "2-Aminoindan, 97%",
-    "SCHEMBL6941",
-    "SCHEMBL43699",
-    "2-AI",
-    "SCHEMBL1098355",
-    "SCHEMBL5848345",
-    "SCHEMBL6143052",
-    "SCHEMBL7472112",
-    "CHEMBL1188176",
-    "SCHEMBL29365759",
-    "RYB92729",
-    "STR09579",
-    "SBB052059",
-    "STK501404",
-    "AKOS000321317",
-    "AB03106",
-    "FA17764",
-    "PS-4613",
-    "SB36446",
-    "SDCCGMLS-0066231.P001",
-    "2-AMINO-2,3-DIHYDRO-1H-INDENE",
-    "AC-19107",
-    "PD048215",
-    "DB-020525",
-    "(2,3-DIHYDRO-1H-INDEN-2-YL)AMINE",
-    "NS00004718",
-    "EN300-63836",
-    "Q4596856",
-    "F0001-0920",
-    "2-Indanamine;(2,3-Dihydro-1H-inden-2-yl)amine;2,3-Dihydro-1H-inden-2-amine"
-  ]
+  "molecular_weight": "133.19"
 }

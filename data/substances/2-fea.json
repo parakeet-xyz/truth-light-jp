@@ -1,34 +1,22 @@
 {
-  "id": "2-fea",
-  "common_name": "2-FEA",
+  "last_modified": "2026-05-12",
+  "id": "2-fluoroethamphetamine",
+  "common_name": "2-Fluoroethamphetamine",
   "systematic name": "N-ethyl-1-(2-fluorophenyl)propan-2-amine",
   "aliases": [
-    "Ortho-fluoroethamphetamine",
+    "ortho-Fluoroethamphetamine",
     "o-Fluoroethamphetamine",
     "2-Fluoroethamphetamine",
-    "2-Fea",
-    "2-Fluoro-ethyl amphetamine",
-    "L39X6766K3",
-    "1-(2'-Fluorophenyl)-2-ethylaminopropane",
-    "N-ethyl-1-(2-fluorophenyl)propan-2-amine",
-    "N-Ethyl-2-fluoro-alpha-methylbenzeneethanamine",
-    "Benzeneethanamine, N-ethyl-2-fluoro-alpha-methyl-",
-    "N-ETHYL-2-FLUORO-.ALPHA.-METHYLBENZENEETHANAMINE",
-    "BENZENEETHANAMINE, N-ETHYL-2-FLUORO-.ALPHA.-METHYL-",
-    "RefChem:197775",
-    "UNII-L39X6766K3",
-    "SCHEMBL10561344",
-    "DTXSID201342748",
-    "PD085531"
+    "2-FEA"
   ],
   "identifiers": {
     "pubchem_cid": "20027466",
     "inchi_key": "NIWYLNFSJJLYHU-UHFFFAOYSA-N",
-    "smiles": "",
-    "inchikey": "NIWYLNFSJJLYHU-UHFFFAOYSA-N",
-    "pubchemCID": "20027466"
+    "smiles": "CCNC(C)CC1=CC=CC=C1F"
   },
-  "categories": [],
+  "molecular_formula": "C11H16FN",
+  "molecular_weight": "181.25",
+  "categories": ["中枢神経刺激薬"],
   "legal": {
     "jp": {
       "law_number": "",
@@ -38,7 +26,7 @@
       "source_link": "https://laws.e-gov.go.jp/law/419M60000100014"
     }
   },
-  "summary": "",
+  "summary": "<p>2-FEAは、フェニル環2位にフッ素、アミン窒素にエチル基を持つ合成アンフェタミン系・置換フェネチルアミン系NPSである。DAT/NET/SERTへの定量的親和性やIC50の信頼できる公開データは乏しいが、構造上はモノアミントランスポーター基質・放出薬型刺激薬と推定される。2-FA、2-FMA、3-FEA、4-FEA、ethamphetamineに近縁で、自然由来ではない。</p>",
   "history": "",
   "effects": {
     "effects_positive": [],
@@ -56,30 +44,5 @@
   },
   "refs": [
     "https://pubchem.ncbi.nlm.nih.gov/compound/20027466"
-  ],
-  "molecular_formula": "C11H16FN",
-  "molecular_weight": "181.25",
-  "smiles_canonical": null,
-  "smiles_isomeric": null,
-  "systematic_name": "N-ethyl-1-(2-fluorophenyl)propan-2-amine",
-  "synonyms_pubchem": [
-    "Ortho-fluoroethamphetamine",
-    "o-Fluoroethamphetamine",
-    "2-Fluoroethamphetamine",
-    "2-Fea",
-    "2-Fluoro-ethyl amphetamine",
-    "L39X6766K3",
-    "1-(2'-Fluorophenyl)-2-ethylaminopropane",
-    "N-ethyl-1-(2-fluorophenyl)propan-2-amine",
-    "N-Ethyl-2-fluoro-alpha-methylbenzeneethanamine",
-    "3823-29-8",
-    "Benzeneethanamine, N-ethyl-2-fluoro-alpha-methyl-",
-    "N-ETHYL-2-FLUORO-.ALPHA.-METHYLBENZENEETHANAMINE",
-    "BENZENEETHANAMINE, N-ETHYL-2-FLUORO-.ALPHA.-METHYL-",
-    "RefChem:197775",
-    "UNII-L39X6766K3",
-    "SCHEMBL10561344",
-    "DTXSID201342748",
-    "PD085531"
   ]
 }

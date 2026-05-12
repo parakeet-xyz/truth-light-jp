@@ -25,7 +25,7 @@
       "source_link": "https://laws.e-gov.go.jp/law/402CO0000000238/"
     }
   },
-  "summary": "Eutylone（bk-EBDB、N-ethylbutylone）は、メチレンジオキシフェニル骨格をもつ合成カチノン系・β-ケトアンフェタミン系刺激薬である。DAT/NET再取り込み阻害作用を示し、SERTでは基質様作用も報告される。DAT Kiは約640 nM、NET Kiは約1,870 nM、SERT Kiは約8,500 nMで、DAT選択性が比較的高い。構造・薬理学的にはbutylone、ethylone、pentylone、ephyloneに近い。自然由来ではなく合成NPSである。",
+  "summary": "Eutylone（bk-EBDB、N-ethylbutylone）は、メチレンジオキシフェニル骨格をもつ合成カチノン系・β-ケトアンフェタミン系刺激薬である。DAT/NET再取り込み阻害作用を示し、SERTでは基質様作用も報告される。モノアミントランスポーターへのIC50はDAT 120nM、NET 1,280nM、SERT 690nMで、DAT選択性が比較的高い。構造・薬理学的にはbutylone、ethylone、pentylone、ephyloneに近い。自然由来ではなく合成NPSである。",
   "history": "",
   "effects": {
     "effects_positive": [],
@@ -40,5 +40,8 @@
       "label": "",
       "url": ""
     }
-  }
+  },
+  "refs": [
+    "Glatfelter, G. C., Walther, D., Evans-Brown, M., & Baumann, M. H. (2021). Eutylone and Its Structural Isomers Interact with Monoamine Transporters and Induce Locomotor Stimulation. ACS chemical neuroscience, 12(7), 1170–1177. https://doi.org/10.1021/acschemneuro.0c00797"
+  ]
 }
