@@ -47,8 +47,9 @@ export default defineAppConfig({
         info: {
           type: "menu",
           title: "ℹ️ インフォメーション",
-          about: { type: "link", title: '依存症とキリスト教の関係', to: '/docs/info/mission'},
-          disclaimer: { type: "link", title: '免責事項', to: '/docs/info/disclaimer'}
+          about: { type: "link", title: '私たちについて', to: '/docs/info/about-us'},
+          disclaimer: { type: "link", title: '免責事項', to: '/docs/info/disclaimer'},
+          contactUs: { type: "link", title: "お問い合わせ", to: 'contact-us' }
         }
       },
       socialLinks: {

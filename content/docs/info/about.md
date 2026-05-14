@@ -1,2 +1,0 @@
-# docs/info/about
-test
