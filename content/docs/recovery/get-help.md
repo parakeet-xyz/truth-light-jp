@@ -13,7 +13,7 @@ seo:
       content: 'Copyright © 2025 Truth Light. All rights reserved.'
 ---
 
-## 依存症相談窓口一覧
+## 📝 依存症相談窓口一覧
 
 「薬物がやめられない…」
 
