@@ -42,11 +42,11 @@ export default defineAppConfig({
           type: "menu",
           title: '❤️‍🩹 依存症からの回復',
           support: { type: 'link', title: '相談先', to: 'docs/recovery/get-help' },
-          program: { type: 'link', title: '依存症回復プログラム', to: 'docs/recovery/program-for-recover-addiction' },
+          program: { type: 'link', title: '依存症回復プログラム', to: 'docs/recovery/program' },
         },
         info: {
           type: "menu",
-          title: "✝️ イエス・キリスト",
+          title: "ℹ️ インフォメーション",
           about: { type: "link", title: '依存症とキリスト教の関係', to: '/docs/info/mission'},
           disclaimer: { type: "link", title: '免責事項', to: '/docs/info/disclaimer'}
         }

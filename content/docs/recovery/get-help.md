@@ -13,7 +13,7 @@ seo:
       content: 'Copyright © 2025 Truth Light. All rights reserved.'
 ---
 
-# 依存症相談窓口一覧
+## 依存症相談窓口一覧
 
 「薬物がやめられない…」
 
@@ -88,7 +88,7 @@ https://oneness-g.com/
 メール相談：one[at]oneness-g.com
 
 
-自助グループ
+## 自助グループ
 
 自助グループとは、依存症の当事者が集まり12ステップという回復プログラムを用いて回復を目指す共同体である。
 
@@ -101,7 +101,7 @@ https://oneness-g.com/
 
 オンラインミーティングもあり、参加も完全無料（任意の献金はあり）なので、試してみる価値はあります。
 
-アルコホーリクス・アノニマス
+### アルコホーリクス・アノニマス
 
 アルコール依存症の自助グループ。
 
@@ -111,7 +111,7 @@ https://aajapan.org/new_offices/
 ▼オンラインミーティング会場を探すにはこちら
 https://aajapan-online-intergroup.org/
 
-ナルコティクス・アノニマス
+### ナルコティクス・アノニマス
 
 薬物・処方薬依存症の自助グループ
 
@@ -121,7 +121,7 @@ http://najapan.org/pdf/NALIST_J.pdf（PDF）
 ▼オンラインミーティング会場を探すにはこちら
 https://najapan.org/meeting/online-list
 
-セクシャル・アノニマス（SA-JAPAN）
+### セクシャル・アノニマス（SA-JAPAN）
 
 性依存（セックス・恋愛・盗撮・痴漢など）の自助グループ
 
@@ -131,7 +131,7 @@ Webサイト：http://www.sa-japan.org/index.html
 ▼全国にある会場を探すにはこちら
 http://www.sa-japan.org/meeting/grouplist.html
 
-セクシャルコンパルシブズ・アノニマス（SCA-JAPAN）
+### セクシャルコンパルシブズ・アノニマス（SCA-JAPAN）
 
 上のと似ていますが、同じ性依存症の自助グループです。
 
@@ -143,7 +143,7 @@ Webサイト：https://www.sca-japan.org/
 ▼全国にある会場を探すにはこちら（オンラインミーティングも）
 https://www.sca-japan.org/%E3%82%B0%E3%83%AB%E3%83%BC%E3%83%97%E3%83%9F%E3%83%BC%E3%83%86%E3%82%A3%E3%83%B3%E3%82%B0
 
-おわりに
+## おわりに
 
 自助グループなどあまり聞きなれない言葉が出てきて混乱したかもしれませんが、まずは一歩を踏み出す勇気が必要です。
 
