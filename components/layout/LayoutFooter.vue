@@ -36,7 +36,12 @@
         </div>
       </div>
 
-      <p class="mt-10 text-xs text-slate-500">
+      <div class="mt-16 text-xs text-slate-500 text-center">
+        <p>私たちはキリストの死と復活と十字架による罪の赦しを信じているキリスト教系の団体です。</p>
+        <p>本サイトの目的は薬物依存症の人を回復に回復の方法を提供すること意図としており、無理な宗教勧誘等は行いません。</p>
+      </div>
+
+      <p class="mt-4 text-xs text-[#25343F] text-center">
         © <span id="year"></span> Truth Light. All rights reserved.
       </p>
     </div>
