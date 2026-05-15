@@ -1,26 +1,18 @@
 {
+  "last_modified": "2026-05-15",
   "id": "2-fpm",
   "common_name": "2-FPM",
   "systematic name": "2-(2-fluorophenyl)-3-methylmorpholine",
   "aliases": [
-    "2-Fpm",
     "2-Fluorophenmetrazine",
-    "2-(2-fluorophenyl)-3-methylmorpholine",
-    "L8CB6G8U8C",
-    "Morpholine, 2-(2-fluorophenyl)-3-methyl-",
-    "RefChem:197777",
-    "UNII-L8CB6G8U8C",
-    "SCHEMBL2599479",
-    "DTXSID701342755"
+    "2-(2-fluorophenyl)-3-methylmorpholine"
   ],
   "identifiers": {
     "pubchem_cid": "67471199",
     "inchi_key": "QTYLEXQVLJYJHT-UHFFFAOYSA-N",
-    "smiles": "",
-    "inchikey": "QTYLEXQVLJYJHT-UHFFFAOYSA-N",
-    "pubchemCID": "67471199"
+    "smiles": "CC1C(OCCN1)C2=CC=CC=C2F"
   },
-  "categories": [],
+  "categories": ["中枢神経刺激薬", "フェニルモルフォリン"],
   "legal": {
     "jp": {
       "law_number": "",
@@ -30,7 +22,7 @@
       "source_link": "https://laws.e-gov.go.jp/law/419M60000100014"
     }
   },
-  "summary": "",
+  "summary": "2-Fluorophenmetrazine（2-FPM）は、フェンメトラジンのフェニル環2位にフッ素を導入したフェニルモルホリン系NPSである。DAT/NETに選択的なモノアミン放出薬として働き、SERT作用はかなり弱い。類縁体はphenmetrazine、3-FPM、4-FPMで、自然由来ではなく合成化合物である。",
   "history": "",
   "effects": {
     "effects_positive": [],
@@ -50,20 +42,5 @@
     "https://pubchem.ncbi.nlm.nih.gov/compound/67471199"
   ],
   "molecular_formula": "C11H14FNO",
-  "molecular_weight": "195.23",
-  "smiles_canonical": null,
-  "smiles_isomeric": null,
-  "systematic_name": "2-(2-fluorophenyl)-3-methylmorpholine",
-  "synonyms_pubchem": [
-    "2-Fpm",
-    "2-Fluorophenmetrazine",
-    "2-(2-fluorophenyl)-3-methylmorpholine",
-    "L8CB6G8U8C",
-    "Morpholine, 2-(2-fluorophenyl)-3-methyl-",
-    "1533654-24-8",
-    "RefChem:197777",
-    "UNII-L8CB6G8U8C",
-    "SCHEMBL2599479",
-    "DTXSID701342755"
-  ]
+  "molecular_weight": "195.23"
 }
