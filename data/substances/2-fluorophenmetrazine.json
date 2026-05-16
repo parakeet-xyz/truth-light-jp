@@ -1,11 +1,12 @@
 {
-  "last_modified": "2026-05-15",
-  "id": "2-fpm",
-  "common_name": "2-FPM",
+  "last_modified": "2026-05-17",
+  "id": "2-fluorophenmetrazine",
+  "common_name": "2-Fluorophenmetrazine",
   "systematic name": "2-(2-fluorophenyl)-3-methylmorpholine",
   "aliases": [
-    "2-Fluorophenmetrazine",
-    "2-(2-fluorophenyl)-3-methylmorpholine"
+    "2-FPM",
+    "2-(2-fluorophenyl)-3-methylmorpholine",
+    "２－（２－フルオロフェニル）－３－メチルモルフォリン及びその塩類"
   ],
   "identifiers": {
     "pubchem_cid": "67471199",
