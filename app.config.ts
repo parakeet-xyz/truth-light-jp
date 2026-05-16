@@ -41,15 +41,15 @@ export default defineAppConfig({
         recovery: {
           type: "menu",
           title: '❤️‍🩹 依存症からの回復',
-          support: { type: 'link', title: '相談先', to: 'docs/recovery/get-help' },
-          program: { type: 'link', title: '依存症回復プログラム', to: 'docs/recovery/program' },
+          support: { type: 'link', title: '相談先', to: '/docs/recovery/get-help' },
+          program: { type: 'link', title: '依存症回復プログラム', to: '/docs/recovery/program' },
         },
         info: {
           type: "menu",
           title: "ℹ️ インフォメーション",
           about: { type: "link", title: '私たちについて', to: '/docs/info/about-us'},
           disclaimer: { type: "link", title: '免責事項', to: '/docs/info/disclaimer'},
-          contactUs: { type: "link", title: "お問い合わせ", to: 'contact-us' }
+          contactUs: { type: "link", title: "お問い合わせ", to: '/contact-us' }
         }
       },
       socialLinks: {

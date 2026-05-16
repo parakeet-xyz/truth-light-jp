@@ -931,17 +931,13 @@
     "common_name": "2-FPM",
     "systematic_name": "2-(2-fluorophenyl)-3-methylmorpholine",
     "aliases": [
-      "2-Fpm",
       "2-Fluorophenmetrazine",
-      "2-(2-fluorophenyl)-3-methylmorpholine",
-      "L8CB6G8U8C",
-      "Morpholine, 2-(2-fluorophenyl)-3-methyl-",
-      "RefChem:197777",
-      "UNII-L8CB6G8U8C",
-      "SCHEMBL2599479",
-      "DTXSID701342755"
+      "2-(2-fluorophenyl)-3-methylmorpholine"
     ],
-    "categories": [],
+    "categories": [
+      "中枢神経刺激薬",
+      "フェニルモルフォリン"
+    ],
     "legal": {
       "jp": {
         "law_number": "",
@@ -954,9 +950,9 @@
     "identifiers": {
       "pubchem_cid": "67471199",
       "inchi_key": "QTYLEXQVLJYJHT-UHFFFAOYSA-N",
-      "smiles": ""
+      "smiles": "CC1C(OCCN1)C2=CC=CC=C2F"
     },
-    "summary": "",
+    "summary": "2-Fluorophenmetrazine（2-FPM）は、フェンメトラジンのフェニル環2位にフッ素を導入したフェニルモルホリン系NPSである。DAT/NETに選択的なモノアミン放出薬として働き、SERT作用はかなり弱い。類縁体はphenmetrazine、3-FPM、4-FPMで、自然由来ではなく合成化合物である。",
     "history": "",
     "effects": {
       "effects_positive": [],
